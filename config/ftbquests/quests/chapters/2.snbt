@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: ""
+	icon: "modern_industrialization:bronze_machine_casing"
+	id: "318EDC1B1AB8D5A9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EBBA1E14FFFD138"]
+			id: "67DEBC9E2A43CAF1"
+			tasks: [{
+				id: "677EA10640151A70"
+				item: "modern_industrialization:bronze_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B8CD98F78D089FC"]
+			id: "115EF59CA648EAF4"
+			tasks: [{
+				id: "2EA3FFC1FC8160B8"
+				item: "modern_industrialization:fire_clay_brick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "2 Глава: Век Пара"
+}

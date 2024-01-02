@@ -3,31 +3,328 @@
 	default_quest_shape: ""
 	filename: "1"
 	group: ""
+	icon: "create:cogwheel"
 	id: "310086373B8250F1"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["3DB9A7C39A6067FC"]
-		id: "0DBE05AAEAECE4DA"
-		tasks: [
-			{
-				id: "0B5D4E58E1C49C9B"
-				item: "minecraft:oak_log"
+	quests: [
+		{
+			dependencies: ["3DB9A7C39A6067FC"]
+			id: "0DBE05AAEAECE4DA"
+			tasks: [
+				{
+					id: "0B5D4E58E1C49C9B"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "59FA5F9642C0DBB9"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					id: "4D37F6AE45688026"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DBE05AAEAECE4DA"]
+			id: "4125CC38AA1AC5B5"
+			tasks: [{
+				id: "2F37863858E75209"
+				item: "minecraft:crafting_table"
 				type: "item"
-			}
-			{
-				id: "59FA5F9642C0DBB9"
-				item: "minecraft:oak_planks"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4125CC38AA1AC5B5"]
+			id: "4CFE0F73F833D106"
+			tasks: [{
+				id: "64F1D65008ACA473"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
-			}
-			{
-				id: "4D37F6AE45688026"
-				item: "minecraft:stick"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CFE0F73F833D106"]
+			id: "2DD3C249E5B594E2"
+			tasks: [{
+				id: "6EFA72C9571DB4E5"
+				item: "minecraft:cobblestone"
 				type: "item"
-			}
-		]
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "1 Глава"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E13835E8360332B"]
+			id: "55A01CC91E9F1559"
+			tasks: [{
+				id: "2401C9F2778F34EA"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DD3C249E5B594E2"]
+			id: "440B6AF3D24340B3"
+			tasks: [{
+				id: "454BC4B5E7FA416D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55A01CC91E9F1559"]
+			id: "157D53ABF2EEF202"
+			tasks: [{
+				id: "12B2F82189619362"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["440B6AF3D24340B3"]
+			id: "4E13835E8360332B"
+			tasks: [{
+				id: "5398718A04120A1C"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["157D53ABF2EEF202"]
+			id: "48FD30BE904030A0"
+			tasks: [{
+				id: "19D6C23C60BDDEEB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48FD30BE904030A0"]
+			id: "18863EA39150EB61"
+			tasks: [{
+				id: "2E3806D748C11471"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48FD30BE904030A0"]
+			id: "545E5752FA50BDFE"
+			tasks: [{
+				id: "356302B324574951"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18863EA39150EB61"]
+			id: "0B697D5B2AF7FC95"
+			tasks: [{
+				id: "05A29A3FD74512E0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B697D5B2AF7FC95"]
+			id: "6A1D4B87E88A5263"
+			tasks: [{
+				id: "4BB37EDC4F8594CD"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A1D4B87E88A5263"]
+			id: "371C3CFD4651BF14"
+			tasks: [{
+				id: "36445A78A336CBF4"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B697D5B2AF7FC95"]
+			id: "39AD4A5F451ACF2C"
+			tasks: [{
+				id: "7F4574BEB53B6D45"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6A1D4B87E88A5263"
+				"39AD4A5F451ACF2C"
+			]
+			id: "0DB4A8E41CBEF6AE"
+			tasks: [{
+				id: "645BC2AB4B534FF3"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0DB4A8E41CBEF6AE"]
+			id: "37406FD1ED893B06"
+			tasks: [{
+				id: "6786A51491FFA072"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37406FD1ED893B06"]
+			id: "49C92CE972A33475"
+			tasks: [{
+				id: "20F0E0E9A718ACC2"
+				item: "minecraft:heavy_weighted_pressure_plate"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49C92CE972A33475"]
+			id: "4B3D8EF5362306D4"
+			tasks: [{
+				id: "232DC0691DE2A6CE"
+				item: "modern_industrialization:forge_hammer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B3D8EF5362306D4"]
+			id: "3F7D4D5D8C5B9EA3"
+			tasks: [{
+				id: "309C39F8E9476F07"
+				item: "modern_industrialization:tin_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B3D8EF5362306D4"]
+			id: "0B11D77B9F8C35E8"
+			tasks: [{
+				id: "7BF3A52659FCCBEC"
+				item: "modern_industrialization:copper_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0B11D77B9F8C35E8"
+				"3F7D4D5D8C5B9EA3"
+			]
+			id: "6EBBA1E14FFFD138"
+			tasks: [{
+				id: "09A1710173D0C68B"
+				item: "modern_industrialization:bronze_dust"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37406FD1ED893B06"]
+			id: "3EE6DA2C00EF1062"
+			tasks: [{
+				id: "6EEA3E3265FE7891"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EE6DA2C00EF1062"]
+			id: "2E30BEAC2474468C"
+			tasks: [{
+				id: "37236E9F575DBA76"
+				item: "modern_industrialization:brick_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E30BEAC2474468C"]
+			id: "0B8CD98F78D089FC"
+			tasks: [{
+				id: "73A5C91840DB8A05"
+				item: "modern_industrialization:fire_clay_dust"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+	]
+	title: "1 Глава: Механика"
 }
