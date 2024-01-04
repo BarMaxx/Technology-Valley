@@ -78,6 +78,8 @@
   "ae2:part_icon": null,
   "ae2:part_tooltip": null,
   "ae2:part_mod_name": null,
+  "custommachinery:machine_server_data_provider": null,
+  "custommachinery:machine_component_provider": null,
   "entangled:entangled_block_component": null,
   "jade:object_name": null,
   "jade:registry_name": null,
@@ -130,9 +132,12 @@
   "create:exact_block": null,
   "create:filter": null,
   "create:goggles": null,
+  "polymer:blockstate": null,
+  "polymer:entities": null,
   "quarryplus:jade_plugin": null,
   "resourcechickens:ntep": null,
   "minecraft:resourcechickens": null,
   "resourcechickens:ncp": null,
-  "shetiphiancore:hud": null
+  "shetiphiancore:hud": null,
+  "waystones:waystone": null
 }

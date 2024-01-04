@@ -251,6 +251,10 @@
     "regions_unexplored:joshua_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "architects_palette:twisted_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],
