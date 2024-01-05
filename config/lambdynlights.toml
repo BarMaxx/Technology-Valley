@@ -25,27 +25,35 @@ mode = "fancy"
 				dolphin = true
 				pufferfish = true
 				item = true
+				axolotl = true
 				zombie_villager = true
 				tropical_fish = true
+				pillager = true
 				skeleton = true
+				iron_golem = true
 				bat = true
+				rabbit = true
 				zombie = true
 				glow_squid = true
 				cod = true
 				witch = true
 				glow_item_frame = false
 				squid = true
+				drowned = true
 				spider = true
 				creeper = true
 				player = true
 				enderman = true
 
 			[light_sources.settings.entities.naturalist]
+				rattlesnake = true
+				tortoise = true
 				coral_snake = true
 				lizard = true
 
 			[light_sources.settings.entities.endermanoverhaul]
 				cave_enderman = true
+				ocean_enderman = true
 
 			[light_sources.settings.entities.rottencreatures]
 				undead_miner = true
@@ -54,8 +62,12 @@ mode = "fancy"
 				sand = true
 				chicken = true
 				duck = true
+				flint = true
+				cacti = true
 
 			[light_sources.settings.entities.creeperoverhaul]
+				ocean_creeper = true
+				dripstone_creeper = true
 				cave_creeper = true
 
 			[light_sources.settings.entities.hookshot]
