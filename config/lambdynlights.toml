@@ -32,6 +32,7 @@ mode = "fancy"
 				skeleton = true
 				iron_golem = true
 				bat = true
+				husk = true
 				rabbit = true
 				zombie = true
 				glow_squid = true
@@ -47,12 +48,14 @@ mode = "fancy"
 
 			[light_sources.settings.entities.naturalist]
 				rattlesnake = true
+				bass = true
 				tortoise = true
 				coral_snake = true
 				lizard = true
 
 			[light_sources.settings.entities.endermanoverhaul]
 				cave_enderman = true
+				desert_enderman = true
 				ocean_enderman = true
 
 			[light_sources.settings.entities.rottencreatures]
@@ -67,6 +70,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.creeperoverhaul]
 				ocean_creeper = true
+				desert_creeper = true
 				dripstone_creeper = true
 				cave_creeper = true
 
