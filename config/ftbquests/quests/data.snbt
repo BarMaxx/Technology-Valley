@@ -17,6 +17,5 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "{quests.technology_valley.main_title}"
 	version: 13
 }
