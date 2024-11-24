@@ -102,6 +102,15 @@
   "pneumaticcraft:redstone": null,
   "pneumaticcraft:semiblock": null,
   "pneumaticcraft:tube_module": null,
+  "productivebees:bee": null,
+  "productivebees:canvas_beehive": null,
+  "productivebees:jar": null,
+  "productivebees:solitary_nest": null,
+  "railcraft:locomotive": null,
+  "railcraft:signals": null,
+  "railcraft:switch_track": null,
+  "railcraft:track_component": null,
   "tesseract:remove_default": null,
-  "tesseract:tesseract": null
+  "tesseract:tesseract": null,
+  "treetap:tap": null
 }

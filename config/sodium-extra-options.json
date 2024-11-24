@@ -17,18 +17,20 @@
   },
   "detail_settings": {
     "sky": true,
-    "sun_moon": true,
+    "sun": true,
+    "moon": true,
     "stars": true,
     "rain_snow": true,
     "biome_colors": true,
     "sky_colors": true
   },
   "render_settings": {
-    "fog_type": "DEFAULT",
-    "fog_distance": 0,
+    "fog_distance": 33,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
-    "dimensionFogDistance": {},
+    "dimensionFogDistance": {
+      "minecraft:overworld": 0
+    },
     "light_updates": true,
     "item_frame": true,
     "armor_stand": true,
