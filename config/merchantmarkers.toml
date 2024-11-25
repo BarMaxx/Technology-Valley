@@ -50,19 +50,19 @@
 		# The items associated with each villager profession.  Only used when marker type is set to "items".
 		# If not specified here, vanilla professions will have a default item and modded professions will have a generic icon.
 		[client.visual_options.associated_items]
-			fisherman = "minecraft:cod"
-			fletcher = "minecraft:bow"
-			wandering_trader = "minecraft:emerald"
-			butcher = "minecraft:beef"
-			cartographer = "minecraft:compass"
-			cleric = "minecraft:rotten_flesh"
-			leatherworker = "minecraft:leather"
-			toolsmith = "minecraft:iron_pickaxe"
-			farmer = "minecraft:wheat"
-			librarian = "minecraft:bookshelf"
-			mason = "minecraft:brick"
-			shepherd = "minecraft:shears"
 			armorer = "minecraft:iron_chestplate"
+			shepherd = "minecraft:shears"
+			mason = "minecraft:brick"
+			librarian = "minecraft:bookshelf"
+			farmer = "minecraft:wheat"
+			toolsmith = "minecraft:iron_pickaxe"
+			leatherworker = "minecraft:leather"
+			cleric = "minecraft:rotten_flesh"
+			cartographer = "minecraft:compass"
+			butcher = "minecraft:beef"
+			wandering_trader = "minecraft:emerald"
+			fletcher = "minecraft:bow"
+			fisherman = "minecraft:cod"
 			weaponsmith = "minecraft:iron_sword"
 
 	[client.compatibility_options]

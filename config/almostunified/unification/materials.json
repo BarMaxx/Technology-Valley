@@ -3,8 +3,7 @@
     "minecraft",
     "kubejs",
     "immersiveengineering",
-    "mekanism",
-    "modern_industrialization"
+    "mekanism"
   ],
   "priority_overrides": {},
   "stone_variants": [

@@ -85,10 +85,6 @@
     "block_properties": false,
     "mod_name": true
   },
-  "modern_industrialization": {
-    "overclock": true,
-    "pipe": true
-  },
   "functionalstorage": {
     "drawer": true
   },
@@ -125,6 +121,9 @@
     "crafting_core": true,
     "advanced_auto_table": true,
     "compressor": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
   },
   "tesseract": {
     "tesseract": true,
