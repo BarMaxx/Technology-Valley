@@ -140,6 +140,9 @@
   "pipez": {
     "pipe": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
   },

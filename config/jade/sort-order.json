@@ -112,5 +112,6 @@
   "railcraft:track_component": null,
   "tesseract:remove_default": null,
   "tesseract:tesseract": null,
-  "treetap:tap": null
+  "treetap:tap": null,
+  "waystones:waystone": null
 }
