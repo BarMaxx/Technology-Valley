@@ -1,7 +1,7 @@
 {
   "quality": {
-    "weather_quality": "FAST",
-    "leaves_quality": "FAST",
+    "weather_quality": "FANCY",
+    "leaves_quality": "FANCY",
     "enable_vignette": true
   },
   "advanced": {
@@ -21,6 +21,6 @@
   },
   "notifications": {
     "has_cleared_donation_button": false,
-    "has_seen_donation_prompt": false
+    "has_seen_donation_prompt": true
   }
 }

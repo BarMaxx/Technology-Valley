@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "chapter_1"
+	group: "753DD1D27C9DF3FC"
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "13EF62738DA44A71"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3E298DDC279EB7A1"]
+			id: "57EE9D5488BEC395"
+			tasks: [
+				{
+					id: "12EEB29ABF30C005"
+					item: { count: 1, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					id: "10527632AA8F05E1"
+					item: { count: 1, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+				{
+					id: "7D09714745E7E6D0"
+					item: { count: 1, id: "minecraft:stick" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57EE9D5488BEC395"]
+			id: "116689B4A8016D7B"
+			tasks: [{
+				id: "37D5813EC6693770"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["116689B4A8016D7B"]
+			id: "52804D5961A0945B"
+			tasks: [{
+				id: "0D94C3499E9B4B6B"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52804D5961A0945B"]
+			id: "2B7F6924D9F7CA49"
+			tasks: [{
+				id: "0BDB1212FA30A730"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B7F6924D9F7CA49"]
+			id: "2F71939DA811A510"
+			tasks: [{
+				id: "53053C4938B15551"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F71939DA811A510"]
+			id: "0662DEC1E0B4CEA8"
+			tasks: [{
+				id: "345C380FC7BD6FB4"
+				item: { count: 1, id: "minecraft:stone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0662DEC1E0B4CEA8"]
+			id: "7E7C5F1F1D6B89F3"
+			tasks: [{
+				id: "172C7FC07469B208"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E7C5F1F1D6B89F3"]
+			id: "3D65F42F653BFAA5"
+			tasks: [{
+				id: "0A03E7FC36F79D46"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D65F42F653BFAA5"]
+			id: "37D22FDEDA49075C"
+			tasks: [{
+				id: "6E1A08E1A348E383"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37D22FDEDA49075C"]
+			id: "7148E86FC34CD4D3"
+			tasks: [{
+				id: "200925E81538078B"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7148E86FC34CD4D3"]
+			id: "5ECFA141EFC4F4EE"
+			tasks: [{
+				id: "34ED6198E6C64A34"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}
