@@ -143,5 +143,27 @@
 			x: 10.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2F71939DA811A510"]
+			id: "3437165431AACF3A"
+			tasks: [{
+				id: "65E12FFBE22348ED"
+				item: { count: 1, id: "minecraft:blast_furnace" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F71939DA811A510"]
+			id: "6638716A61695D97"
+			tasks: [{
+				id: "455AB19BEB34D592"
+				item: { count: 1, id: "minecraft:smoker" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
 	]
 }
