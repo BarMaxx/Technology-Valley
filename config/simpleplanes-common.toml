@@ -1,0 +1,28 @@
+#Planes settings
+[general]
+	#For controllers, a threshold for the joystick movement of the plane
+	# Default: 20
+	# Range: 0 ~ 90
+	turnThreshold = 20
+	#Allow stealing planes by players
+	plane_heist = true
+	#Fuel cost of a small plane
+	# Default: 3
+	# Range: > 0
+	plane_fuel_cost = 3
+	#Fuel cost of a large plane
+	# Default: 6
+	# Range: > 0
+	large_plane_fuel_cost = 6
+	#Fuel cost of a cargo plane
+	# Default: 10
+	# Range: > 0
+	cargo_plane_fuel_cost = 10
+	#Fuel cost of a helicopter
+	# Default: 6
+	# Range: > 0
+	helicopter_fuel_cost = 6
+	#Capacity of the liquid engine
+	# Default: 4000
+	# Range: > 1
+	liquid_engine_capacity = 4000

@@ -1,8 +1,8 @@
 {
   "armoryHelmets": {
     "entries": {
-      "minecraft:golden_helmet": 0.2,
-      "minecraft:chainmail_helmet": 0.3
+      "minecraft:chainmail_helmet": 0.3,
+      "minecraft:golden_helmet": 0.2
     },
     "defaultItem": "minecraft:air"
   },
@@ -36,22 +36,22 @@
   },
   "wardrobeLeggings": {
     "entries": {
-      "minecraft:leather_leggings": 0.4,
-      "minecraft:chainmail_leggings": 0.2
+      "minecraft:chainmail_leggings": 0.2,
+      "minecraft:leather_leggings": 0.4
     },
     "defaultItem": "minecraft:air"
   },
   "armoryBoots": {
     "entries": {
-      "minecraft:chainmail_boots": 0.3,
-      "minecraft:golden_boots": 0.2
+      "minecraft:golden_boots": 0.2,
+      "minecraft:chainmail_boots": 0.3
     },
     "defaultItem": "minecraft:air"
   },
   "wardrobeBoots": {
     "entries": {
-      "minecraft:chainmail_boots": 0.2,
-      "minecraft:leather_boots": 0.4
+      "minecraft:leather_boots": 0.4,
+      "minecraft:chainmail_boots": 0.2
     },
     "defaultItem": "minecraft:air"
   }

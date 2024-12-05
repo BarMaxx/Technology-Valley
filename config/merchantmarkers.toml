@@ -50,20 +50,20 @@
 		# The items associated with each villager profession.  Only used when marker type is set to "items".
 		# If not specified here, vanilla professions will have a default item and modded professions will have a generic icon.
 		[client.visual_options.associated_items]
-			armorer = "minecraft:iron_chestplate"
-			shepherd = "minecraft:shears"
-			mason = "minecraft:brick"
-			librarian = "minecraft:bookshelf"
 			farmer = "minecraft:wheat"
-			toolsmith = "minecraft:iron_pickaxe"
-			leatherworker = "minecraft:leather"
-			cleric = "minecraft:rotten_flesh"
-			cartographer = "minecraft:compass"
-			butcher = "minecraft:beef"
-			wandering_trader = "minecraft:emerald"
-			fletcher = "minecraft:bow"
-			fisherman = "minecraft:cod"
+			librarian = "minecraft:bookshelf"
+			mason = "minecraft:brick"
+			shepherd = "minecraft:shears"
+			armorer = "minecraft:iron_chestplate"
 			weaponsmith = "minecraft:iron_sword"
+			fisherman = "minecraft:cod"
+			fletcher = "minecraft:bow"
+			wandering_trader = "minecraft:emerald"
+			butcher = "minecraft:beef"
+			cartographer = "minecraft:compass"
+			cleric = "minecraft:rotten_flesh"
+			leatherworker = "minecraft:leather"
+			toolsmith = "minecraft:iron_pickaxe"
 
 	[client.compatibility_options]
 		# If enabled, will force fast render on when using shaders with Optifine (due to a bug in Optifine, this is required for markers to render properly with some shaders).

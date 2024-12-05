@@ -14,7 +14,7 @@ exampleEnum = "Hello"
 #This is an example string list property
 exampleStringList = ["Hello", "World"]
 #This is an example resource location set property
-exampleResourceLocationSet = ["minecraft:dirt", "minecraft:diamond"]
+exampleResourceLocationSet = ["minecraft:diamond", "minecraft:dirt"]
 #This is an example int list property
 exampleIntList = [12, 24]
 #This is an example enum list property

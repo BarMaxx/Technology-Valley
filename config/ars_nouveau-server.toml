@@ -1,3 +1,10 @@
+#Blocks
+[blocks]
+	#Maximum storage lectern linking range
+	# Default: 30
+	# Range: > 1
+	lecternLinkRange = 30
+
 #Mana
 [mana]
 	#Base mana regen in seconds
