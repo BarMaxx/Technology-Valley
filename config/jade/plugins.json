@@ -139,12 +139,6 @@
   "pipez": {
     "pipe": true
   },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
   "waystones": {
     "waystone": true
   },

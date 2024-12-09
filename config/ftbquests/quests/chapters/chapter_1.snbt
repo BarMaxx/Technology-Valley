@@ -16,17 +16,17 @@
 			tasks: [
 				{
 					id: "12EEB29ABF30C005"
-					item: { count: 1, id: "minecraft:oak_log" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "10527632AA8F05E1"
-					item: { count: 1, id: "minecraft:oak_planks" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "7D09714745E7E6D0"
-					item: { count: 1, id: "minecraft:stick" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:rods/wooden)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -60,7 +60,7 @@
 			id: "2B7F6924D9F7CA49"
 			tasks: [{
 				id: "0BDB1212FA30A730"
-				item: { count: 1, id: "minecraft:cobblestone" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cobblestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -82,7 +82,7 @@
 			id: "0662DEC1E0B4CEA8"
 			tasks: [{
 				id: "345C380FC7BD6FB4"
-				item: { count: 1, id: "minecraft:stone" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:stones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -140,8 +140,8 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F71939DA811A510"]
@@ -164,6 +164,46 @@
 			}]
 			x: 4.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["5ECFA141EFC4F4EE"]
+			id: "548715CE28268F31"
+			tasks: [{
+				id: "2EA03EDF91175B04"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["548715CE28268F31"]
+			id: "69DC885BDB0FE9B6"
+			tasks: [{
+				id: "175B01C426E026F3"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7148E86FC34CD4D3"]
+			id: "5BD36EEE35369E5C"
+			tasks: [
+				{
+					id: "3CE2BB3FE482B873"
+					item: { count: 1, id: "minecraft:raw_gold" }
+					type: "item"
+				}
+				{
+					id: "7884CA47CCDB8436"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
 		}
 	]
 }
