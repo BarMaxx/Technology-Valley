@@ -3,12 +3,14 @@
 	default_quest_shape: "rsquare"
 	filename: "hammers"
 	group: "2B14A0FDF2C6FCC4"
+	icon: {
+		id: "justhammers:gold_reinforced_hammer"
+	}
 	id: "0A2F07744CD10CA4"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0662DEC1E0B4CEA8"]
 			id: "218A3C3494801A91"
 			tasks: [{
 				id: "2D87EA9BA1BC6DBA"

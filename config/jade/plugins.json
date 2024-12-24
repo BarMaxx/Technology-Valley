@@ -88,6 +88,14 @@
   "functionalstorage": {
     "drawer": true
   },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -103,7 +111,6 @@
   "productivebees": {
     "bee": true,
     "solitary_nest": true,
-    "jar": true,
     "canvas_beehive": true,
     "bee_attributes": true
   },
@@ -138,6 +145,15 @@
   },
   "pipez": {
     "pipe": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "waystones": {
     "waystone": true

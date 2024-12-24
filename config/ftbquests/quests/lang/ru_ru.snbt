@@ -1,16 +1,26 @@
 {
 	chapter.0A2F07744CD10CA4.title: "&6Молоты"
-	chapter.13EF62738DA44A71.title: "&6Первые дела"
 	chapter.21FD03A9C9E87518.title: "&bВступление"
+	chapter.3A13FB6F680ED6A5.title: "&6Путь в долину"
+	chapter.5DBF3D83EF5DD4DE.title: "&6Подземелье"
 	chapter.6659B30D7FB1B53D.title: "Chapter 1: Aether"
 	chapter_group.2B14A0FDF2C6FCC4.title: "&aДополнительно"
 	chapter_group.753DD1D27C9DF3FC.title: "&aРазвитие"
 	file.0000000000000001.title: "Technology Valley"
+	quest.3E298DDC279EB7A1.quest_desc: [
+		"Добро пожаловать в необычный мир Technology Valley. "
+		""
+		"Здесь Ваша главная задача - развитие технологий. Правда, для перехода на новый уровень каждый раз необходимо исследовать другие миры и магию. "
+		"Развитие технологий в данной сборке невозможно без магии, поэтому Ваша настоящая задача - развитие технологий с использованием магии."
+	]
 	quest.3E298DDC279EB7A1.quest_subtitle: "Но технологий ли? :)"
 	task.0BDB1212FA30A730.title: "Any #c:cobblestones"
 	task.10527632AA8F05E1.title: "Any #minecraft:planks"
+	task.119F01EA5630A2DC.title: "Any #minecraft:planks"
 	task.12EEB29ABF30C005.title: "Any #minecraft:logs"
 	task.18B2CD36731EBA56.title: "Начало технологий!"
+	task.236A721BE1F2AE42.title: "Any #minecraft:logs"
 	task.345C380FC7BD6FB4.title: "Any #c:stones"
+	task.3918078F028C73DE.title: "Any #c:rods/wooden"
 	task.7D09714745E7E6D0.title: "Any #c:rods/wooden"
 }
