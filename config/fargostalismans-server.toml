@@ -418,3 +418,18 @@
 	#Remove negative effects.
 	#Default is true.
 	soul_of_colossus_remove_negative_effects = true
+
+#Toggle the functionality of the accessories
+[accessories]
+	Ankh_Shield = true
+	Shiny_Stone = true
+	Hand_Warmer = true
+	Pocket_Mirror = true
+	Frozen_Shield = true
+	Worm_Scarf = true
+	Brain_Of_Confusion = true
+	Charm_Of_Myths = true
+	Bee_Cloak = true
+	Star_Veil = true
+	Hero_Shield = true
+	Obsidian_Horseshoe = true

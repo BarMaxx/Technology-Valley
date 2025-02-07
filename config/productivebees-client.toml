@@ -9,3 +9,5 @@
 	alwaysChristmas = false
 	#Render entities inside amber blocks.
 	renderEntitiesInAmber = true
+	#Bees never wear santa hats.
+	neverChristmas = false

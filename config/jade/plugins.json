@@ -5,6 +5,7 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
+    "energy_storage.style": "PROGRESS_BAR",
     "item_storage": true,
     "item_storage.normal_amount": 9,
     "harvest_tool": true,
@@ -31,6 +32,7 @@
     "brewing_stand": true,
     "energy_storage.detailed": false,
     "note_block": true,
+    "fluid_storage.style": "PROGRESS_BAR",
     "beehive": true,
     "item_storage.detailed_amount": 54,
     "player_head": true,
@@ -50,29 +52,17 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "railcraft": {
-    "signals": true,
-    "track_component": true,
-    "locomotive": true,
-    "switch_track": true
+  "apothic_spawners": {
+    "spawner": true
   },
   "entangled": {
     "entangled_block_component": true
   },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -85,16 +75,9 @@
     "block_properties": false,
     "mod_name": true
   },
-  "functionalstorage": {
-    "drawer": true
-  },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "ae2": {
     "part_icon": true,
@@ -107,12 +90,6 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "productivebees": {
-    "bee": true,
-    "solitary_nest": true,
-    "canvas_beehive": true,
-    "bee_attributes": true
   },
   "extendedcrafting": {
     "elite_auto_table": true,
@@ -128,9 +105,6 @@
     "crafting_core": true,
     "advanced_auto_table": true,
     "compressor": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
   },
   "tesseract": {
     "tesseract": true,
@@ -152,9 +126,6 @@
     "mortar": true,
     "cauldron": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "waystones": {
     "waystone": true
   },
@@ -163,5 +134,72 @@
   },
   "treetap": {
     "tap": true
+  },
+  "enderchests": {
+    "hud": true
+  },
+  "railcraft": {
+    "signals": true,
+    "track_component": true,
+    "locomotive": true,
+    "switch_track": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "apotheosis": {
+    "adventure": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "apothic_enchanting": {
+    "ench": true
+  },
+  "functionalstorage": {
+    "drawer": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "productivebees": {
+    "bee": true,
+    "solitary_nest": true,
+    "canvas_beehive": true,
+    "bee_attributes": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "modular_machinery_reborn": {
+    "machine_component_provider": true
   }
 }
