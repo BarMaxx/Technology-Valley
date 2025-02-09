@@ -58,57 +58,53 @@
 		{
 			dependencies: ["54111B32257EB884"]
 			id: "4012B4652B76CAE5"
-			tasks: [{
-				id: "2E04CD5862A96A76"
-				item: { count: 1, id: "aether:holystone" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E04CD5862A96A76"
+					item: { count: 1, id: "aether:holystone" }
+					type: "item"
+				}
+				{
+					id: "3B5F10559BB7FD73"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4012B4652B76CAE5"]
-			id: "476460AD587949E5"
-			tasks: [{
-				id: "10DAF7F35448A666"
-				item: { count: 1, id: "minecraft:stone_pickaxe" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["476460AD587949E5"]
 			id: "6F32243FF9F1C3AE"
 			tasks: [{
 				id: "2C9697CD80CD5520"
 				item: { count: 1, id: "aether:zanite_gemstone" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["6F32243FF9F1C3AE"]
+			dependencies: ["2FB9C7C032765AA0"]
 			id: "561C400480651E14"
 			tasks: [{
 				id: "345D358FD2EB348D"
 				item: { count: 1, id: "aether:bronze_dungeon_key" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6F32243FF9F1C3AE"]
+			dependencies: ["561C400480651E14"]
 			id: "0169D551BCC3ADF1"
 			tasks: [{
 				id: "5810EB8E1BF7D2FD"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["54111B32257EB884"]
@@ -129,8 +125,8 @@
 				item: { count: 1, id: "minecraft:shears" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6AAA1A1E3180575C"]
@@ -146,19 +142,236 @@
 					item: { count: 1, id: "naturesaura:gold_leaf" }
 					type: "item"
 				}
+				{
+					id: "44FEF8B672BDCE9B"
+					item: { count: 1, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					id: "05DE348D477C8D9A"
+					item: { count: 1, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
 			]
-			x: 11.0d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F32243FF9F1C3AE"]
+			id: "7BF6654EFB409BB5"
+			tasks: [
+				{
+					id: "52321C92FA7C970C"
+					item: { count: 1, id: "aether:zanite_helmet" }
+					type: "item"
+				}
+				{
+					id: "4589B13A4402C4A8"
+					item: { count: 1, id: "aether:zanite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7ADD7F6EFEB47C0E"
+					item: { count: 1, id: "aether:zanite_leggings" }
+					type: "item"
+				}
+				{
+					id: "4EBE7E799B560128"
+					item: { count: 1, id: "aether:zanite_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F32243FF9F1C3AE"]
+			id: "2FB9C7C032765AA0"
+			tasks: [
+				{
+					id: "0E7539C62B8D8CDB"
+					item: { count: 1, id: "aether:zanite_sword" }
+					type: "item"
+				}
+				{
+					id: "191E9B3CC02CC2A0"
+					item: { count: 1, id: "aether:zanite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "397EEB428C401A46"
+					item: { count: 1, id: "aether:zanite_axe" }
+					type: "item"
+				}
+			]
+			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1EE76D68C78EDFAF"]
-			id: "69504BB33B0FB171"
+			dependencies: ["6F32243FF9F1C3AE"]
+			id: "238A5167139B8F41"
+			tasks: [
+				{
+					id: "538E33F8F3ED1AAD"
+					item: { count: 1, id: "aether:zanite_gloves" }
+					type: "item"
+				}
+				{
+					id: "750A078641E59417"
+					item: { count: 1, id: "aether:zanite_ring" }
+					type: "item"
+				}
+				{
+					id: "7AE09F80C1ECDF1D"
+					item: { count: 1, id: "aether:zanite_pendant" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1EE76D68C78EDFAF"
+				"776B93528FBCE5D4"
+				"569BDADD1B8C1E41"
+			]
+			id: "3EE93DF41FD527C1"
 			tasks: [{
-				id: "1318AE25F28BBA7D"
-				item: { count: 1, id: "naturesaura:gold_powder" }
+				id: "1CA6793DCBD601D3"
+				item: { count: 1, id: "naturesaura:token_joy" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FB9C7C032765AA0"]
+			id: "22906B4D36E3399E"
+			tasks: [{
+				id: "32E821ACA02A2421"
+				item: { count: 1, id: "aether:silver_dungeon_key" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22906B4D36E3399E"]
+			id: "066496B8103FF860"
+			tasks: [{
+				id: "0F3E89873884A470"
+				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["066496B8103FF860"]
+			id: "79733427D405A420"
+			tasks: [{
+				id: "16AF121829BCD415"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:other" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79733427D405A420"]
+			id: "776B93528FBCE5D4"
+			tasks: [{
+				id: "46D5CD060A2ACB2D"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FB9C7C032765AA0"]
+			id: "3729F636A0CFCD1A"
+			tasks: [{
+				id: "67D505A48AC605E7"
+				item: { count: 1, id: "aether:gold_dungeon_key" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3729F636A0CFCD1A"]
+			id: "569BDADD1B8C1E41"
+			tasks: [{
+				id: "3E8E9F46234FE96E"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EE93DF41FD527C1"]
+			id: "1920D60DDB5A8E49"
+			tasks: [{
+				id: "03B648E7C5CA8F0B"
+				item: { components: { "gateways:gateway": "gateways:basic/blaze" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1920D60DDB5A8E49"]
+			id: "29B6D9DA29666776"
+			tasks: [
+				{
+					id: "258BC5DBBC2D1349"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					id: "4B50D05656FADAEE"
+					item: { count: 1, id: "minecraft:sugar" }
+					type: "item"
+				}
+				{
+					id: "117D47CCA660A94C"
+					item: { count: 1, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29B6D9DA29666776"]
+			id: "43F6D3A9625891C6"
+			tasks: [{
+				id: "671B23CDE7F3C01F"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F6D3A9625891C6"]
+			id: "1FA6020294282F7C"
+			tasks: [
+				{
+					id: "07FADA2CB35AA365"
+					item: { count: 1, id: "justdirethings:raw_ferricore" }
+					type: "item"
+				}
+				{
+					id: "57340A18CE4753A1"
+					item: { count: 1, id: "justdirethings:ferricore_ingot" }
+					type: "item"
+				}
+			]
+			x: 15.0d
 			y: 0.0d
 		}
 	]
