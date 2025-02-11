@@ -1,0 +1,61 @@
+{
+  "machine": "modular_machinery_reborn:alloy_smelter",
+  "type": "modular_machinery_reborn:machine_recipe",
+  "id": "modular_machinery_reborn:alloy_smelter_diamond",
+  "time": 5,
+  "width": 256,
+  "height": 256,
+  "requirements": [
+    {
+      "type": "modular_machinery_reborn:energy",
+      "mode": "input",
+      "amount": 100,
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "modular_machinery_reborn:item",
+      "mode": "output",
+      "sizedIngredient": {
+        "ingredient": {
+          "item": "minecraft:diamond"
+        },
+        "count": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "modular_machinery_reborn:item",
+      "mode": "input",
+      "sizedIngredient": {
+        "ingredient": {
+          "item": "minecraft:charcoal"
+        },
+        "count": 32
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "modular_machinery_reborn:item",
+      "mode": "input",
+      "sizedIngredient": {
+        "ingredient": {
+          "item": "minecraft:tnt"
+        },
+        "count": 8
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
+}

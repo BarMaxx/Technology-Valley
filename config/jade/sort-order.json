@@ -34,6 +34,8 @@
   "extendedcrafting:flux_crafter": null,
   "extendedcrafting:ultimate_auto_table": null,
   "extendedcrafting:ultimate_table": null,
+  "framedblocks:framed_block_generic": null,
+  "framedblocks:framed_item_frame": null,
   "functionalstorage:drawer": null,
   "gravestone:grave": null,
   "integrateddynamicscompat:drying_basin": null,
@@ -108,6 +110,10 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "modern_industrialization:machine": null,
+  "modern_industrialization:overclock": null,
+  "modern_industrialization:pipe": null,
+  "moderndynamics:item_pipe": null,
   "modular_machinery_reborn:machine_component_provider": null,
   "modular_machinery_reborn:machine_server_data_provider": null,
   "pipez:pipe": null,
@@ -137,5 +143,8 @@
   "tesseract:tesseract": null,
   "theurgy:mercury_flux": null,
   "treetap:tap": null,
-  "waystones:waystone": null
+  "waystones:waystone": null,
+  "xycraft:extractor_component": null,
+  "xycraft:extractor_output": null,
+  "xycraft:tank_component": null
 }

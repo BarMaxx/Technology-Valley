@@ -319,8 +319,8 @@
 				item: { components: { "gateways:gateway": "gateways:basic/blaze" }, count: 1, id: "gateways:gate_pearl" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1920D60DDB5A8E49"]
@@ -336,24 +336,22 @@
 					item: { count: 1, id: "minecraft:sugar" }
 					type: "item"
 				}
-				{
-					id: "117D47CCA660A94C"
-					item: { count: 1, id: "minecraft:clay_ball" }
-					type: "item"
-				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["29B6D9DA29666776"]
+			dependencies: [
+				"29B6D9DA29666776"
+				"4D578DF10707FFB9"
+			]
 			id: "43F6D3A9625891C6"
 			tasks: [{
 				id: "671B23CDE7F3C01F"
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -371,8 +369,186 @@
 					type: "item"
 				}
 			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0169D551BCC3ADF1"]
+			id: "2DC7842D32908006"
+			tasks: [{
+				id: "3E1EF0229D1B7C04"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2DC7842D32908006"]
+			id: "50151E22E7CEE098"
+			tasks: [{
+				id: "3ECBC18637B7F40C"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50151E22E7CEE098"]
+			id: "151E1F7F22B8F4E4"
+			tasks: [
+				{
+					id: "6F3D52E5F0838153"
+					item: { count: 1, id: "aether:gravitite_helmet" }
+					type: "item"
+				}
+				{
+					id: "2F44818261558064"
+					item: { count: 1, id: "aether:gravitite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5E8883057738B545"
+					item: { count: 1, id: "aether:gravitite_leggings" }
+					type: "item"
+				}
+				{
+					id: "6C085C7E23C3C89D"
+					item: { count: 1, id: "aether:gravitite_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["50151E22E7CEE098"]
+			id: "00A35FEE5FACE3B7"
+			tasks: [
+				{
+					id: "49EE8D7457749F5B"
+					item: { count: 1, id: "aether:gravitite_sword" }
+					type: "item"
+				}
+				{
+					id: "540A6BCF4E00C0B6"
+					item: { count: 1, id: "aether:gravitite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "1A317FC13F9D5C26"
+					item: { count: 1, id: "aether:gravitite_axe" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["50151E22E7CEE098"]
+			id: "47D2320F0FB6E643"
+			tasks: [{
+				id: "4FE9DB2CDEBFB3FE"
+				item: { count: 1, id: "aether:gravitite_gloves" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6B951C5F9EAB1007"]
+			id: "6D40498F244F4418"
+			tasks: [{
+				id: "7CF0556ED9D23AF6"
+				item: { count: 1, id: "aether:ambrosium_torch" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FA6020294282F7C"]
+			id: "5EF8636182CF6B14"
+			tasks: [{
+				id: "6A88AD9A5F705478"
+				item: { count: 1, id: "refurbished_furniture:workbench" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FA6020294282F7C"]
+			id: "02F29AB2CA1B8ADE"
+			tasks: [
+				{
+					id: "66E4A555157FEF33"
+					item: { count: 1, id: "refurbished_furniture:light_electricity_generator" }
+					type: "item"
+				}
+				{
+					id: "6027E3EEA4023201"
+					item: { count: 1, id: "refurbished_furniture:wrench" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"02F29AB2CA1B8ADE"
+				"5EF8636182CF6B14"
+			]
+			id: "73547EB3D620E146"
+			tasks: [{
+				id: "491879AAF6031101"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73547EB3D620E146"]
+			id: "593C983C6B77DC89"
+			tasks: [
+				{
+					id: "53DBA9EEC0163061"
+					item: { count: 1, id: "justdirethings:raw_blazegold" }
+					type: "item"
+				}
+				{
+					id: "15E3C548790F762F"
+					item: { count: 1, id: "justdirethings:blazegold_ingot" }
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3EE93DF41FD527C1"]
+			id: "31452D41F9118669"
+			tasks: [{
+				id: "4D2D0FB3FF906B8E"
+				item: { components: { "gateways:gateway": "gateways:basic/enderman" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31452D41F9118669"]
+			id: "4D578DF10707FFB9"
+			tasks: [{
+				id: "1E0447360E6495FC"
+				item: { count: 1, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
 		}
 	]
 }

@@ -138,6 +138,10 @@
   "enderchests": {
     "hud": true
   },
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
+  },
   "railcraft": {
     "signals": true,
     "track_component": true,
@@ -162,6 +166,10 @@
   "apotheosis": {
     "adventure": true
   },
+  "modern_industrialization": {
+    "overclock": true,
+    "pipe": true
+  },
   "lootr": {
     "info": true
   },
@@ -184,6 +192,10 @@
     "solitary_nest": true,
     "canvas_beehive": true,
     "bee_attributes": true
+  },
+  "xycraft": {
+    "tank_component": true,
+    "extractor_component": true
   },
   "ars_nouveau": {
     "mob_jar": true
