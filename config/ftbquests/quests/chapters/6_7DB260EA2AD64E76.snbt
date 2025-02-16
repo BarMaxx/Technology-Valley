@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_7DB260EA2AD64E76"
+	group: "753DD1D27C9DF3FC"
+	id: "7DB260EA2AD64E76"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["593C983C6B77DC89"]
+		id: "68D11B20DFD8A936"
+		tasks: [{
+			id: "228507A99DA2DAAB"
+			item: { count: 1, id: "naturesaura:nature_altar" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
