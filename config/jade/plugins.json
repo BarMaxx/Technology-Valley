@@ -120,6 +120,9 @@
   "pipez": {
     "pipe": true
   },
+  "productivemetalworks": {
+    "casting": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
@@ -207,6 +210,10 @@
     "hud.rgb16": true,
     "hud": true,
     "hud.redstone": true
+  },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
   },
   "supplementaries": {
     "hat_stand": true
