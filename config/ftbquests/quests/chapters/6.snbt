@@ -550,5 +550,115 @@
 			x: 10.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["593C983C6B77DC89"]
+			id: "63CEB9FDBBDC493F"
+			rewards: [{
+				id: "271878F3A72B89F2"
+				item: {
+					components: {
+						"patchouli:book": "productivemetalworks:guide"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58AEDE0F4158CBA8"
+					item: { count: 1, id: "productivemetalworks:fire_clay" }
+					type: "item"
+				}
+				{
+					id: "39B6AF69DBFD11BA"
+					item: { count: 1, id: "productivemetalworks:fire_brick" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63CEB9FDBBDC493F"]
+			id: "407F26EA5049B627"
+			tasks: [
+				{
+					id: "349068DAA726F5F6"
+					item: { count: 1, id: "productivemetalworks:black_foundry_controller" }
+					type: "item"
+				}
+				{
+					id: "17570F89CE519089"
+					item: { count: 1, id: "productivemetalworks:black_foundry_tank" }
+					type: "item"
+				}
+				{
+					id: "09019709677D731A"
+					item: { count: 1, id: "productivemetalworks:liquid_heating_coil" }
+					type: "item"
+				}
+				{
+					id: "6139EF18040B0827"
+					item: { count: 1, id: "productivemetalworks:black_foundry_drain" }
+					type: "item"
+				}
+				{
+					id: "3CC53731DA463F58"
+					item: { count: 1, id: "productivemetalworks:black_fire_bricks" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63CEB9FDBBDC493F"]
+			id: "0C2DE83F1234252A"
+			tasks: [
+				{
+					id: "56DDAE40AD6441EE"
+					item: { count: 1, id: "productivemetalworks:casting_basin" }
+					type: "item"
+				}
+				{
+					id: "05108D6CB1026BF8"
+					item: { count: 1, id: "productivemetalworks:casting_table" }
+					type: "item"
+				}
+				{
+					id: "0204C8C3A4591263"
+					item: { count: 1, id: "productivemetalworks:foundry_tap" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"407F26EA5049B627"
+				"0C2DE83F1234252A"
+			]
+			id: "3EAE0C35C2229CC4"
+			tasks: [{
+				id: "2468C0C85D5929E4"
+				item: { count: 1, id: "productivemetalworks:meat_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EAE0C35C2229CC4"]
+			id: "57B68126F5ED56C3"
+			tasks: [{
+				id: "47AA9EF1AB391B71"
+				item: { count: 1, id: "productivemetalworks:shiny_meat_ingot" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
 	]
 }
