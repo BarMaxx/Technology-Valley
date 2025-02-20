@@ -64,6 +64,9 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "mekanismcovers": {
+    "cover_component": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -179,6 +182,9 @@
   "apothic_enchanting": {
     "ench": true
   },
+  "balm": {
+    "jade": true
+  },
   "functionalstorage": {
     "drawer": true
   },
@@ -211,12 +217,20 @@
     "hud": true,
     "hud.redstone": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "twilightforest": {
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   },
   "modular_machinery_reborn": {
     "machine_component_provider": true
