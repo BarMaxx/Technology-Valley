@@ -182,7 +182,7 @@
 				}
 			]
 			x: 10.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7D8ADA374195E8F2"]
@@ -200,7 +200,7 @@
 				}
 			]
 			x: 11.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -238,8 +238,174 @@
 					type: "item"
 				}
 			]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["602572D3BDC1545B"]
+			id: "1A301EF174887CB7"
+			tasks: [
+				{
+					id: "0DFFBF4A3E7664E0"
+					item: { count: 1, id: "modern_industrialization:coke_oven" }
+					type: "item"
+				}
+				{
+					id: "1409E4D27434C3FF"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "486C8D603E6DCF8B"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "0E673F5775D6E1DF"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["1A301EF174887CB7"]
+			id: "4EC963CB60B31B77"
+			tasks: [{
+				id: "377F31C2D488EBC4"
+				item: { count: 1, id: "modern_industrialization:coke" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EC963CB60B31B77"]
+			id: "165B5F293E249348"
+			tasks: [{
+				id: "1108EA94BF858B95"
+				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["165B5F293E249348"]
+			id: "36466B669F760A55"
+			tasks: [{
+				id: "71107FAAE8CF0939"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36466B669F760A55"]
+			id: "4E69B8E61C53B54D"
+			tasks: [{
+				id: "1A0EEEA2EBDFEC43"
+				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E69B8E61C53B54D"]
+			id: "66C895BC2D070DBB"
+			tasks: [
+				{
+					id: "55BFFD2704B4991B"
+					item: { count: 1, id: "extendedcrafting:basic_component" }
+					type: "item"
+				}
+				{
+					id: "0E122485E90858A6"
+					item: { count: 1, id: "extendedcrafting:advanced_component" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66C895BC2D070DBB"]
+			id: "5E8F6AD4FB4FDB25"
+			tasks: [
+				{
+					id: "09F2846A9C3BDD84"
+					item: { count: 1, id: "extendedcrafting:basic_catalyst" }
+					type: "item"
+				}
+				{
+					id: "11E2FD0A2D1C29EA"
+					item: { count: 1, id: "extendedcrafting:advanced_catalyst" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E8F6AD4FB4FDB25"]
+			id: "2ED9621A81F55B00"
+			tasks: [{
+				id: "4DF27671FA2D2497"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ED9621A81F55B00"]
+			id: "31077E61296E0FD6"
+			tasks: [
+				{
+					id: "2A480DB597C23434"
+					item: { count: 1, id: "undergarden:catalyst" }
+					type: "item"
+				}
+				{
+					id: "6E47E1BA6DFC9A49"
+					item: { count: 1, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ED9621A81F55B00"]
+			id: "76BB8523957EB232"
+			tasks: [
+				{
+					id: "0A90F7BA4C9DF753"
+					item: { count: 1, id: "jitl:flame_coin" }
+					type: "item"
+				}
+				{
+					id: "7A2040B51A5C56F3"
+					item: { count: 1, id: "jitl:frozen_portal_frame" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76BB8523957EB232"]
+			id: "074A52EFA5554D1F"
+			tasks: [{
+				id: "13719FDB9236E23C"
+				item: { count: 1, id: "jitl:crystal_flake" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.5d
 		}
 	]
 }
