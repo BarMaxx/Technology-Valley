@@ -114,46 +114,6 @@
 		}
 		{
 			dependencies: ["25155E08123E4A4C"]
-			id: "498FB31BB2C9A850"
-			tasks: [{
-				id: "3DE57F302FF31600"
-				item: { count: 1, id: "immersiveengineering:cokebrick" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["67BA76DC893824C5"]
-			id: "369AF8921207764F"
-			tasks: [{
-				id: "5C2E6213439303BE"
-				item: { count: 1, id: "immersiveengineering:blastbrick" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["498FB31BB2C9A850"]
-			id: "75F3939B9D69BD52"
-			tasks: [
-				{
-					id: "0A8E258FA29012F4"
-					item: { count: 1, id: "immersiveengineering:coal_coke" }
-					type: "item"
-				}
-				{
-					id: "68613A30633E39F7"
-					item: { count: 1, id: "immersiveengineering:creosote_bucket" }
-					type: "item"
-				}
-			]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["25155E08123E4A4C"]
 			id: "67B9E8C4D36387C5"
 			tasks: [{
 				id: "5F165D62ED16FC70"
@@ -161,7 +121,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["67B9E8C4D36387C5"]
@@ -171,34 +131,11 @@
 				item: { count: 1, id: "mekanism:ingot_bronze" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"369AF8921207764F"
-				"4DBA62E963C3C6C0"
-			]
-			id: "5EE8E4142CF8B05C"
-			tasks: [{
-				id: "6B89488B54DA47BA"
-				type: "checkmark"
-			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["75F3939B9D69BD52"]
-			id: "4DBA62E963C3C6C0"
-			tasks: [{
-				id: "19500557E0AC00B1"
-				type: "checkmark"
-			}]
-			x: 11.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5EE8E4142CF8B05C"]
+			dependencies: ["25155E08123E4A4C"]
 			id: "28FE3702B2954E30"
 			tasks: [
 				{
@@ -212,19 +149,97 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 0.0d
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"28FE3702B2954E30"
+				"67BA76DC893824C5"
+			]
+			id: "602572D3BDC1545B"
+			tasks: [{
+				id: "60D62643476CD3DE"
+				item: { count: 1, id: "alltheores:bronze_plate" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["28FE3702B2954E30"]
-			id: "37315FE4188502D4"
-			tasks: [{
-				id: "4423D9C587EAD1A7"
-				item: { count: 1, id: "modern_industrialization:bronze_double_ingot" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 0.0d
+			id: "7D8ADA374195E8F2"
+			tasks: [
+				{
+					id: "014D386CDEB2D177"
+					item: { count: 1, id: "modern_industrialization:brick_dust" }
+					type: "item"
+				}
+				{
+					id: "697FE16F81384612"
+					item: { count: 1, id: "modern_industrialization:fire_clay_dust" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D8ADA374195E8F2"]
+			id: "481749040EABF9E7"
+			tasks: [
+				{
+					id: "4D5C0529C8C3CCC6"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick" }
+					type: "item"
+				}
+				{
+					id: "731D6B3D8B6D2442"
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"481749040EABF9E7"
+				"602572D3BDC1545B"
+			]
+			id: "12258A36AFC177C8"
+			tasks: [
+				{
+					id: "3B26FFD1C849EBAF"
+					item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+					type: "item"
+				}
+				{
+					id: "2C9D6A7B45206BF5"
+					item: { count: 1, id: "modern_industrialization:bronze_furnace" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["602572D3BDC1545B"]
+			id: "52CAEED73974C17A"
+			tasks: [
+				{
+					id: "35516AEEC2CE6763"
+					item: { count: 1, id: "modern_industrialization:wrench" }
+					type: "item"
+				}
+				{
+					id: "04053CA8F8DEC45C"
+					item: { count: 1, id: "modern_industrialization:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
 		}
 	]
 }
