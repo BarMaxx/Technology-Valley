@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_38A6600A35FF3371"
+	group: "753DD1D27C9DF3FC"
+	icon: {
+		id: "modern_industrialization:motor"
+	}
+	id: "38A6600A35FF3371"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["009D5670DDAC0477"]
+			id: "22BB23B165B1772F"
+			tasks: [{
+				id: "07D1855D7774EA3E"
+				item: { count: 1, id: "modern_industrialization:battery_alloy_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22BB23B165B1772F"]
+			id: "4E9AE7F26F5F84BF"
+			tasks: [{
+				id: "5D662B5439E8915A"
+				item: { count: 1, id: "actuallyadditions:iron_casing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9AE7F26F5F84BF"]
+			id: "0247EEEA6F5872BD"
+			tasks: [{
+				id: "7837770285186B36"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0247EEEA6F5872BD"]
+			id: "11B11810D5CF813B"
+			tasks: [{
+				id: "412C70AD210BEB09"
+				item: { count: 1, id: "evilcraft:dark_power_gem" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11B11810D5CF813B"]
+			id: "5C6839A2B8A3775C"
+			tasks: [{
+				id: "1C7AF03994DF9929"
+				item: { count: 1, id: "evilcraft:blood_infusion_core" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C6839A2B8A3775C"]
+			id: "221349774403C9B0"
+			tasks: [{
+				id: "5198300E8D5C1E31"
+				item: { count: 1, id: "evilcraft:blood_infuser" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221349774403C9B0"]
+			id: "4EA9646336247470"
+			tasks: [{
+				id: "1D9897FF057FBEF6"
+				item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EA9646336247470"]
+			id: "2B3F46568A3E8E1E"
+			tasks: [{
+				id: "13D38CDBD8C95287"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B3F46568A3E8E1E"]
+			id: "252257628E67F7A6"
+			tasks: [{
+				id: "2B5D926076C8BA44"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9AE7F26F5F84BF"]
+			id: "429B173A3182DEDC"
+			tasks: [{
+				id: "5C6EB514085E227F"
+				item: { count: 1, id: "generatorgalore:copper_generator" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+}

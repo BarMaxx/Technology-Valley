@@ -4,7 +4,7 @@
 	filename: "6_7DB260EA2AD64E76"
 	group: "753DD1D27C9DF3FC"
 	icon: {
-		id: "naturesaura:nature_altar"
+		id: "modern_industrialization:forge_hammer"
 	}
 	id: "7DB260EA2AD64E76"
 	order_index: 1
@@ -406,6 +406,82 @@
 			}]
 			x: 21.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["31077E61296E0FD6"]
+			id: "76D4E61E129502CE"
+			tasks: [
+				{
+					id: "4B77EAC86B9281EA"
+					item: { count: 1, id: "undergarden:raw_froststeel" }
+					type: "item"
+				}
+				{
+					id: "24E67546EE237092"
+					item: { count: 1, id: "undergarden:froststeel_ingot" }
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"76D4E61E129502CE"
+				"074A52EFA5554D1F"
+			]
+			id: "68A22472D77C31F8"
+			tasks: [{
+				id: "35EDF96C18186BF7"
+				item: { count: 1, id: "occultism:sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68A22472D77C31F8"]
+			id: "040DDAE71349D5B7"
+			tasks: [{
+				id: "3CD73D448A2DE7D5"
+				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["040DDAE71349D5B7"]
+			id: "0483149CB54E4F17"
+			tasks: [{
+				id: "7CF10A0800B2EB12"
+				item: { count: 1, id: "mahoutsukai:powdered_iron" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0483149CB54E4F17"]
+			id: "009D5670DDAC0477"
+			tasks: [{
+				id: "52618C05502B7A6A"
+				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["074A52EFA5554D1F"]
+			id: "3AE609313D58766A"
+			tasks: [{
+				id: "43097D5A0283DAA2"
+				item: { count: 1, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.0d
 		}
 	]
 }
