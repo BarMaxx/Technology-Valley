@@ -30,7 +30,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4E9AE7F26F5F84BF"]
@@ -77,7 +77,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["221349774403C9B0"]
+			dependencies: [
+				"221349774403C9B0"
+				"62EEB77A19A1EBA8"
+			]
 			id: "4EA9646336247470"
 			tasks: [{
 				id: "1D9897FF057FBEF6"
@@ -118,7 +121,314 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["252257628E67F7A6"]
+			id: "3580C86E248C5059"
+			tasks: [{
+				id: "48FA6145B5A69367"
+				item: { count: 1, id: "twilightforest:ironwood_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EA9646336247470"]
+			id: "3FBE0C2FE34855EB"
+			tasks: [{
+				id: "6B3DEF62885B7E23"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3580C86E248C5059"]
+			id: "65B3CF1E9AA0F71F"
+			tasks: [{
+				id: "7AC5F65D7CE28B3D"
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["65B3CF1E9AA0F71F"]
+			id: "02CBB30DB22AD551"
+			tasks: [{
+				id: "099D4A12454B77B0"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["02CBB30DB22AD551"]
+			id: "1EF4CA6AF32ECA9A"
+			tasks: [{
+				id: "0A986C2D2E62C094"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EF4CA6AF32ECA9A"]
+			id: "7B64D770801772DB"
+			tasks: [{
+				id: "795070154FF3C110"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B64D770801772DB"]
+			id: "6E699863BDC3BCA9"
+			tasks: [
+				{
+					id: "67C36037BC3E3A6D"
+					item: { count: 1, id: "ae2:printed_engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "20B3EBE53442EA7B"
+					item: { count: 1, id: "ae2:printed_silicon" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E699863BDC3BCA9"]
+			id: "6A127E2EF65ED6F0"
+			tasks: [{
+				id: "23825540A0D85AB0"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A127E2EF65ED6F0"]
+			id: "58E9877C9353AA71"
+			tasks: [{
+				id: "4B7EEED096B64CFD"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EF4CA6AF32ECA9A"]
+			id: "4C41E346DC8EF872"
+			tasks: [{
+				id: "6A6C8A710C535C88"
+				item: { count: 1, id: "modern_industrialization:motor" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["747D1279BDEC1486"]
+			id: "2E0449690C20A424"
+			tasks: [{
+				id: "48E14B23B135CBDA"
+				item: { count: 1, id: "modern_industrialization:assembler" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C41E346DC8EF872"]
+			id: "1045111DC7514461"
+			tasks: [{
+				id: "7C7403CA3632BB43"
+				item: { count: 1, id: "modern_industrialization:piston" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1045111DC7514461"]
+			id: "747D1279BDEC1486"
+			tasks: [{
+				id: "42E8678968772395"
+				item: { count: 1, id: "modern_industrialization:robot_arm" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22BB23B165B1772F"]
+			id: "2F1D7BD1DE6182B7"
+			tasks: [{
+				id: "14F9CAF2AAE35AB0"
+				item: { count: 1, id: "modern_industrialization:redstone_battery" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F1D7BD1DE6182B7"]
+			id: "7A0CE02F37F3662E"
+			tasks: [{
+				id: "5DF2475743CECBE9"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A0CE02F37F3662E"]
+			id: "7F8B095C0CAD9E16"
+			tasks: [{
+				id: "1DF61EB9765DD516"
+				item: { count: 1, id: "modern_industrialization:polarizer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F8B095C0CAD9E16"]
+			id: "298EF126EB424893"
+			tasks: [{
+				id: "61811710BAFE9129"
+				item: { count: 1, id: "modern_industrialization:cupronickel_wire_magnetic" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["298EF126EB424893"]
+			id: "4F5DF11460FECD51"
+			tasks: [{
+				id: "11E853BDD0BECB29"
+				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58E9877C9353AA71"]
+			id: "23706EB0C94E67C0"
+			tasks: [{
+				id: "5CF934E545A46482"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11B11810D5CF813B"]
+			id: "4E550B2A140E6CE2"
+			tasks: [{
+				id: "5281C18E24010630"
+				item: { count: 1, id: "evilcraft:bowl_of_promises_empty" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E550B2A140E6CE2"]
+			id: "148E5DB90DFC54BA"
+			tasks: [{
+				id: "799D2323EA90DB7D"
+				item: { count: 1, id: "evilcraft:bowl_of_promises_dusted" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"221349774403C9B0"
+				"148E5DB90DFC54BA"
+			]
+			id: "1A596FD2CC33778D"
+			tasks: [{
+				id: "20031858A209C831"
+				item: { count: 1, id: "evilcraft:bowl_of_promises_tier0" }
+				type: "item"
+			}]
+			x: 6.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1A596FD2CC33778D"]
+			id: "62EEB77A19A1EBA8"
+			tasks: [{
+				id: "74A21C358875E260"
+				item: { count: 1, id: "evilcraft:promise_tier_1" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23706EB0C94E67C0"]
+			id: "622E4B1F2AE262BE"
+			tasks: [{
+				id: "12B991B96A534397"
+				item: { count: 1, id: "ae2:cell_component_1k" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["622E4B1F2AE262BE"]
+			id: "2C142BFAC218D711"
+			tasks: [{
+				id: "54E6BA255A13744B"
+				item: { count: 1, id: "ae2:item_storage_cell_1k" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["622E4B1F2AE262BE"]
+			id: "0FAFE785C1CA0FA8"
+			tasks: [{
+				id: "460D2C6BE54AD67D"
+				item: { count: 1, id: "ae2:cell_component_4k" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FAFE785C1CA0FA8"]
+			id: "34558ED1257CFD35"
+			tasks: [{
+				id: "01D58368E90CC27C"
+				item: { count: 1, id: "ae2:item_storage_cell_4k" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
 		}
 	]
 }
