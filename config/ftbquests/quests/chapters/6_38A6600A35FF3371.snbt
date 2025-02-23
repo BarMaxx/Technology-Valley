@@ -142,7 +142,7 @@
 				item: { count: 1, id: "ars_nouveau:scribes_table" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 3.0d
 		}
 		{
@@ -219,15 +219,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A127E2EF65ED6F0"]
+			dependencies: ["23706EB0C94E67C0"]
 			id: "58E9877C9353AA71"
 			tasks: [{
 				id: "4B7EEED096B64CFD"
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1EF4CA6AF32ECA9A"]
@@ -329,15 +329,15 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["58E9877C9353AA71"]
+			dependencies: ["6A127E2EF65ED6F0"]
 			id: "23706EB0C94E67C0"
 			tasks: [{
 				id: "5CF934E545A46482"
 				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["11B11810D5CF813B"]
@@ -416,8 +416,8 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0FAFE785C1CA0FA8"]
@@ -427,8 +427,52 @@
 				item: { count: 1, id: "ae2:item_storage_cell_4k" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.5d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E0449690C20A424"]
+			id: "3D37A69CFBEE1357"
+			tasks: [{
+				id: "0D49816DCFFCCA9F"
+				item: { count: 1, id: "actuallyadditions:single_battery" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D37A69CFBEE1357"]
+			id: "10D660758702D29A"
+			tasks: [{
+				id: "21DB9CF04D8374B0"
+				item: { count: 1, id: "actuallyadditions:double_battery" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10D660758702D29A"]
+			id: "28C95A045FB96A1F"
+			tasks: [{
+				id: "3F53C93FF5A54E33"
+				item: { count: 1, id: "actuallyadditions:empowerer" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28C95A045FB96A1F"]
+			id: "795DB5AF62021D16"
+			tasks: [{
+				id: "1975C440EA2E8579"
+				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
 		}
 	]
 }

@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_6201D4941C43B375"
+	group: "753DD1D27C9DF3FC"
+	icon: {
+		id: "pneumaticcraft:pressure_gauge"
+	}
+	id: "6201D4941C43B375"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["795DB5AF62021D16"]
+			id: "5EC694A169D47F26"
+			tasks: [{
+				id: "0F4BF9B1B2A67115"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EC694A169D47F26"]
+			id: "77A49AE973719DFC"
+			tasks: [{
+				id: "57EC1BD9551D0B9B"
+				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77A49AE973719DFC"]
+			id: "6BDA66D02BDF3CE8"
+			tasks: [{
+				id: "57AC4FEE1E31B6A0"
+				item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BDA66D02BDF3CE8"]
+			id: "34A09B03A5560F2F"
+			tasks: [{
+				id: "07F2CADDAF03CAF0"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34A09B03A5560F2F"]
+			id: "20AF658DC04BADDB"
+			tasks: [{
+				id: "127598228BDA9375"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EC694A169D47F26"]
+			id: "6313F992E069DDE8"
+			tasks: [{
+				id: "266B039AE940188B"
+				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EC694A169D47F26"]
+			id: "63612131C548CC9F"
+			tasks: [{
+				id: "0727D0E051A1E586"
+				item: { count: 1, id: "actuallyadditions:triple_battery" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05546722E71FBC89"]
+			id: "4AD50C5A71D0D7E7"
+			tasks: [{
+				id: "15DF1685C5B07C9F"
+				item: { count: 1, id: "pneumaticcraft:air_compressor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63612131C548CC9F"]
+			id: "3F083A6E96C7210A"
+			tasks: [{
+				id: "0A91F65F575269D8"
+				item: { count: 1, id: "actuallyadditions:quadruple_battery" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F083A6E96C7210A"]
+			id: "05546722E71FBC89"
+			tasks: [{
+				id: "621A7D8884029F07"
+				item: { count: 1, id: "actuallyadditions:quintuple_battery" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30EE6B9CC7EE6D2E"]
+			id: "5FC080943AC2335D"
+			tasks: [{
+				id: "48531BDF851C2A61"
+				item: { count: 1, id: "forbidden_arcanus:clibano_core" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4AD50C5A71D0D7E7"
+				"20AF658DC04BADDB"
+			]
+			id: "30EE6B9CC7EE6D2E"
+			tasks: [{
+				id: "18EC98D47F1E4A94"
+				item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FC080943AC2335D"]
+			id: "327256F164805239"
+			tasks: [{
+				id: "50B8985F552EFA95"
+				item: { count: 1, id: "forbidden_arcanus:deorum_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FC080943AC2335D"]
+			id: "5BBC6CC9D93B3754"
+			tasks: [{
+				id: "05824CA6B69CA874"
+				item: { count: 1, id: "forbidden_arcanus:obsidiansteel_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["327256F164805239"]
+			id: "174F76E697012DE3"
+			tasks: [{
+				id: "26719FE755967B35"
+				item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"174F76E697012DE3"
+				"7D2A25C7A6CDD9D3"
+			]
+			id: "31080B02CA45DA1B"
+			tasks: [{
+				id: "576FE8AED63599D9"
+				item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone_slab" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31080B02CA45DA1B"]
+			id: "49BCADC08AB139CA"
+			tasks: [{
+				id: "469CA73C3B7FB2E1"
+				item: { count: 1, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49BCADC08AB139CA"]
+			id: "59327438F213430A"
+			tasks: [{
+				id: "5FE0CD4AFA8D96EF"
+				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59327438F213430A"]
+			id: "3BAEB02759FFD04C"
+			tasks: [{
+				id: "52AB83D31C4BA6B9"
+				item: { count: 1, id: "pneumaticcraft:small_tank" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BBC6CC9D93B3754"]
+			id: "7D2A25C7A6CDD9D3"
+			tasks: [{
+				id: "050ECBC4E864FFEB"
+				item: { count: 1, id: "forbidden_arcanus:corrupti_dust" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BAEB02759FFD04C"]
+			id: "16DD5771F3D554C5"
+			tasks: [{
+				id: "0E0435CBA7102371"
+				item: { count: 1, id: "pneumaticcraft:refinery" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BAEB02759FFD04C"]
+			id: "3BE0179C0FC1C15C"
+			tasks: [{
+				id: "3423BA7AD0645E36"
+				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3BE0179C0FC1C15C"
+				"16DD5771F3D554C5"
+			]
+			id: "5C405F2861666CEB"
+			tasks: [{
+				id: "0527102D3340211D"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BAEB02759FFD04C"]
+			id: "333CBBDD203075F2"
+			tasks: [{
+				id: "667C0BC532706849"
+				item: { count: 1, id: "pneumaticcraft:etching_tank" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["333CBBDD203075F2"]
+			id: "2FCD1FB647086388"
+			tasks: [{
+				id: "16DE88E91447DF3F"
+				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C405F2861666CEB"]
+			id: "5283B9F6710F724D"
+			tasks: [{
+				id: "39F37E0CBE2138D3"
+				item: { count: 1, id: "pneumaticcraft:capacitor" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C405F2861666CEB"]
+			id: "7A703914294EC907"
+			tasks: [{
+				id: "5A7F8B9D9B985A7C"
+				item: { count: 1, id: "pneumaticcraft:transistor" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5283B9F6710F724D"
+				"7A703914294EC907"
+			]
+			id: "63137CD414342B37"
+			tasks: [{
+				id: "4A6A62FAA3CF4C9D"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+	]
+}

@@ -288,8 +288,8 @@
 				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.0d
+			x: 13.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["165B5F293E249348"]
@@ -299,8 +299,8 @@
 				item: { count: 1, id: "immersiveengineering:ingot_steel" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: 14.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["36466B669F760A55"]
@@ -310,8 +310,8 @@
 				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: -1.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4E69B8E61C53B54D"]
@@ -328,7 +328,7 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
+			x: 15.5d
 			y: -1.0d
 		}
 		{
@@ -346,8 +346,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 0.0d
+			x: 16.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5E8F6AD4FB4FDB25"]
@@ -357,7 +357,7 @@
 				item: { count: 1, id: "extendedcrafting:advanced_table" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -375,7 +375,7 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
+			x: 17.5d
 			y: -1.5d
 		}
 		{
@@ -393,7 +393,7 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
+			x: 17.5d
 			y: 1.5d
 		}
 		{
@@ -404,7 +404,7 @@
 				item: { count: 1, id: "jitl:crystal_flake" }
 				type: "item"
 			}]
-			x: 21.5d
+			x: 19.0d
 			y: 1.5d
 		}
 		{
@@ -422,7 +422,7 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
+			x: 19.0d
 			y: -1.5d
 		}
 		{
@@ -436,7 +436,7 @@
 				item: { count: 1, id: "occultism:sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 19.5d
 			y: 0.0d
 		}
 		{
@@ -447,7 +447,7 @@
 				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 23.5d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -458,18 +458,18 @@
 				item: { count: 1, id: "mahoutsukai:powdered_iron" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 0.0d
+			x: 21.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["0483149CB54E4F17"]
+			dependencies: ["040DDAE71349D5B7"]
 			id: "009D5670DDAC0477"
 			tasks: [{
 				id: "52618C05502B7A6A"
 				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
 				type: "item"
 			}]
-			x: 26.5d
+			x: 22.5d
 			y: 0.0d
 		}
 		{
@@ -480,7 +480,7 @@
 				item: { count: 1, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
-			x: 21.5d
+			x: 19.5d
 			y: 3.0d
 		}
 	]
