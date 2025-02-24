@@ -642,8 +642,8 @@
 			]
 			id: "3EAE0C35C2229CC4"
 			tasks: [{
-				id: "2468C0C85D5929E4"
-				item: { count: 1, id: "productivemetalworks:meat_ingot" }
+				id: "67B93803990EB0E4"
+				item: { count: 1, id: "technologyvalley:fire_iron" }
 				type: "item"
 			}]
 			x: 18.0d
@@ -653,8 +653,8 @@
 			dependencies: ["3EAE0C35C2229CC4"]
 			id: "57B68126F5ED56C3"
 			tasks: [{
-				id: "47AA9EF1AB391B71"
-				item: { count: 1, id: "productivemetalworks:shiny_meat_ingot" }
+				id: "4BFD96C650543DEA"
+				item: { count: 1, id: "technologyvalley:zanite_catalyst" }
 				type: "item"
 			}]
 			x: 19.5d
