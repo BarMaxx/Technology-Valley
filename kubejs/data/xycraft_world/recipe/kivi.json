@@ -1,0 +1,14 @@
+{
+    "type": "naturesaura:altar",
+    "input": {
+        "item": "minecraft:deepslate"
+    },
+    "output": {
+        "item": "xycraft_world:kivi"
+    },
+    "catalyst": {
+        "item": "naturesaura:conversion_catalyst"
+    },
+    "aura": 5000,
+    "time": 100
+}

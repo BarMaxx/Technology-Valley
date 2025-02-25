@@ -660,5 +660,16 @@
 			x: 19.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["593C983C6B77DC89"]
+			id: "00793131EB1ACBE2"
+			tasks: [{
+				id: "2C9A002CA036AF77"
+				item: { components: { "gateways:gateway": "gateways:basic/blaze" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
 	]
 }

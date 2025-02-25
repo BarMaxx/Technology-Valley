@@ -2,3 +2,5 @@
 # Default: 5
 # Range: > 0
 skipTicksAdvancements = 5
+#Ignore empty stacks for inventory checks
+ignoreEmptyStacks = true
