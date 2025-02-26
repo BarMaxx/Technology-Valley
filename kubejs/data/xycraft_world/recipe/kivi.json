@@ -4,7 +4,7 @@
         "item": "minecraft:deepslate"
     },
     "output": {
-        "item": "xycraft_world:kivi"
+        "id": "xycraft_world:kivi"
     },
     "catalyst": {
         "item": "naturesaura:conversion_catalyst"
