@@ -103,14 +103,7 @@
         {
             "type": "gateways:stack",
             "stack": {
-                "item": "minecraft:raw_copper",
-                "count": 8
-            }
-        },
-        {
-            "type": "gateways:stack",
-            "stack": {
-                "item": "create:raw_zinc",
+                "id": "minecraft:raw_copper",
                 "count": 8
             }
         }
