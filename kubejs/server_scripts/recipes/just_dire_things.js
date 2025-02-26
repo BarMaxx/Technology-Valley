@@ -18,4 +18,38 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'justdirethings:gooblock_tier3'})
+	event.shaped(
+	  Item.of('justdirethings:gooblock_tier3'), 
+	  [
+	    'DCD',
+		'BAB',
+		'DCD'
+	  ], 
+	  {
+		A: 'justdirethings:gooblock_tier2',
+		B: 'minecraft:dragon_breath',
+		C: 'enderio:energetic_alloy_ingot',
+		D: '#c:ender_pearls'
+	  }
+	)
+	
+	
+	event.remove({output: 'justdirethings:gooblock_tier4'})
+	event.shaped(
+	  Item.of('justdirethings:gooblock_tier4'), 
+	  [
+	    'DCD',
+		'BAB',
+		'DCD'
+	  ], 
+	  {
+		A: 'justdirethings:gooblock_tier3',
+		B: 'mekanism:teleportation_core',
+		C: 'minecraft:sculk_shrieker',
+		D: 'minecraft:sculk'
+	  }
+	)
+	
+	
 })

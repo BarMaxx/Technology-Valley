@@ -43,5 +43,173 @@
 			x: 0.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["283D5C9FDAE88D64"]
+			id: "635FFDB896B82A7D"
+			tasks: [{
+				id: "1C58C2A3984C3BF4"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["635FFDB896B82A7D"]
+			id: "50F978374DC3406B"
+			tasks: [{
+				id: "0AF3FE1552E5D4BE"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28D088C6352D6999"]
+			id: "7C026CE766381B34"
+			tasks: [{
+				id: "6C52BBC5E71F9AC6"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C026CE766381B34"]
+			id: "1E10EDB72E378AA8"
+			tasks: [{
+				id: "1D72B8245008DECD"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E10EDB72E378AA8"]
+			id: "7A6112DBA4302B9A"
+			tasks: [{
+				id: "28C76C0AA62E94DF"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A6112DBA4302B9A"]
+			id: "594CAABAA6450AFB"
+			tasks: [{
+				id: "5232A03CC5D25CC3"
+				item: { count: 1, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["594CAABAA6450AFB"]
+			id: "421FF60916F19440"
+			tasks: [{
+				id: "357FCD3ED7ED5C31"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["594CAABAA6450AFB"]
+			id: "4EAF1240FA930694"
+			tasks: [{
+				id: "63789D5FC80C6D34"
+				item: { count: 1, id: "powah:energizing_rod_starter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4EAF1240FA930694"
+				"421FF60916F19440"
+			]
+			id: "0BF71B1D9F74C4C5"
+			tasks: [{
+				id: "35184531A5086A3A"
+				item: { count: 1, id: "powah:steel_energized" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF71B1D9F74C4C5"]
+			id: "409A6BF322C251CA"
+			tasks: [{
+				id: "45F917AEA349E3B4"
+				item: { count: 1, id: "mekanism:teleportation_core" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["409A6BF322C251CA"]
+			id: "4D64871BB3AA6163"
+			tasks: [{
+				id: "21311C019AB39B51"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D64871BB3AA6163"]
+			id: "5A74654A7AA53D5A"
+			tasks: [{
+				id: "0E54AACC27BEDB22"
+				item: { count: 1, id: "justdirethings:time_crystal_budding_block" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A74654A7AA53D5A"]
+			id: "2333CDF8DC8EE0F6"
+			tasks: [{
+				id: "3AC0FC7E00441B4C"
+				item: { count: 1, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2333CDF8DC8EE0F6"]
+			id: "7BB9E36A68BBA5DA"
+			tasks: [{
+				id: "5EFAC1325A83DE85"
+				item: { count: 1, id: "modern_industrialization:implosion_compressor" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BB9E36A68BBA5DA"]
+			id: "5B8DACF977CA8C4D"
+			tasks: [{
+				id: "102DE1303F5FBC54"
+				item: { count: 1, id: "modern_industrialization:singularity" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
 	]
 }

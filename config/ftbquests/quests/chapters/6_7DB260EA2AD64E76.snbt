@@ -472,5 +472,38 @@
 			x: 17.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["36466B669F760A55"]
+			id: "48565E040F7E8E75"
+			tasks: [{
+				id: "651ACB287229DDCB"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EC67B2635DDEBBE"]
+			id: "3FD1B58EAAAADF97"
+			tasks: [{
+				id: "15622EDFB6A6F355"
+				item: { count: 1, id: "etheria:ether_altar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67BA76DC893824C5"]
+			id: "45BC787F65BB0763"
+			tasks: [{
+				id: "0AF9C78E9CC94397"
+				item: { count: 1, id: "forcecraft:infuser" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
 	]
 }

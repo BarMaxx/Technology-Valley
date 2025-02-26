@@ -11,9 +11,26 @@ ServerEvents.recipes(event => {
 	  ], 
 	  {
 		A: '#c:ingots/osmium',
-		B: 'mekanism:metallurgic_infuser',
+		B: 'pneumaticcraft:printed_circuit_board',
 		C: 'minecraft:furnace',
 		D: 'minecraft:iron_ingot'
+	  }
+	)
+	
+	
+	event.remove({output: 'mekanism:teleportation_core'})
+	event.shaped(
+	  Item.of('mekanism:teleportation_core'), 
+	  [
+	    'DCD',
+		'BAB',
+		'DCD'
+	  ], 
+	  {
+		A: 'powah:steel_energized',
+		B: 'forbidden_arcanus:deorum_ingot',
+		C: 'mekanism:alloy_atomic',
+		D: '#c:ender_pearls'
 	  }
 	)
 	
