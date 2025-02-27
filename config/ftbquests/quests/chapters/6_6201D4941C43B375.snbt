@@ -330,5 +330,38 @@
 			x: 17.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5BBC6CC9D93B3754"]
+			id: "2F438ECEA193B552"
+			tasks: [{
+				id: "603B5437400DEC78"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F438ECEA193B552"]
+			id: "147C2E9FC419A2CA"
+			tasks: [{
+				id: "3942C2D63030D13E"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5283B9F6710F724D"]
+			id: "4F6FB8D8D9A81FBE"
+			tasks: [{
+				id: "11655B9BC9EA50E7"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.5d
+		}
 	]
 }

@@ -103,7 +103,7 @@
         {
             "type": "gateways:stack",
             "stack": {
-                "id": "minecraft:raw_copper",
+                "id": "minecraft:clay_ball",
                 "count": 8
             }
         }
