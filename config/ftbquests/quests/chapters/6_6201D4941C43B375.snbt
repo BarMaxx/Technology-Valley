@@ -360,8 +360,85 @@
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["7A703914294EC907"]
+			id: "1A3DAE94FCF054C4"
+			tasks: [{
+				id: "435C512EB1168F86"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A703914294EC907"]
+			id: "6B8CDA22F2C637B5"
+			tasks: [{
+				id: "75D7DDADEE4694BB"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["147C2E9FC419A2CA"]
+			id: "3BCE8CD81F759B38"
+			tasks: [{
+				id: "5A033833AB7132B5"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3BCE8CD81F759B38"]
+			id: "3F73966814A4A6F9"
+			tasks: [{
+				id: "6B3679C4F56D3C6D"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F73966814A4A6F9"]
+			id: "7E9853496501A09C"
+			tasks: [{
+				id: "10461191E11429DF"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5283B9F6710F724D"]
+			id: "5129B0043FF07FF9"
+			tasks: [{
+				id: "14862202DA1A5206"
+				item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5129B0043FF07FF9"]
+			id: "71E6C3672AF60291"
+			tasks: [{
+				id: "55329FDECAC132B0"
+				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.0d
 		}
 	]
 }
