@@ -315,8 +315,8 @@
 			dependencies: ["3EE93DF41FD527C1"]
 			id: "1920D60DDB5A8E49"
 			tasks: [{
-				id: "03B648E7C5CA8F0B"
-				item: { components: { "gateways:gateway": "gateways:basic/blaze" }, count: 1, id: "gateways:gate_pearl" }
+				id: "767D751167546778"
+				item: { components: { "gateways:gateway": "gateways:first_part" }, count: 1, id: "gateways:gate_pearl" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -532,8 +532,8 @@
 			dependencies: ["3EE93DF41FD527C1"]
 			id: "31452D41F9118669"
 			tasks: [{
-				id: "4D2D0FB3FF906B8E"
-				item: { components: { "gateways:gateway": "gateways:basic/enderman" }, count: 1, id: "gateways:gate_pearl" }
+				id: "046D838896071AE2"
+				item: { components: { "gateways:gateway": "gateways:second_part" }, count: 1, id: "gateways:gate_pearl" }
 				type: "item"
 			}]
 			x: 9.5d

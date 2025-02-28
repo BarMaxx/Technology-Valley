@@ -19,32 +19,6 @@
 				"entity": "minecraft:zombie",
 				"count": 4
 			}],
-			"modifiers": [{
-					"attribute": "generic.max_health",
-					"operation": "MULTIPLY_TOTAL",
-					"value": 0.15
-				},
-				{
-					"attribute": "generic.armor",
-					"operation": "ADDITION",
-					"value": 2
-				},
-				{
-					"attribute": "generic.attack_damage",
-					"operation": "MULTIPLY_TOTAL",
-					"value": 0.15
-				},
-				{
-					"attribute": "generic.knockback_resistance",
-					"operation": "ADDITION",
-					"value": 0.05
-				},
-				{
-					"attribute": "generic.movement_speed",
-					"operation": "MULTIPLY_TOTAL",
-					"value": 0.05
-				}
-			],
 			"rewards": [{
 				"type": "gateways:entity_loot",
 				"entity": "minecraft:zombie",
@@ -57,32 +31,6 @@
 			"entities": [{
 					"entity": "minecraft:zombie",
                     "count": 5
-				}
-			],
-			"modifiers": [{
-					"attribute": "generic.max_health",
-					"operation": "MULTIPLY_TOTAL",
-					"value": 0.20
-				},
-				{
-					"attribute": "generic.armor",
-					"operation": "ADDITION",
-					"value": 3
-				},
-				{
-					"attribute": "generic.attack_damage",
-					"operation": "MULTIPLY_TOTAL",
-					"value": 0.20
-				},
-				{
-					"attribute": "generic.knockback_resistance",
-					"operation": "ADDITION",
-					"value": 0.15
-				},
-				{
-					"attribute": "generic.movement_speed",
-					"operation": "MULTIPLY_TOTAL",
-					"value": 0.10
 				}
 			],
 			"rewards": [{

@@ -16,4 +16,32 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.shaped(
+	  Item.of('gateways:gate_pearl[gateways:gateway="gateways:first_part"]'), 
+	  [
+	    ' B ',
+		'BAB',
+		' B '
+	  ], 
+	  {
+		A: 'naturesaura:token_joy',
+		B: 'aether:ambrosium_shard'
+	  }
+	)
+	
+	
+	event.shaped(
+	  Item.of('gateways:gate_pearl[gateways:gateway="gateways:second_part"]'), 
+	  [
+	    ' B ',
+		'BAB',
+		' B '
+	  ], 
+	  {
+		A: 'naturesaura:token_joy',
+		B: 'aether:zanite_gemstone'
+	  }
+	)
+	
+	
 })
