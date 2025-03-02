@@ -13,7 +13,20 @@
 		{
 			dependencies: ["795DB5AF62021D16"]
 			id: "5EC694A169D47F26"
+			rewards: [{
+				count: 2
+				id: "6D83BA0F52F899E9"
+				item: {
+					count: 1
+					id: "pneumaticcraft:ingot_iron_compressed"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
+				count: 2L
 				id: "0F4BF9B1B2A67115"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
@@ -25,6 +38,7 @@
 			dependencies: ["5EC694A169D47F26"]
 			id: "77A49AE973719DFC"
 			tasks: [{
+				count: 4L
 				id: "57EC1BD9551D0B9B"
 				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
 				type: "item"
@@ -138,6 +152,7 @@
 			]
 			id: "30EE6B9CC7EE6D2E"
 			tasks: [{
+				count: 4L
 				id: "18EC98D47F1E4A94"
 				item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
 				type: "item"
@@ -149,6 +164,7 @@
 			dependencies: ["5FC080943AC2335D"]
 			id: "327256F164805239"
 			tasks: [{
+				count: 2L
 				id: "50B8985F552EFA95"
 				item: { count: 1, id: "forbidden_arcanus:deorum_ingot" }
 				type: "item"
@@ -160,6 +176,7 @@
 			dependencies: ["5FC080943AC2335D"]
 			id: "5BBC6CC9D93B3754"
 			tasks: [{
+				count: 2L
 				id: "05824CA6B69CA874"
 				item: { count: 1, id: "forbidden_arcanus:obsidiansteel_ingot" }
 				type: "item"
@@ -171,6 +188,7 @@
 			dependencies: ["327256F164805239"]
 			id: "174F76E697012DE3"
 			tasks: [{
+				count: 8L
 				id: "26719FE755967B35"
 				item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone" }
 				type: "item"
@@ -196,6 +214,7 @@
 			dependencies: ["31080B02CA45DA1B"]
 			id: "49BCADC08AB139CA"
 			tasks: [{
+				count: 4L
 				id: "469CA73C3B7FB2E1"
 				item: { count: 1, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
 				type: "item"
@@ -206,11 +225,35 @@
 		{
 			dependencies: ["49BCADC08AB139CA"]
 			id: "59327438F213430A"
-			tasks: [{
-				id: "5FE0CD4AFA8D96EF"
-				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5FE0CD4AFA8D96EF"
+					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "56BEEDB2E1B70EB5"
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4977FD36E913787D"
+					item: { count: 1, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
+					type: "item"
+				}
+				{
+					id: "7C3CBA52BF183264"
+					item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
+					type: "item"
+				}
+				{
+					id: "38A8C176FC92AC1E"
+					item: { count: 1, id: "minecraft:smithing_table" }
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: 0.0d
 		}
@@ -229,6 +272,7 @@
 			dependencies: ["5BBC6CC9D93B3754"]
 			id: "7D2A25C7A6CDD9D3"
 			tasks: [{
+				count: 4L
 				id: "050ECBC4E864FFEB"
 				item: { count: 1, id: "forbidden_arcanus:corrupti_dust" }
 				type: "item"
@@ -322,6 +366,8 @@
 				"7A703914294EC907"
 			]
 			id: "63137CD414342B37"
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "4A6A62FAA3CF4C9D"
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }

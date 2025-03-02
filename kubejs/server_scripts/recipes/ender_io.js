@@ -7,13 +7,30 @@ ServerEvents.recipes(event => {
 	  [
 	    'CDC',
 		'BAB',
-		'BBB'
+		'BFB'
 	  ], 
 	  {
 		A: 'enderio:grains_of_infinity',
 		B: 'minecraft:deepslate',
 		C: 'minecraft:furnace',
-		D: 'twilightforest:ironwood_ingot'
+		D: 'naturesaura:sky_ingot',
+		F: 'xycraft_machines:machine_base'
+	  }
+	)
+	
+	
+	event.remove({output: 'enderio:void_chassis'})
+	event.shaped(
+	  Item.of('enderio:void_chassis'), 
+	  [
+	    'CBC',
+		'BAB',
+		'CBC'
+	  ], 
+	  {
+		A: 'enderio:grains_of_infinity',
+		B: 'twilightforest:ironwood_ingot',
+		C: 'minecraft:iron_bars'
 	  }
 	)
 	

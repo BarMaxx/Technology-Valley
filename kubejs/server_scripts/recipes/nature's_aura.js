@@ -7,4 +7,22 @@ ServerEvents.recipes(event => {
 	])
 	
 	
+	event.remove({output: 'naturesaura:offering_table'})
+	event.shaped(
+	  Item.of('naturesaura:offering_table'), 
+	  [
+	    'ABA',
+		'FAD',
+		'CCC'
+	  ], 
+	  {
+		A: 'naturesaura:infused_stone',
+		B: 'naturesaura:infused_iron',
+		C: '#minecraft:logs',
+		D: 'naturesaura:token_sorrow',
+		F: 'naturesaura:token_fear'
+	  }
+	)
+	
+	
 })

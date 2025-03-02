@@ -21,4 +21,35 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'minecraft:campfire'})
+	event.shaped(
+	  Item.of('minecraft:campfire'), 
+	  [
+	    ' C ',
+		'CBC',
+		'AAA'
+	  ], 
+	  {
+		A: '#minecraft:logs',
+		B: 'aether:ambrosium_shard',
+		C: '#c:rods/wooden'
+	  }
+	)
+	
+	
+	event.remove({output: 'minecraft:furnace'})
+	event.shaped(
+	  Item.of('minecraft:furnace'), 
+	  [
+	    'AAA',
+		'ABA',
+		'AAA'
+	  ], 
+	  {
+		A: '#c:stones',
+		B: 'minecraft:campfire'
+	  }
+	)
+	
+	
 })

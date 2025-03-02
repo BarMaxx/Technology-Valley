@@ -13,6 +13,8 @@
 		{
 			dependencies: ["63137CD414342B37"]
 			id: "37F7F27FEC42CAEC"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "1796293411CD625A"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
@@ -203,6 +205,8 @@
 		{
 			dependencies: ["7BB9E36A68BBA5DA"]
 			id: "5B8DACF977CA8C4D"
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "102DE1303F5FBC54"
 				item: { count: 1, id: "modern_industrialization:singularity" }

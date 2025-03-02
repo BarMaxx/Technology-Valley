@@ -13,6 +13,8 @@
 		{
 			dependencies: ["57B68126F5ED56C3"]
 			id: "68D11B20DFD8A936"
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				id: "228507A99DA2DAAB"
 				item: { count: 1, id: "naturesaura:nature_altar" }
@@ -24,6 +26,15 @@
 		{
 			dependencies: ["68D11B20DFD8A936"]
 			id: "13C1882CA25B4848"
+			rewards: [{
+				count: 2
+				id: "1EE4C08340F98C81"
+				item: {
+					count: 1
+					id: "naturesaura:infused_iron"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "37B0152BC43F7FD4"
 				item: { count: 1, id: "naturesaura:infused_iron" }
@@ -35,7 +46,17 @@
 		{
 			dependencies: ["68D11B20DFD8A936"]
 			id: "4804FC9479D49075"
+			rewards: [{
+				count: 4
+				id: "1D0B2BB00AA872E1"
+				item: {
+					count: 1
+					id: "naturesaura:infused_stone"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 3L
 				id: "10A57300102AFF6B"
 				item: { count: 1, id: "naturesaura:infused_stone" }
 				type: "item"
@@ -82,7 +103,18 @@
 		{
 			dependencies: ["6945DB30CD4FBB82"]
 			id: "6A3B36EE66769E54"
+			rewards: [{
+				count: 2
+				id: "7FE34CD55D7B0416"
+				item: {
+					count: 1
+					id: "xycraft_world:kivi"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
+				count: 4L
 				id: "220786378A85BB9E"
 				item: { count: 1, id: "xycraft_world:kivi" }
 				type: "item"
@@ -102,22 +134,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["580129BD65E39FE9"]
-			id: "67B9E8C4D36387C5"
-			tasks: [{
-				id: "5F165D62ED16FC70"
-				item: { count: 1, id: "immersiveengineering:alloybrick" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["67B9E8C4D36387C5"]
+			dependencies: ["25FF369920E1043D"]
 			id: "67BA76DC893824C5"
 			tasks: [{
+				count: 2L
 				id: "5E6187F68A249945"
-				item: { count: 1, id: "mekanism:ingot_bronze" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -149,7 +171,7 @@
 			id: "602572D3BDC1545B"
 			tasks: [{
 				id: "60D62643476CD3DE"
-				item: { count: 1, id: "alltheores:bronze_plate" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:plates/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -158,13 +180,25 @@
 		{
 			dependencies: ["28FE3702B2954E30"]
 			id: "7D8ADA374195E8F2"
+			rewards: [{
+				count: 4
+				id: "6FC26AF43672568A"
+				item: {
+					count: 1
+					id: "modern_industrialization:fire_clay_dust"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 4L
 					id: "014D386CDEB2D177"
 					item: { count: 1, id: "modern_industrialization:brick_dust" }
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "697FE16F81384612"
 					item: { count: 1, id: "modern_industrialization:fire_clay_dust" }
 					type: "item"
@@ -176,13 +210,25 @@
 		{
 			dependencies: ["7D8ADA374195E8F2"]
 			id: "481749040EABF9E7"
+			rewards: [{
+				count: 2
+				id: "205774AA3051FD18"
+				item: {
+					count: 1
+					id: "modern_industrialization:fire_clay_bricks"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 4L
 					id: "4D5C0529C8C3CCC6"
 					item: { count: 1, id: "modern_industrialization:fire_clay_brick" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "731D6B3D8B6D2442"
 					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
@@ -283,23 +329,44 @@
 		{
 			dependencies: ["165B5F293E249348"]
 			id: "36466B669F760A55"
+			rewards: [{
+				count: 2
+				id: "375FD15DC7584AC6"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
-				id: "71107FAAE8CF0939"
-				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				id: "05713E5C02F7FC6E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 12.5d
 			y: 1.0d
 		}
 		{
-			dependencies: ["36466B669F760A55"]
+			dependencies: ["3190FEE078360F57"]
 			id: "4E69B8E61C53B54D"
+			rewards: [{
+				count: 3
+				id: "5D53E913B01F754E"
+				item: {
+					count: 1
+					id: "extendedcrafting:black_iron_slate"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "1A0EEEA2EBDFEC43"
 				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -307,17 +374,19 @@
 			id: "66C895BC2D070DBB"
 			tasks: [
 				{
+					count: 4L
 					id: "55BFFD2704B4991B"
 					item: { count: 1, id: "extendedcrafting:basic_component" }
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "0E122485E90858A6"
 					item: { count: 1, id: "extendedcrafting:advanced_component" }
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -325,6 +394,7 @@
 			id: "5E8F6AD4FB4FDB25"
 			tasks: [
 				{
+					count: 2L
 					id: "09F2846A9C3BDD84"
 					item: { count: 1, id: "extendedcrafting:basic_catalyst" }
 					type: "item"
@@ -335,7 +405,7 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
+			x: 16.0d
 			y: -1.0d
 		}
 		{
@@ -346,7 +416,7 @@
 				item: { count: 1, id: "extendedcrafting:advanced_table" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -359,12 +429,13 @@
 					type: "item"
 				}
 				{
+					count: 10L
 					id: "6E47E1BA6DFC9A49"
 					item: { count: 1, id: "minecraft:stone_bricks" }
 					type: "item"
 				}
 			]
-			x: 15.5d
+			x: 17.0d
 			y: -1.5d
 		}
 		{
@@ -377,41 +448,45 @@
 					type: "item"
 				}
 				{
+					count: 10L
 					id: "7A2040B51A5C56F3"
 					item: { count: 1, id: "jitl:frozen_portal_frame" }
 					type: "item"
 				}
 			]
-			x: 15.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["76BB8523957EB232"]
-			id: "074A52EFA5554D1F"
-			tasks: [{
-				id: "13719FDB9236E23C"
-				item: { count: 1, id: "jitl:crystal_flake" }
-				type: "item"
-			}]
 			x: 17.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["31077E61296E0FD6"]
+			dependencies: ["25396535E61C9900"]
+			id: "074A52EFA5554D1F"
+			tasks: [{
+				count: 2L
+				id: "13719FDB9236E23C"
+				item: { count: 1, id: "jitl:crystal_flake" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F3EBA46724E5544"]
 			id: "76D4E61E129502CE"
 			tasks: [
 				{
+					count: 2L
 					id: "4B77EAC86B9281EA"
 					item: { count: 1, id: "undergarden:raw_froststeel" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "24E67546EE237092"
 					item: { count: 1, id: "undergarden:froststeel_ingot" }
 					type: "item"
 				}
 			]
-			x: 17.0d
+			x: 20.0d
 			y: -1.5d
 		}
 		{
@@ -422,7 +497,7 @@
 				item: { count: 1, id: "occultism:sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 20.5d
 			y: -3.0d
 		}
 		{
@@ -433,7 +508,7 @@
 				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 20.0d
 			y: -4.5d
 		}
 		{
@@ -444,7 +519,7 @@
 				item: { count: 1, id: "mahoutsukai:powdered_iron" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 20.5d
 			y: -6.0d
 		}
 		{
@@ -453,23 +528,26 @@
 				"76D4E61E129502CE"
 			]
 			id: "009D5670DDAC0477"
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
 				id: "52618C05502B7A6A"
 				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["074A52EFA5554D1F"]
 			id: "3AE609313D58766A"
 			tasks: [{
+				count: 24L
 				id: "43097D5A0283DAA2"
 				item: { count: 1, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 20.5d
 			y: 3.0d
 		}
 		{
@@ -504,6 +582,63 @@
 			}]
 			x: 9.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["580129BD65E39FE9"]
+			id: "25FF369920E1043D"
+			tasks: [{
+				id: "2973AFDF6D1C6A76"
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36466B669F760A55"]
+			id: "3190FEE078360F57"
+			rewards: [{
+				count: 4
+				id: "34F3EE8E69C59BED"
+				item: {
+					count: 1
+					id: "extendedcrafting:black_iron_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4473AF2066986935"
+				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31077E61296E0FD6"]
+			id: "3F3EBA46724E5544"
+			size: 1.5d
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "05EC2E3C503DE761"
+				type: "dimension"
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76BB8523957EB232"]
+			id: "25396535E61C9900"
+			size: 1.5d
+			tasks: [{
+				dimension: "jitl:frozen"
+				id: "0355F96F1E6881B2"
+				type: "dimension"
+			}]
+			x: 18.5d
+			y: 2.0d
 		}
 	]
 }

@@ -13,20 +13,32 @@
 		{
 			dependencies: ["3E298DDC279EB7A1"]
 			id: "25D7265AD1BDED43"
+			rewards: [{
+				id: "00CE1B2A75116717"
+				item: {
+					count: 1
+					id: "farmersdelight:apple_cider"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
 			tasks: [
 				{
-					id: "236A721BE1F2AE42"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					count: 4L
+					id: "4B3D3F10F1CCB21C"
+					item: { count: 1, id: "aether:skyroot_log" }
 					type: "item"
 				}
 				{
-					id: "119F01EA5630A2DC"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					count: 8L
+					id: "137B6E6CA348C199"
+					item: { count: 1, id: "aether:skyroot_planks" }
 					type: "item"
 				}
 				{
-					id: "3918078F028C73DE"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:rods/wooden)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "67D578AD60EC44D1"
+					item: { count: 1, id: "aether:skyroot_stick" }
 					type: "item"
 				}
 			]
@@ -47,9 +59,17 @@
 		{
 			dependencies: ["1A4930CF4DD1801E"]
 			id: "54111B32257EB884"
+			rewards: [{
+				id: "7F79917D56C8269D"
+				item: {
+					count: 1
+					id: "aether:skyroot_shovel"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "56C392543B2B4F72"
-				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				id: "1DFF046C24FF30B2"
+				item: { count: 1, id: "aether:skyroot_pickaxe" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -58,15 +78,24 @@
 		{
 			dependencies: ["54111B32257EB884"]
 			id: "4012B4652B76CAE5"
+			rewards: [{
+				id: "57C64A38E656E3AD"
+				item: {
+					count: 1
+					id: "aether:holystone_sword"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 3L
 					id: "2E04CD5862A96A76"
 					item: { count: 1, id: "aether:holystone" }
 					type: "item"
 				}
 				{
-					id: "3B5F10559BB7FD73"
-					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					id: "29764D8CA4D146A5"
+					item: { count: 1, id: "aether:holystone_pickaxe" }
 					type: "item"
 				}
 			]
@@ -76,7 +105,18 @@
 		{
 			dependencies: ["4012B4652B76CAE5"]
 			id: "6F32243FF9F1C3AE"
+			rewards: [{
+				count: 4
+				id: "42C13F8577D11B16"
+				item: {
+					count: 1
+					id: "aether:zanite_gemstone"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
+				count: 4L
 				id: "2C9697CD80CD5520"
 				item: { count: 1, id: "aether:zanite_gemstone" }
 				type: "item"
@@ -99,6 +139,7 @@
 			dependencies: ["561C400480651E14"]
 			id: "0169D551BCC3ADF1"
 			tasks: [{
+				count: 2L
 				id: "5810EB8E1BF7D2FD"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
@@ -109,7 +150,18 @@
 		{
 			dependencies: ["54111B32257EB884"]
 			id: "6B951C5F9EAB1007"
+			rewards: [{
+				count: 2
+				id: "1B8F93194FE8EF63"
+				item: {
+					count: 1
+					id: "aether:ambrosium_shard"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "386AD545C8795D7C"
 				item: { count: 1, id: "aether:ambrosium_shard" }
 				type: "item"
@@ -133,16 +185,19 @@
 			id: "1EE76D68C78EDFAF"
 			tasks: [
 				{
+					count: 4L
 					id: "7822CB6D16B15A10"
 					item: { count: 1, id: "naturesaura:gold_fiber" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "134E14B577683E99"
 					item: { count: 1, id: "naturesaura:gold_leaf" }
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "44FEF8B672BDCE9B"
 					item: { count: 1, id: "naturesaura:gold_powder" }
 					type: "item"
@@ -187,6 +242,14 @@
 		{
 			dependencies: ["6F32243FF9F1C3AE"]
 			id: "2FB9C7C032765AA0"
+			rewards: [{
+				id: "05C06F23A507240C"
+				item: {
+					count: 1
+					id: "aether:zanite_shovel"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E7539C62B8D8CDB"
@@ -237,11 +300,19 @@
 				"569BDADD1B8C1E41"
 			]
 			id: "3EE93DF41FD527C1"
-			tasks: [{
-				id: "1CA6793DCBD601D3"
-				item: { count: 1, id: "naturesaura:token_joy" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70C6FC2AE99DC8BD"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6637A4356CB056BB"
+					item: { count: 1, id: "naturesaura:token_joy" }
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 0.0d
 		}
@@ -327,11 +398,13 @@
 			id: "29B6D9DA29666776"
 			tasks: [
 				{
+					count: 2L
 					id: "258BC5DBBC2D1349"
 					item: { count: 1, id: "minecraft:rotten_flesh" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "4B50D05656FADAEE"
 					item: { count: 1, id: "minecraft:sugar" }
 					type: "item"
@@ -359,11 +432,13 @@
 			id: "1FA6020294282F7C"
 			tasks: [
 				{
+					count: 3L
 					id: "07FADA2CB35AA365"
 					item: { count: 1, id: "justdirethings:raw_ferricore" }
 					type: "item"
 				}
 				{
+					count: 3L
 					id: "57340A18CE4753A1"
 					item: { count: 1, id: "justdirethings:ferricore_ingot" }
 					type: "item"
@@ -460,6 +535,7 @@
 			dependencies: ["6B951C5F9EAB1007"]
 			id: "6D40498F244F4418"
 			tasks: [{
+				count: 4L
 				id: "7CF0556ED9D23AF6"
 				item: { count: 1, id: "aether:ambrosium_torch" }
 				type: "item"
@@ -515,11 +591,13 @@
 			id: "593C983C6B77DC89"
 			tasks: [
 				{
+					count: 3L
 					id: "53DBA9EEC0163061"
 					item: { count: 1, id: "justdirethings:raw_blazegold" }
 					type: "item"
 				}
 				{
+					count: 3L
 					id: "15E3C548790F762F"
 					item: { count: 1, id: "justdirethings:blazegold_ingot" }
 					type: "item"
@@ -543,6 +621,7 @@
 			dependencies: ["31452D41F9118669"]
 			id: "4D578DF10707FFB9"
 			tasks: [{
+				count: 4L
 				id: "1E0447360E6495FC"
 				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
@@ -553,24 +632,38 @@
 		{
 			dependencies: ["593C983C6B77DC89"]
 			id: "63CEB9FDBBDC493F"
-			rewards: [{
-				id: "271878F3A72B89F2"
-				item: {
-					components: {
-						"patchouli:book": "productivemetalworks:guide"
+			rewards: [
+				{
+					id: "271878F3A72B89F2"
+					item: {
+						components: {
+							"patchouli:book": "productivemetalworks:guide"
+						}
+						count: 1
+						id: "patchouli:guide_book"
 					}
-					count: 1
-					id: "patchouli:guide_book"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "56FE4877B0654AB9"
+					item: {
+						count: 1
+						id: "productivemetalworks:fire_brick"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 4L
 					id: "58AEDE0F4158CBA8"
 					item: { count: 1, id: "productivemetalworks:fire_clay" }
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "39B6AF69DBFD11BA"
 					item: { count: 1, id: "productivemetalworks:fire_brick" }
 					type: "item"
@@ -604,6 +697,7 @@
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "3CC53731DA463F58"
 					item: { count: 1, id: "productivemetalworks:black_fire_bricks" }
 					type: "item"
@@ -642,6 +736,7 @@
 			]
 			id: "3EAE0C35C2229CC4"
 			tasks: [{
+				count: 2L
 				id: "67B93803990EB0E4"
 				item: { count: 1, id: "technologyvalley:fire_iron" }
 				type: "item"
@@ -670,6 +765,63 @@
 			}]
 			x: 15.0d
 			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3E298DDC279EB7A1"]
+			id: "102C9B5C1CBF82F0"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "079E4B85C1219AF4"
+				item: {
+					count: 1
+					id: "aether:aether_dirt"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1A39CC33782E8A76"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B68126F5ED56C3"]
+			id: "0B1A42B8DAD0ECFA"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "286A351E16E7BA30"
+				type: "dimension"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B951C5F9EAB1007"]
+			id: "2FD135CC10B1D7BF"
+			tasks: [{
+				id: "74BEB53133120AC1"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FD135CC10B1D7BF"]
+			id: "6F28BCD8024D992E"
+			tasks: [{
+				id: "0831A58C3AA8C35C"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
 		}
 	]
 }

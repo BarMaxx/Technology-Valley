@@ -13,7 +13,20 @@
 		{
 			dependencies: ["009D5670DDAC0477"]
 			id: "22BB23B165B1772F"
+			rewards: [{
+				count: 2
+				id: "57E181858BF58FB1"
+				item: {
+					count: 1
+					id: "modern_industrialization:battery_alloy_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
+				count: 2L
 				id: "07D1855D7774EA3E"
 				item: { count: 1, id: "modern_industrialization:battery_alloy_ingot" }
 				type: "item"
@@ -46,7 +59,16 @@
 		{
 			dependencies: ["0247EEEA6F5872BD"]
 			id: "11B11810D5CF813B"
+			rewards: [{
+				id: "5D63694C31EED4C0"
+				item: {
+					count: 1
+					id: "evilcraft:dark_power_gem"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "412C70AD210BEB09"
 				item: { count: 1, id: "evilcraft:dark_power_gem" }
 				type: "item"
@@ -82,7 +104,18 @@
 				"62EEB77A19A1EBA8"
 			]
 			id: "4EA9646336247470"
+			rewards: [{
+				count: 2
+				id: "6E2C0B9F3C03E375"
+				item: {
+					count: 1
+					id: "evilcraft:reinforced_undead_planks"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
+				count: 4L
 				id: "1D9897FF057FBEF6"
 				item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
 				type: "item"
@@ -124,14 +157,14 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["252257628E67F7A6"]
+			dependencies: ["6BB8A02C8788E9FA"]
 			id: "3580C86E248C5059"
 			tasks: [{
 				id: "48FA6145B5A69367"
 				item: { count: 1, id: "twilightforest:ironwood_ingot" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -146,14 +179,14 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3580C86E248C5059"]
+			dependencies: ["18BC747CE37F17C0"]
 			id: "65B3CF1E9AA0F71F"
 			tasks: [{
-				id: "7AC5F65D7CE28B3D"
-				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				id: "34A32D760F1C7D9D"
+				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: -1.0d
 		}
 		{
@@ -164,7 +197,7 @@
 				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 14.5d
 			y: -1.0d
 		}
 		{
@@ -175,7 +208,7 @@
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -186,7 +219,7 @@
 				item: { count: 1, id: "ae2:inscriber" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -204,7 +237,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 15.0d
 			y: 1.0d
 		}
 		{
@@ -215,7 +248,7 @@
 				item: { count: 1, id: "ae2:engineering_processor" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 14.5d
 			y: 2.0d
 		}
 		{
@@ -226,7 +259,7 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 13.0d
 			y: 1.0d
 		}
 		{
@@ -237,7 +270,7 @@
 				item: { count: 1, id: "modern_industrialization:motor" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -248,7 +281,7 @@
 				item: { count: 1, id: "modern_industrialization:assembler" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 18.5d
 			y: 0.0d
 		}
 		{
@@ -259,7 +292,7 @@
 				item: { count: 1, id: "modern_industrialization:piston" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 17.0d
 			y: 1.0d
 		}
 		{
@@ -270,7 +303,7 @@
 				item: { count: 1, id: "modern_industrialization:robot_arm" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 18.0d
 			y: 1.0d
 		}
 		{
@@ -336,7 +369,7 @@
 				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: 2.0d
 		}
 		{
@@ -394,7 +427,7 @@
 				item: { count: 1, id: "ae2:cell_component_1k" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: 3.5d
 		}
 		{
@@ -405,7 +438,7 @@
 				item: { count: 1, id: "ae2:item_storage_cell_1k" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 14.5d
 			y: 4.0d
 		}
 		{
@@ -416,7 +449,7 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: 4.5d
 		}
 		{
@@ -427,7 +460,7 @@
 				item: { count: 1, id: "ae2:item_storage_cell_4k" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
@@ -438,7 +471,7 @@
 				item: { count: 1, id: "actuallyadditions:single_battery" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 19.0d
 			y: -1.0d
 		}
 		{
@@ -449,7 +482,7 @@
 				item: { count: 1, id: "actuallyadditions:double_battery" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 20.0d
 			y: -1.0d
 		}
 		{
@@ -460,18 +493,31 @@
 				item: { count: 1, id: "actuallyadditions:empowerer" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["28C95A045FB96A1F"]
 			id: "795DB5AF62021D16"
+			rewards: [{
+				count: 2
+				id: "4510BD518D928BC0"
+				item: {
+					count: 1
+					id: "actuallyadditions:empowered_enori_crystal"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
 			tasks: [{
+				count: 2L
 				id: "1975C440EA2E8579"
 				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
@@ -482,18 +528,29 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["23F681DA3D0F9435"]
 			id: "17AB5B5B19E4CB98"
+			rewards: [{
+				count: 2
+				id: "1EE72BB72BD768A7"
+				item: {
+					count: 1
+					id: "justdirethings:celestigem"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "5593303DE2943DF5"
 				item: { count: 1, id: "justdirethings:celestigem" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 14.0d
 			y: -2.5d
 		}
 		{
@@ -504,7 +561,7 @@
 				item: { count: 1, id: "mysticalagriculture:infusion_altar" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 15.0d
 			y: -3.0d
 		}
 		{
@@ -515,8 +572,31 @@
 				item: { count: 1, id: "fargostalismans:talisman_base_normal" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 13.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["252257628E67F7A6"]
+			id: "6BB8A02C8788E9FA"
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "5FFB6968BFE051A7"
+				type: "dimension"
+			}]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3580C86E248C5059"]
+			id: "18BC747CE37F17C0"
+			tasks: [{
+				id: "6C07E517E3534D68"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
 		}
 	]
 }
