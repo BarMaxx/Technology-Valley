@@ -12,6 +12,7 @@
 	quests: [
 		{
 			dependencies: ["5B8DACF977CA8C4D"]
+			hide_until_deps_complete: true
 			id: "5885AA3A7A37FDA2"
 			shape: "octagon"
 			size: 2.0d

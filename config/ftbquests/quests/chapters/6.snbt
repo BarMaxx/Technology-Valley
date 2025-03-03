@@ -7,11 +7,30 @@
 		id: "aether:aether_portal_frame"
 	}
 	id: "3A13FB6F680ED6A5"
+	images: [
+		{
+			height: 1.5d
+			image: "aether:block/construction/enchanted_gravitite"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "technologyvalley:item/zanite_catalyst"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.5d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3E298DDC279EB7A1"]
+			hide_until_deps_complete: true
 			id: "25D7265AD1BDED43"
 			rewards: [{
 				id: "00CE1B2A75116717"
@@ -769,6 +788,7 @@
 		{
 			can_repeat: true
 			dependencies: ["3E298DDC279EB7A1"]
+			hide_until_deps_complete: true
 			id: "102C9B5C1CBF82F0"
 			optional: true
 			rewards: [{

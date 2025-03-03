@@ -7,11 +7,70 @@
 		id: "modern_industrialization:forge_hammer"
 	}
 	id: "7DB260EA2AD64E76"
+	images: [
+		{
+			height: 2.0d
+			image: "undergarden:item/catalyst"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "jitl:item/flame_coin"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "naturesaura:item/sky_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "naturesaura:item/infused_iron"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "extendedcrafting:item/black_iron_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "integrateddynamics:item/variable"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.5d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "modern_industrialization:item/coke"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: 0.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["57B68126F5ED56C3"]
+			hide_until_deps_complete: true
 			id: "68D11B20DFD8A936"
 			shape: "octagon"
 			size: 1.2d
@@ -512,17 +571,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["040DDAE71349D5B7"]
-			id: "0483149CB54E4F17"
-			tasks: [{
-				id: "7CF10A0800B2EB12"
-				item: { count: 1, id: "mahoutsukai:powdered_iron" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: -6.0d
-		}
-		{
 			dependencies: [
 				"074A52EFA5554D1F"
 				"76D4E61E129502CE"
@@ -564,6 +612,14 @@
 		{
 			dependencies: ["7EC67B2635DDEBBE"]
 			id: "3FD1B58EAAAADF97"
+			rewards: [{
+				id: "19403F14DEB0F4EE"
+				item: {
+					count: 1
+					id: "etheria:magemicon"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "15622EDFB6A6F355"
 				item: { count: 1, id: "etheria:ether_altar" }

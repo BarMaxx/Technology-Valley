@@ -7,11 +7,78 @@
 		id: "modern_industrialization:motor"
 	}
 	id: "38A6600A35FF3371"
+	images: [
+		{
+			height: 2.0d
+			image: "twilightforest:item/ironwood_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:item/source_gem"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "justdirethings:item/celestigem"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "modern_industrialization:item/motor"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "evilcraft:item/dark_power_gem"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "modern_industrialization:item/redstone_battery"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "evilcraft:item/bowl_of_promises_dusted"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "modern_industrialization:item/cupronickel_wire_magnetic"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 3.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["009D5670DDAC0477"]
+			hide_until_deps_complete: true
 			id: "22BB23B165B1772F"
 			rewards: [{
 				count: 2
@@ -438,8 +505,8 @@
 				item: { count: 1, id: "ae2:item_storage_cell_1k" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 4.0d
+			x: 13.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["622E4B1F2AE262BE"]
@@ -449,8 +516,8 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.5d
+			x: 14.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0FAFE785C1CA0FA8"]
@@ -460,8 +527,8 @@
 				item: { count: 1, id: "ae2:item_storage_cell_4k" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.0d
+			x: 14.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2E0449690C20A424"]
@@ -556,11 +623,19 @@
 		{
 			dependencies: ["17AB5B5B19E4CB98"]
 			id: "3621EED371F371F4"
-			tasks: [{
-				id: "051410255EDA36AC"
-				item: { count: 1, id: "mysticalagriculture:infusion_altar" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "051410255EDA36AC"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "361892EF8543DF28"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: -3.0d
 		}
@@ -597,6 +672,182 @@
 			}]
 			x: 13.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0FAFE785C1CA0FA8"]
+			id: "59B734B5FF798145"
+			tasks: [{
+				id: "26ACB47EC2EEF446"
+				item: { count: 1, id: "ae2:cell_component_16k" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["59B734B5FF798145"]
+			id: "6E30041116482EE1"
+			tasks: [{
+				id: "2E4D52E81F84F783"
+				item: { count: 1, id: "ae2:cell_component_64k" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["59B734B5FF798145"]
+			id: "1085FE7343DC2C4C"
+			tasks: [{
+				id: "1385A062DB9F336F"
+				item: { count: 1, id: "ae2:item_storage_cell_16k" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E30041116482EE1"]
+			id: "3DB8947192D39760"
+			tasks: [{
+				id: "229B4B7B3A6C0F81"
+				item: { count: 1, id: "ae2:item_storage_cell_64k" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6E30041116482EE1"]
+			id: "46E3C85030FC22A5"
+			tasks: [{
+				id: "5BEC6125209DB716"
+				item: { count: 1, id: "ae2:cell_component_256k" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46E3C85030FC22A5"]
+			id: "76CBF2A3FDB1272A"
+			tasks: [{
+				id: "5301F2D3566427F4"
+				item: { count: 1, id: "ae2:item_storage_cell_256k" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46E3C85030FC22A5"]
+			id: "09B152C87CD78068"
+			tasks: [{
+				id: "143074FD6406A262"
+				item: { count: 1, id: "megacells:cell_component_1m" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["09B152C87CD78068"]
+			id: "3A3D0834FD498083"
+			tasks: [{
+				id: "2B794A9677461FD9"
+				item: { count: 1, id: "megacells:item_storage_cell_1m" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["09B152C87CD78068"]
+			id: "26C16D7D4E8AA203"
+			tasks: [{
+				id: "70A166F75BAD02B2"
+				item: { count: 1, id: "megacells:cell_component_4m" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26C16D7D4E8AA203"]
+			id: "364A29A789F8517D"
+			tasks: [{
+				id: "67EEDFF3F95F7E3F"
+				item: { count: 1, id: "megacells:item_storage_cell_4m" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26C16D7D4E8AA203"]
+			id: "2C7537513ACB8AD8"
+			tasks: [{
+				id: "0C28D0A7440BF47F"
+				item: { count: 1, id: "megacells:cell_component_16m" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2C7537513ACB8AD8"]
+			id: "7F02B99E639A146B"
+			tasks: [{
+				id: "701C5EA60495E73E"
+				item: { count: 1, id: "megacells:item_storage_cell_16m" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2C7537513ACB8AD8"]
+			id: "73E3FF4E11968B9C"
+			tasks: [{
+				id: "669027CDABDE2018"
+				item: { count: 1, id: "megacells:cell_component_64m" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73E3FF4E11968B9C"]
+			id: "090975B197A34808"
+			tasks: [{
+				id: "43E849F23F1AD909"
+				item: { count: 1, id: "megacells:item_storage_cell_64m" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["73E3FF4E11968B9C"]
+			id: "72729710FFACBB16"
+			tasks: [{
+				id: "616AC880EAB1E044"
+				item: { count: 1, id: "megacells:cell_component_256m" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72729710FFACBB16"]
+			id: "4DFC0D3A362E4041"
+			tasks: [{
+				id: "751442E12C4C4DB8"
+				item: { count: 1, id: "megacells:item_storage_cell_256m" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
 		}
 	]
 }

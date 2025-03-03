@@ -8,6 +8,14 @@
 	quest_links: [ ]
 	quests: [{
 		id: "3E298DDC279EB7A1"
+		rewards: [{
+			id: "7DD0FFD9AFDCC0D7"
+			item: {
+				count: 1
+				id: "akashictome:tome"
+			}
+			type: "item"
+		}]
 		tasks: [{
 			id: "18B2CD36731EBA56"
 			type: "checkmark"

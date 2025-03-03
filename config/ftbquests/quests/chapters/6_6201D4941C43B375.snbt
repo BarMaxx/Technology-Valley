@@ -7,11 +7,86 @@
 		id: "pneumaticcraft:pressure_gauge"
 	}
 	id: "6201D4941C43B375"
+	images: [
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:item/mundabitur_dust"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:item/deorum_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:item/obsidiansteel_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "pneumaticcraft:item/plastic"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:item/quadruple_battery"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "pneumaticcraft:block/reinforced_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "pneumaticcraft:item/unassembled_pcb"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:item/ferrognetic_mixture"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "industrialforegoing:item/plastic"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.5d
+			y: -2.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["795DB5AF62021D16"]
+			hide_until_deps_complete: true
 			id: "5EC694A169D47F26"
 			rewards: [{
 				count: 2
@@ -50,6 +125,7 @@
 			dependencies: ["77A49AE973719DFC"]
 			id: "6BDA66D02BDF3CE8"
 			tasks: [{
+				count: 4L
 				id: "57AC4FEE1E31B6A0"
 				item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
 				type: "item"
@@ -61,6 +137,7 @@
 			dependencies: ["6BDA66D02BDF3CE8"]
 			id: "34A09B03A5560F2F"
 			tasks: [{
+				count: 16L
 				id: "07F2CADDAF03CAF0"
 				item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
 				type: "item"
@@ -163,6 +240,16 @@
 		{
 			dependencies: ["5FC080943AC2335D"]
 			id: "327256F164805239"
+			rewards: [{
+				count: 2
+				id: "024729BF4164DFDA"
+				item: {
+					count: 1
+					id: "forbidden_arcanus:deorum_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "50B8985F552EFA95"
@@ -175,6 +262,16 @@
 		{
 			dependencies: ["5FC080943AC2335D"]
 			id: "5BBC6CC9D93B3754"
+			rewards: [{
+				count: 2
+				id: "694DCA725BEE9870"
+				item: {
+					count: 1
+					id: "forbidden_arcanus:obsidiansteel_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "05824CA6B69CA874"
@@ -203,6 +300,7 @@
 			]
 			id: "31080B02CA45DA1B"
 			tasks: [{
+				count: 6L
 				id: "576FE8AED63599D9"
 				item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone_slab" }
 				type: "item"
@@ -258,14 +356,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["59327438F213430A"]
+			dependencies: ["524FEAF42FE49D10"]
 			id: "3BAEB02759FFD04C"
 			tasks: [{
 				id: "52AB83D31C4BA6B9"
 				item: { count: 1, id: "pneumaticcraft:small_tank" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.5d
 			y: 0.0d
 		}
 		{
@@ -288,7 +386,7 @@
 				item: { count: 1, id: "pneumaticcraft:refinery" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.0d
 			y: 1.0d
 		}
 		{
@@ -299,7 +397,7 @@
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.0d
 			y: -1.0d
 		}
 		{
@@ -308,12 +406,23 @@
 				"16DD5771F3D554C5"
 			]
 			id: "5C405F2861666CEB"
+			rewards: [{
+				count: 2
+				id: "3B335212EAC73FB0"
+				item: {
+					count: 1
+					id: "pneumaticcraft:plastic"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "0527102D3340211D"
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -324,7 +433,7 @@
 				item: { count: 1, id: "pneumaticcraft:etching_tank" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -335,29 +444,31 @@
 				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5C405F2861666CEB"]
 			id: "5283B9F6710F724D"
 			tasks: [{
+				count: 2L
 				id: "39F37E0CBE2138D3"
 				item: { count: 1, id: "pneumaticcraft:capacitor" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 18.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5C405F2861666CEB"]
 			id: "7A703914294EC907"
 			tasks: [{
+				count: 2L
 				id: "5A7F8B9D9B985A7C"
 				item: { count: 1, id: "pneumaticcraft:transistor" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 18.0d
 			y: 1.0d
 		}
 		{
@@ -373,7 +484,7 @@
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.5d
 			y: 0.0d
 		}
 		{
@@ -406,7 +517,7 @@
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.5d
 			y: -2.5d
 		}
 		{
@@ -417,7 +528,7 @@
 				item: { count: 1, id: "hostilenetworks:sim_chamber" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.5d
 			y: 2.5d
 		}
 		{
@@ -428,7 +539,7 @@
 				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.5d
 			y: 2.5d
 		}
 		{
@@ -472,7 +583,7 @@
 				item: { count: 1, id: "bigreactors:basic_reactorcasing" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.5d
 			y: -2.5d
 		}
 		{
@@ -483,8 +594,252 @@
 				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 18.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["7E9853496501A09C"]
+			id: "3FADD0C7FD01927E"
+			tasks: [{
+				id: "75F3837F85DEA88B"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E9853496501A09C"]
+			id: "2B2CB7746CFE3B77"
+			tasks: [{
+				id: "5836B0265A199C15"
+				item: { count: 1, id: "industrialforegoing:wither_builder" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F73966814A4A6F9"]
+			id: "7A127959DCF06845"
+			tasks: [{
+				id: "3DD236B47FBED58B"
+				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F73966814A4A6F9"]
+			id: "418E2D05057A3EED"
+			tasks: [{
+				id: "3825B78CF09CF685"
+				item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F73966814A4A6F9"]
+			id: "00059982FDF9A6AA"
+			tasks: [{
+				id: "621E73798258F6B1"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3BCE8CD81F759B38"]
+			id: "4D48690AB993CDB6"
+			tasks: [{
+				id: "3EA3A53FBB33A714"
+				item: { count: 1, id: "industrialforegoing:mob_detector" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BCE8CD81F759B38"]
+			id: "46CB4E1BE90277D1"
+			tasks: [{
+				id: "553A738DA565C12B"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3F73966814A4A6F9"]
+			id: "007CCF3434DBE45B"
+			tasks: [{
+				id: "4E403420A8CF6539"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BCE8CD81F759B38"]
+			id: "0CAF82708FBD5179"
+			tasks: [{
+				id: "0E4A2A020C92924A"
+				item: { count: 1, id: "industrialforegoing:plant_fertilizer" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F438ECEA193B552"]
+			id: "682D4E68E7C9F760"
+			tasks: [{
+				id: "4BD04E1AEC3F3A5B"
+				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F438ECEA193B552"]
+			id: "6AA741EEC0647045"
+			tasks: [{
+				id: "51AA918DFE46A15F"
+				item: { count: 1, id: "industrialforegoing:animal_rancher" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E9853496501A09C"]
+			id: "7196B5272E6E2678"
+			tasks: [
+				{
+					id: "777A1EFC758A24B7"
+					item: { count: 1, id: "industrialforegoing:mycelial_netherstar" }
+					type: "item"
+				}
+				{
+					id: "63A20AC815818A34"
+					item: { count: 1, id: "industrialforegoing:mycelial_meatallurgic" }
+					type: "item"
+				}
+				{
+					id: "1BCE446C8496834F"
+					item: { count: 1, id: "industrialforegoing:mycelial_halitosis" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BCE8CD81F759B38"]
+			id: "72AA92F3EC016E77"
+			tasks: [{
+				id: "16EB634844B824DF"
+				item: { count: 1, id: "industrialforegoing:marine_fisher" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F438ECEA193B552"]
+			id: "7E27C95F20B02860"
+			tasks: [{
+				id: "230A892177F2BFD4"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F438ECEA193B552"]
+			id: "12C1F19AD692D991"
+			tasks: [{
+				id: "3BE5EE5B3150DBE4"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["327256F164805239"]
+			id: "3D5952218270151A"
+			tasks: [{
+				id: "42B1492F2A82DF5D"
+				item: { count: 1, id: "forbidden_arcanus:spectral_eye_amulet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59327438F213430A"]
+			id: "524FEAF42FE49D10"
+			rewards: [{
+				count: 2
+				id: "50A3DAAA2F70DFFB"
+				item: {
+					count: 1
+					id: "forbidden_arcanus:ferrognetic_mixture"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3CB2BD0FBF7D3B59"
+				item: { count: 1, id: "forbidden_arcanus:ferrognetic_mixture" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BBC6CC9D93B3754"]
+			id: "0F78EDA02E794D8D"
+			tasks: [{
+				id: "46B7D0E8FFBBC243"
+				item: { count: 1, id: "forbidden_arcanus:dark_nether_star" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F6FB8D8D9A81FBE"]
+			id: "263EF4E8E943B339"
+			tasks: [{
+				count: 2L
+				id: "552C11280E07D669"
+				item: { count: 1, id: "industrialforegoing:dryrubber" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["263EF4E8E943B339"]
+			id: "5D38771C81500946"
+			tasks: [{
+				count: 2L
+				id: "6C63D4E4FF28ABBA"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
 		}
 	]
 }

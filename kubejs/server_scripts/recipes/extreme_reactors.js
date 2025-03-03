@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 		'CBC'
 	  ], 
 	  {
-		A: 'pneumaticcraft:transistor',
+		A: 'pneumaticcraft:capacitor',
 		B: '#c:ingots/graphite',
 		C: 'modern_industrialization:battery_alloy_double_ingot'
 	  }

@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 		A: 'mekanism:ultimate_control_circuit',
 		B: 'powah:dielectric_rod',
 		C: 'powah:dielectric_rod_horizontal',
-		D: 'powah:dielectric_rod'
+		D: 'minecraft:iron_ingot'
 	  }
 	)
 	

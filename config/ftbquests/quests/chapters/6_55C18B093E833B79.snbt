@@ -7,11 +7,46 @@
 		id: "mekanism:metallurgic_infuser"
 	}
 	id: "55C18B093E833B79"
+	images: [
+		{
+			height: 2.0d
+			image: "mekanism:item/alloy_reinforced"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "mekanism:item/advanced_control_circuit"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "mekanism:item/teleportation_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "justdirethings:item/time_crystal_shard"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: 0.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["63137CD414342B37"]
+			hide_until_deps_complete: true
 			id: "37F7F27FEC42CAEC"
 			shape: "octagon"
 			size: 1.2d
@@ -26,7 +61,18 @@
 		{
 			dependencies: ["37F7F27FEC42CAEC"]
 			id: "283D5C9FDAE88D64"
+			rewards: [{
+				count: 2
+				id: "0EABE4D0A3AB6A11"
+				item: {
+					count: 1
+					id: "mekanism:alloy_infused"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "3B02BFC64EC555DB"
 				item: { count: 1, id: "mekanism:alloy_infused" }
 				type: "item"
@@ -37,7 +83,18 @@
 		{
 			dependencies: ["37F7F27FEC42CAEC"]
 			id: "28D088C6352D6999"
+			rewards: [{
+				count: 2
+				id: "23A8D544772B58C8"
+				item: {
+					count: 1
+					id: "mekanism:basic_control_circuit"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "257A308F0A33F683"
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
 				type: "item"
@@ -48,7 +105,18 @@
 		{
 			dependencies: ["283D5C9FDAE88D64"]
 			id: "635FFDB896B82A7D"
+			rewards: [{
+				count: 2
+				id: "05A3ED3A4825C053"
+				item: {
+					count: 1
+					id: "mekanism:alloy_reinforced"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "1C58C2A3984C3BF4"
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
@@ -59,7 +127,18 @@
 		{
 			dependencies: ["635FFDB896B82A7D"]
 			id: "50F978374DC3406B"
+			rewards: [{
+				count: 2
+				id: "3DE3D52093704688"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "0AF3FE1552E5D4BE"
 				item: { count: 1, id: "mekanism:alloy_atomic" }
 				type: "item"
@@ -70,7 +149,18 @@
 		{
 			dependencies: ["28D088C6352D6999"]
 			id: "7C026CE766381B34"
+			rewards: [{
+				count: 2
+				id: "2D5344DC29C9160D"
+				item: {
+					count: 1
+					id: "mekanism:advanced_control_circuit"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "6C52BBC5E71F9AC6"
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
 				type: "item"
@@ -81,7 +171,18 @@
 		{
 			dependencies: ["7C026CE766381B34"]
 			id: "1E10EDB72E378AA8"
+			rewards: [{
+				count: 2
+				id: "1DF666D26E8990A0"
+				item: {
+					count: 1
+					id: "mekanism:elite_control_circuit"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "1D72B8245008DECD"
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
 				type: "item"
@@ -92,7 +193,18 @@
 		{
 			dependencies: ["1E10EDB72E378AA8"]
 			id: "7A6112DBA4302B9A"
+			rewards: [{
+				count: 2
+				id: "2DCD7BC6B6A0D316"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "28C76C0AA62E94DF"
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
 				type: "item"
@@ -214,6 +326,94 @@
 			}]
 			x: 16.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["283D5C9FDAE88D64"]
+			id: "19CFAA6752D1AC9F"
+			tasks: [{
+				id: "4D77F3E825C813D7"
+				item: { count: 1, id: "mekanism:energy_tablet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19CFAA6752D1AC9F"]
+			id: "2DA95203B5CEC6BE"
+			tasks: [{
+				id: "5915837E5B22EA15"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DA95203B5CEC6BE"]
+			id: "7E2AFA32FDF78FCD"
+			tasks: [{
+				id: "78DC2D3DF7352B76"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19CFAA6752D1AC9F"]
+			id: "6A450EFB8058BD36"
+			tasks: [{
+				id: "5ECE1B9F0280B34A"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["50F978374DC3406B"]
+			id: "7225AD04F7842AEF"
+			tasks: [{
+				id: "4466DA2DF2B59CED"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50F978374DC3406B"]
+			id: "13C7EF368EDDC9BA"
+			tasks: [{
+				id: "229923FFCB5187AE"
+				item: { count: 1, id: "mekanism:robit" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["409A6BF322C251CA"]
+			id: "29F1BA8D9D06B36D"
+			tasks: [{
+				id: "46A07785AEB2BDAD"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["409A6BF322C251CA"]
+			id: "43B989F2F6394C95"
+			tasks: [{
+				id: "25EE33E94016F9CB"
+				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
 		}
 	]
 }
