@@ -214,11 +214,30 @@
 		{
 			dependencies: ["30EE6B9CC7EE6D2E"]
 			id: "5FC080943AC2335D"
-			tasks: [{
-				id: "48531BDF851C2A61"
-				item: { count: 1, id: "forbidden_arcanus:clibano_core" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48531BDF851C2A61"
+					item: { count: 1, id: "forbidden_arcanus:clibano_core" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "79D4CE86FACEF74D"
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "13DF7813FC998A40"
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					id: "1817D85020B1305D"
+					item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 0.0d
 		}
@@ -840,6 +859,34 @@
 			}]
 			x: 14.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["5129B0043FF07FF9"]
+			id: "2BD2C4AF9410676A"
+			tasks: [
+				{
+					id: "4EB3318C46B56670"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					type: "item"
+				}
+				{
+					id: "6A9E30A6CE5D07CC"
+					item: { count: 1, id: "bigreactors:basic_reactorglass" }
+					type: "item"
+				}
+				{
+					id: "5D5E109746C699B1"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_active" }
+					type: "item"
+				}
+				{
+					id: "24F2DD02467DDB1F"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_passive" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -4.0d
 		}
 	]
 }

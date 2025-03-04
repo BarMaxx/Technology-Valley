@@ -1,0 +1,20 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "category": "misc",
+  "cooking_time": 100,
+  "enhancer": "forbidden_arcanus:artisan_relic",
+  "experience": 0.5,
+  "fire_type": "fire",
+  "ingredients": {
+    "first": {
+      "item": "enderio:energetic_alloy_ingot"
+    },
+    "second": {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "forbidden_arcanus:deorum_ingot"
+  }
+}

@@ -25,4 +25,19 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'naturesaura:bottle_two_the_rebottling'})
+	event.shaped(
+	  Item.of('2x naturesaura:bottle_two_the_rebottling'), 
+	  [
+	    ' B ',
+		'BAB',
+		' B '
+	  ], 
+	  {
+		A: 'naturesaura:bottle_two_the_rebottling',
+		B: '#minecraft:planks'
+	  }
+	)
+	
+	
 })

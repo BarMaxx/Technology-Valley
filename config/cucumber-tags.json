@@ -14,7 +14,7 @@
   "c:gems/peridot": "alltheores:peridot",
   "c:ingots/platinum": "alltheores:platinum_ingot",
   "c:ingots/brass": "alltheores:brass_ingot",
-  "c:ingots/nickel": "railcraft:nickel_ingot",
+  "c:ingots/nickel": "alltheores:nickel_ingot",
   "c:ingots/constantan": "alltheores:constantan_ingot",
   "c:ingots/electrum": "modern_industrialization:electrum_ingot",
   "c:ingots/aluminum": "alltheores:aluminum_ingot",

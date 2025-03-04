@@ -36,6 +36,20 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
+	event.shaped(
+	  Item.of('minecraft:campfire'), 
+	  [
+	    ' C ',
+		'CBC',
+		'AAA'
+	  ], 
+	  {
+		A: '#minecraft:logs',
+		B: 'modern_industrialization:coke',
+		C: '#c:rods/wooden'
+	  }
+	)
+	
 	
 	event.remove({output: 'minecraft:furnace'})
 	event.shaped(
