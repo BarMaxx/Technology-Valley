@@ -66,4 +66,31 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.shaped(
+	  Item.of('minecraft:bucket'), 
+	  [
+	    '   ',
+		'A A',
+		' A '
+	  ], 
+	  {
+		A: 'justdirethings:ferricore_ingot'
+	  }
+	)
+	
+	
+	event.shaped(
+	  Item.of('minecraft:lava_bucket'), 
+	  [
+	    ' B ',
+		'BAB',
+		' B '
+	  ], 
+	  {
+		A: 'minecraft:bucket',
+		B: 'minecraft:blaze_powder'
+	  }
+	)
+	
+	
 })

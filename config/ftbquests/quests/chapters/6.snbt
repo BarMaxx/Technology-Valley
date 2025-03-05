@@ -48,6 +48,30 @@
 			x: 15.0d
 			y: 0.0d
 		}
+		{
+			height: 2.0d
+			image: "everythingcopper:item/copper_lava_bucket"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/blaze_rod"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.5d
+			y: -3.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -235,6 +259,17 @@
 		{
 			dependencies: ["6AAA1A1E3180575C"]
 			id: "1EE76D68C78EDFAF"
+			rewards: [{
+				id: "558DA0A2AD612586"
+				item: {
+					components: {
+						"patchouli:book": "naturesaura:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -471,6 +506,17 @@
 				"4D578DF10707FFB9"
 			]
 			id: "43F6D3A9625891C6"
+			rewards: [{
+				id: "71B2C6E7990B5472"
+				item: {
+					components: {
+						"patchouli:book": "justdirethings:justdirethingsbook"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "671B23CDE7F3C01F"
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
@@ -769,6 +815,14 @@
 		{
 			dependencies: ["63CEB9FDBBDC493F"]
 			id: "0C2DE83F1234252A"
+			rewards: [{
+				id: "3A6577B31B7178B8"
+				item: {
+					count: 1
+					id: "productivemetalworks:ingot_cast"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "56DDAE40AD6441EE"
@@ -882,7 +936,62 @@
 				type: "item"
 			}]
 			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00793131EB1ACBE2"]
+			id: "5597D82FCD4D4795"
+			rewards: [{
+				count: 2
+				id: "3FEE8600A8D7D55F"
+				item: {
+					count: 1
+					id: "minecraft:blaze_rod"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "714B2C50497EE4CE"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 15.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["5597D82FCD4D4795"]
+			id: "14AB8FBEF46D6FE4"
+			rewards: [{
+				count: 4
+				id: "3E666DC0BE11E3D8"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4C657DD64B998569"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14AB8FBEF46D6FE4"]
+			id: "76802F8B35FB96C1"
+			tasks: [{
+				id: "15C1991425A78E72"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
 		}
 	]
 }
