@@ -1,0 +1,62 @@
+{
+	"size": "small",
+	"color": "#33AE53",
+	"waves": [{
+			"entities": [{
+				"entity": "minecraft:zombie",
+				"count": 3
+			}],
+			"rewards": [{
+				"type": "gateways:entity_loot",
+				"entity": "minecraft:zombie",
+				"rolls": 5
+			}],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [{
+				"entity": "minecraft:zombie",
+				"count": 4
+			}],
+			"rewards": [{
+				"type": "gateways:entity_loot",
+				"entity": "minecraft:zombie",
+				"rolls": 7
+			}],
+			"max_wave_time": 1000,
+			"setup_time": 150
+		},
+		{
+			"entities": [{
+					"entity": "minecraft:zombie",
+                    "count": 5
+				}
+			],
+			"rewards": [{
+				"type": "gateways:entity_loot",
+				"entity": "minecraft:zombie",
+				"rolls": 10
+			}],
+			"max_wave_time": 800,
+			"setup_time": 200
+		}
+	],
+    "rewards": [
+		{
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:zombie",
+            "rolls": 30
+        },
+        {
+            "type": "gateways:stack",
+            "stack": {
+                "id": "minecraft:sugar",
+                "count": 8
+            }
+        }
+	],
+    "failures": [
+
+    ]
+}

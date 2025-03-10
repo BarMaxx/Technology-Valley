@@ -1,0 +1,33 @@
+{
+  "type": "refurbished_furniture:workbench_constructing",
+  "materials": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "justdirethings:gooblock_tier1"
+      }
+    },
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "aether:ambrosium_shard"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "aether:zanite_gemstone"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "justdirethings:gooblock_tier2"
+  }
+}

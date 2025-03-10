@@ -1,0 +1,14 @@
+{
+  "type": "pneumaticcraft:explosion_crafting",
+  "input": {
+    "count": 1,
+    "item": "actuallyadditions:empowered_enori_crystal_block"
+  },
+  "loss_rate": 20,
+  "results": [
+    {
+      "count": 1,
+      "id": "pneumaticcraft:compressed_iron_block"
+    }
+  ]
+}

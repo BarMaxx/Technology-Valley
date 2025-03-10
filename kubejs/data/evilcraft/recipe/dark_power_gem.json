@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 100,
+  "ingredient": {
+    "item": "evilcraft:dark_gem"
+  },
+  "result": {
+    "id": "evilcraft:dark_power_gem"
+  }
+}
