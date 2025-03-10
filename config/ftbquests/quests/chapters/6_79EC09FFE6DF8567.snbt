@@ -7,11 +7,11 @@
 		id: "modern_industrialization:quantum_chestplate"
 	}
 	id: "79EC09FFE6DF8567"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5B8DACF977CA8C4D"]
+			dependencies: ["74B8BEE08B5F40F8"]
 			hide_until_deps_complete: true
 			id: "5885AA3A7A37FDA2"
 			shape: "octagon"
