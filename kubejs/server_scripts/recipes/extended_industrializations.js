@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
 	event.shaped(
 	  Item.of('extended_industrialization:steel_alloy_smelter'), 
 	  [
-	    'FDG',
+	    'GDG',
 		'CAC',
 		'BBB'
 	  ], 
@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
 		B: '#modern_industrialization:fluid_pipes',
 		C: '#c:plates/invar',
 		D: 'modern_industrialization:bronze_rotor',
-		F: 'jitl:crystal_flake',
 		G: 'undergarden:froststeel_ingot'
 	  }
 	)

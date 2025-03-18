@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 	  ], 
 	  {
 		A: 'integrateddynamics:crystalized_menril_chunk',
-		B: 'jitl:crystal_flake'
+		B: 'undergarden:froststeel_ingot'
 	  }
 	)
 	

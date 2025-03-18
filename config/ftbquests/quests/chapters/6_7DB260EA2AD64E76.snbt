@@ -13,16 +13,8 @@
 			image: "undergarden:item/catalyst"
 			rotation: 0.0d
 			width: 2.0d
-			x: 17.0d
-			y: -1.5d
-		}
-		{
-			height: 2.0d
-			image: "jitl:item/flame_coin"
-			rotation: 0.0d
-			width: 2.0d
-			x: 17.0d
-			y: 1.5d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			height: 2.0d
@@ -53,8 +45,8 @@
 			image: "integrateddynamics:item/variable"
 			rotation: 0.0d
 			width: 2.0d
-			x: 20.5d
-			y: 3.0d
+			x: 21.5d
+			y: 1.5d
 		}
 		{
 			height: 2.0d
@@ -494,39 +486,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2ED9621A81F55B00"]
-			id: "76BB8523957EB232"
-			tasks: [
-				{
-					id: "0A90F7BA4C9DF753"
-					item: { count: 1, id: "jitl:flame_coin" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "7A2040B51A5C56F3"
-					item: { count: 1, id: "jitl:frozen_portal_frame" }
-					type: "item"
-				}
-			]
-			x: 17.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["25396535E61C9900"]
-			id: "074A52EFA5554D1F"
-			tasks: [{
-				count: 2L
-				id: "13719FDB9236E23C"
-				item: { count: 1, id: "jitl:crystal_flake" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 1.5d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F3EBA46724E5544"]
@@ -545,8 +506,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: -1.5d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["76D4E61E129502CE"]
@@ -556,8 +517,8 @@
 				item: { count: 1, id: "occultism:sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 20.5d
-			y: -3.0d
+			x: 21.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["68A22472D77C31F8"]
@@ -567,14 +528,11 @@
 				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -4.5d
+			x: 21.0d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"074A52EFA5554D1F"
-				"76D4E61E129502CE"
-			]
+			dependencies: ["76D4E61E129502CE"]
 			id: "009D5670DDAC0477"
 			shape: "gear"
 			size: 1.2d
@@ -583,11 +541,11 @@
 				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.8d
 			y: 0.0d
 		}
 		{
-			dependencies: ["074A52EFA5554D1F"]
+			dependencies: ["76D4E61E129502CE"]
 			id: "3AE609313D58766A"
 			tasks: [{
 				count: 24L
@@ -595,8 +553,8 @@
 				item: { count: 1, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
-			x: 20.5d
-			y: 3.0d
+			x: 21.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["36466B669F760A55"]
@@ -681,20 +639,8 @@
 				id: "05EC2E3C503DE761"
 				type: "dimension"
 			}]
-			x: 18.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["76BB8523957EB232"]
-			id: "25396535E61C9900"
-			size: 1.5d
-			tasks: [{
-				dimension: "jitl:frozen"
-				id: "0355F96F1E6881B2"
-				type: "dimension"
-			}]
-			x: 18.5d
-			y: 2.0d
+			x: 19.5d
+			y: 0.0d
 		}
 	]
 }
