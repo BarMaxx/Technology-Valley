@@ -2,8 +2,8 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
-    "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "modern_industrialization"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -12,8 +12,8 @@
     "deepslate",
     "diorite",
     "granite",
-    "nether",
-    "end"
+    "netherrack",
+    "end_stone"
   ],
   "tags": [
     "c:dusts/{material}",

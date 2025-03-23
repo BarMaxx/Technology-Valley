@@ -58,15 +58,6 @@
   "entangled": {
     "entangled_block_component": true
   },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
-  },
-  "mekanismcovers": {
-    "cover_component": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -135,24 +126,23 @@
   "waystones": {
     "waystone": true
   },
-  "gravestone": {
-    "grave": true
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
   },
-  "treetap": {
-    "tap": true
+  "barbequesdelight": {
+    "grill": true
   },
-  "enderchests": {
-    "hud": true
+  "replication": {
+    "matter_tank": true
   },
   "framedblocks": {
     "framed_item_frame": true,
     "framed_block_generic": true
-  },
-  "railcraft": {
-    "signals": true,
-    "track_component": true,
-    "locomotive": true,
-    "switch_track": true
   },
   "jade_access": {
     "held_item": true,
@@ -202,9 +192,8 @@
     "canvas_beehive": true,
     "bee_attributes": true
   },
-  "xycraft": {
-    "tank_component": true,
-    "extractor_component": true
+  "modularrouters": {
+    "router": true
   },
   "ars_nouveau": {
     "mob_jar": true
@@ -212,10 +201,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
   },
   "mysticalagradditions": {
     "infused_farmland": true
@@ -231,8 +219,5 @@
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
-  },
-  "modular_machinery_reborn": {
-    "machine_component_provider": true
   }
 }

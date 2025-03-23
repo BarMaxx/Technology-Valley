@@ -13,7 +13,7 @@
 			image: "undergarden:item/catalyst"
 			rotation: 0.0d
 			width: 2.0d
-			x: 18.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -37,7 +37,7 @@
 			image: "extendedcrafting:item/black_iron_ingot"
 			rotation: 0.0d
 			width: 2.0d
-			x: 13.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -45,7 +45,7 @@
 			image: "integrateddynamics:item/variable"
 			rotation: 0.0d
 			width: 2.0d
-			x: 21.5d
+			x: 17.5d
 			y: 1.5d
 		}
 		{
@@ -53,7 +53,7 @@
 			image: "modern_industrialization:item/coke"
 			rotation: 0.0d
 			width: 2.0d
-			x: 11.0d
+			x: 7.0d
 			y: 0.0d
 		}
 	]
@@ -148,41 +148,8 @@
 				item: { count: 1, id: "naturesaura:conversion_catalyst" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6945DB30CD4FBB82"]
-			id: "6A3B36EE66769E54"
-			rewards: [{
-				count: 2
-				id: "7FE34CD55D7B0416"
-				item: {
-					count: 1
-					id: "xycraft_world:kivi"
-				}
-				random_bonus: 3
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "220786378A85BB9E"
-				item: { count: 1, id: "xycraft_world:kivi" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6A3B36EE66769E54"]
-			id: "580129BD65E39FE9"
-			tasks: [{
-				id: "29BE85A477A73FE2"
-				item: { count: 1, id: "xycraft_machines:machine_base" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25FF369920E1043D"]
@@ -193,11 +160,11 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["580129BD65E39FE9"]
+			dependencies: ["7EC67B2635DDEBBE"]
 			id: "28FE3702B2954E30"
 			tasks: [
 				{
@@ -211,7 +178,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -225,7 +192,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:plates/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -255,7 +222,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -285,7 +252,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -306,7 +273,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -324,7 +291,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -352,7 +319,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -363,7 +330,7 @@
 				item: { count: 1, id: "modern_industrialization:coke" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -374,7 +341,7 @@
 				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 7.5d
 			y: 1.0d
 		}
 		{
@@ -395,7 +362,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -417,7 +384,7 @@
 				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -437,7 +404,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -456,7 +423,7 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -467,7 +434,7 @@
 				item: { count: 1, id: "extendedcrafting:advanced_table" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -486,7 +453,7 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -506,7 +473,7 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -517,7 +484,7 @@
 				item: { count: 1, id: "occultism:sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 21.5d
+			x: 17.5d
 			y: -1.5d
 		}
 		{
@@ -528,7 +495,7 @@
 				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 21.0d
+			x: 17.0d
 			y: -3.0d
 		}
 		{
@@ -541,7 +508,7 @@
 				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
 				type: "item"
 			}]
-			x: 22.8d
+			x: 18.8d
 			y: 0.0d
 		}
 		{
@@ -553,7 +520,7 @@
 				item: { count: 1, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
-			x: 21.5d
+			x: 17.5d
 			y: 1.5d
 		}
 		{
@@ -564,7 +531,7 @@
 				item: { count: 1, id: "productivebees:centrifuge" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -583,29 +550,18 @@
 				item: { count: 1, id: "etheria:ether_altar" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["67BA76DC893824C5"]
-			id: "45BC787F65BB0763"
-			tasks: [{
-				id: "0AF9C78E9CC94397"
-				item: { count: 1, id: "forcecraft:infuser" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["580129BD65E39FE9"]
+			dependencies: ["7EC67B2635DDEBBE"]
 			id: "25FF369920E1043D"
 			tasks: [{
 				id: "2973AFDF6D1C6A76"
 				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -627,7 +583,7 @@
 				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -639,7 +595,7 @@
 				id: "05EC2E3C503DE761"
 				type: "dimension"
 			}]
-			x: 19.5d
+			x: 15.5d
 			y: 0.0d
 		}
 	]

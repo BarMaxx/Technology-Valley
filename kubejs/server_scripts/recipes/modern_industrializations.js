@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 		'BAB'
 	  ], 
 	  {
-		A: 'xycraft_machines:machine_base',
+		A: 'naturesaura:sky_ingot',
 		B: 'minecraft:iron_ingot',
 		C: 'minecraft:heavy_weighted_pressure_plate'
 	  }

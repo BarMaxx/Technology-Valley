@@ -10,12 +10,6 @@
 		#Should right-clicking a Creeper with Mundabitur Dust charge the Creeper [default: true]
 		charge_creeper = true
 
-	[items.xpetrified_orb]
-		#Experience Points the Orb grants on use [default: 91]
-		# Default: 91
-		# Range: 1 ~ 120000
-		experience_points = 91
-
 	[blocks.stella_arcanum]
 		#Should Stella Arcanum explode when mined [default: true]
 		explode = true

@@ -7,7 +7,7 @@
 	mutedBeeNestHelmet = false
 	#Bees wear santa hats.
 	alwaysChristmas = false
-	#Render entities inside amber blocks.
-	renderEntitiesInAmber = true
 	#Bees never wear santa hats.
 	neverChristmas = false
+	#Render entities inside amber blocks.
+	renderEntitiesInAmber = true

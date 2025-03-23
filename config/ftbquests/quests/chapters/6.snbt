@@ -50,14 +50,6 @@
 		}
 		{
 			height: 2.0d
-			image: "everythingcopper:item/copper_lava_bucket"
-			rotation: 0.0d
-			width: 2.0d
-			x: 15.0d
-			y: -6.0d
-		}
-		{
-			height: 2.0d
 			image: "minecraft:item/blaze_rod"
 			rotation: 0.0d
 			width: 2.0d
@@ -116,14 +108,6 @@
 		{
 			dependencies: ["25D7265AD1BDED43"]
 			id: "1A4930CF4DD1801E"
-			rewards: [{
-				id: "312312E052B74798"
-				item: {
-					count: 1
-					id: "simplehats:hatbag_common"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "223028DD401A840A"
 				item: { count: 1, id: "minecraft:crafting_table" }

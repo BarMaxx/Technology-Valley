@@ -7,14 +7,13 @@ ServerEvents.recipes(event => {
 	  [
 	    'CDC',
 		'BAB',
-		'BFB'
+		'BDB'
 	  ], 
 	  {
 		A: 'enderio:grains_of_infinity',
 		B: 'minecraft:deepslate',
 		C: 'minecraft:furnace',
-		D: 'naturesaura:sky_ingot',
-		F: 'xycraft_machines:machine_base'
+		D: 'naturesaura:sky_ingot'
 	  }
 	)
 	

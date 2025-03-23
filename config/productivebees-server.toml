@@ -67,8 +67,10 @@
 	forceEnableFarmerBeeRightClickHarvest = false
 
 [Bees]
-	#Allow for bee simulation in hives. This will stop bees from exiting the hive and instead simulate a trip to flower blocks saving on performance.
+	#Allow for bee simulation in hives using simulation upgrades. This will stop bees from exiting the hive and instead simulate a trip to flower blocks saving on performance.
 	allowBeeSimulation = true
+	#Force bee simulation in hives.
+	forceBeeSimulation = false
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	spawnUndeadBeesChance = 0.05
@@ -191,6 +193,12 @@
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	acacia_wood_nest = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	cherry_wood_nest = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	mangrove_wood_nest = 0.05
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
 	nether_bee_nest = 0.02
@@ -201,12 +209,6 @@
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
 	treeGrowNestChance = 0.02
-	# Default: 0.05
-	# Range: 0.0 ~ 1.0
-	cherry_wood_nest = 0.05
-	# Default: 0.05
-	# Range: 0.0 ~ 1.0
-	mangrove_wood_nest = 0.05
 
 ["Hive Upgrades"]
 	#Time bonus gained from time upgrade. 0.2 means 20% reduction of a bee's time inside the hive or centrifuge processing time.

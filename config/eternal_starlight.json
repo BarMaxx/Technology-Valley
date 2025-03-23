@@ -2,6 +2,8 @@
   "info": "This is the config file for Eternal Starlight",
   "enablePortalShader": true,
   "enableScreenShake": true,
+  "crystalbornCatalystEnergyPerShard": 50,
+  "laserBeamBreakBlocks": true,
   "mobsConfig": {
     "boarwarf": {
       "maxHealth": 30.0,
@@ -101,6 +103,11 @@
       "armor": 0.0,
       "canSpawn": true
     },
+    "aethersentGolem": {
+      "maxHealth": 40.0,
+      "armor": 10.0,
+      "canSpawn": true
+    },
     "luminoFish": {
       "maxHealth": 3.0,
       "armor": 0.0,
@@ -137,7 +144,7 @@
       "canSpawn": true
     },
     "freeze": {
-      "maxHealth": 32.0,
+      "maxHealth": 15.0,
       "armor": 0.0,
       "attackDamage": 5.0,
       "followRange": 32.0,

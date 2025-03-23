@@ -32,9 +32,9 @@
 	#Show/Hide armor
 	showOff = true
 	#Show/Hide armor
-	showArrows = false
+	showArrows = true
 	#Show/Hide armor
-	showInv = false
+	showInv = true
 	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
 	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
 	armView = "PERCENTAGE"
@@ -58,7 +58,7 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = false
+	Potions = true
 	#Potion HUD alpha
 	# Default: 100
 	# Range: 0 ~ 100
@@ -105,15 +105,15 @@
 	armValign = "BOTTOM"
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	armHalign = "MIDDLE"
+	armHalign = "RIGHT"
 	#Armor HUD position (X)
 	# Default: 0
 	# Range: -9999 ~ 9999
-	xArmPos = 0
+	xArmPos = 217
 	#Armor HUD position (Y)
 	# Default: 70
 	# Range: -9999 ~ 9999
-	yArmPos = 70
+	yArmPos = 73
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	potValign = "TOP"

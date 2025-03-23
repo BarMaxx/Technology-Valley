@@ -640,17 +640,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["17AB5B5B19E4CB98"]
-			id: "7FED6824E1ECA962"
-			tasks: [{
-				id: "696DFDC2E9584595"
-				item: { count: 1, id: "fargostalismans:talisman_base_normal" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["252257628E67F7A6"]
 			id: "6BB8A02C8788E9FA"
 			size: 1.5d

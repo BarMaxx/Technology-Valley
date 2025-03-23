@@ -154,6 +154,8 @@
 	# Default: 1.5
 	# Range: 0.0 ~ 100.0
 	standard_deviation = 1.5
+	#If enabled, allows the material grader to grade the individual materials inside a gear part
+	can_grade_parts = false
 
 #Settings for the salvager
 [salvager]
