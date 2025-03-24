@@ -50,9 +50,9 @@
 	#Prevents the Aether Portal from being created normally in the mod
 	"Disables Aether Portal creation" = false
 	#Prevents the player from falling back to the Overworld when they fall out of the Aether
-	"Disables falling into the Overworld" = false
+	"Disables falling into the Overworld" = true
 	#Removes eternal day so that the Aether has a normal daylight cycle even before defeating the Sun Spirit
-	"Disables eternal day" = false
+	"Disables eternal day" = true
 	#Sets the Aether's time cycle to be the same length as the Overworld's
 	"Overworld-length Aether time cycle" = false
 	#Syncs the Aether's time cycle to the Overworld's
