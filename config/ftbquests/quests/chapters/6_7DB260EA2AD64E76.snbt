@@ -66,11 +66,36 @@
 			id: "68D11B20DFD8A936"
 			shape: "octagon"
 			size: 1.2d
-			tasks: [{
-				id: "228507A99DA2DAAB"
-				item: { count: 1, id: "naturesaura:nature_altar" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "228507A99DA2DAAB"
+					item: { count: 1, id: "naturesaura:nature_altar" }
+					type: "item"
+				}
+				{
+					id: "6CEB08FBC02B68B5"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "491617848128A09E"
+					item: { count: 1, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "335E337F8C2E9395"
+					item: { count: 1, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5E91BB4FD8DCFA93"
+					item: { count: 1, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -121,11 +146,19 @@
 				"4804FC9479D49075"
 			]
 			id: "30810A7B8D7BA0C8"
-			tasks: [{
-				id: "3157CB8E307471E9"
-				item: { count: 1, id: "naturesaura:offering_table" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3157CB8E307471E9"
+					item: { count: 1, id: "naturesaura:offering_table" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "72E1AFE41A9005DC"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
@@ -268,8 +301,8 @@
 					type: "item"
 				}
 				{
-					id: "2C9D6A7B45206BF5"
-					item: { count: 1, id: "modern_industrialization:bronze_furnace" }
+					id: "252D1D1C241063A9"
+					item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
 					type: "item"
 				}
 			]
@@ -477,7 +510,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["76D4E61E129502CE"]
+			dependencies: ["051A8559099C31BD"]
 			id: "68A22472D77C31F8"
 			tasks: [{
 				id: "35EDF96C18186BF7"
@@ -485,7 +518,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68A22472D77C31F8"]
@@ -496,7 +529,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["76D4E61E129502CE"]
@@ -597,6 +630,40 @@
 			}]
 			x: 15.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["76D4E61E129502CE"]
+			id: "04D603C15CB65E24"
+			tasks: [{
+				id: "15E9A302EDCBB2B8"
+				item: { count: 1, id: "occultism:datura" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04D603C15CB65E24"]
+			id: "051A8559099C31BD"
+			tasks: [{
+				count: 4L
+				id: "43E2D0255DD3287C"
+				item: { count: 1, id: "occultism:otherstone" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["040DDAE71349D5B7"]
+			id: "74E9A0F6A97A1EA1"
+			tasks: [{
+				id: "305BE942CA54F36D"
+				item: { count: 1, id: "occultism:otherworld_goggles" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.5d
 		}
 	]
 }
