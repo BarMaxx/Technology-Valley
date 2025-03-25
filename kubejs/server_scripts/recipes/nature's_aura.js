@@ -40,4 +40,20 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'naturesaura:gold_fiber'})
+	event.shaped(
+	  Item.of('4x naturesaura:gold_fiber'), 
+	  [
+	    'CBC',
+		'BAB',
+		'CBC'
+	  ], 
+	  {
+		A: 'minecraft:short_grass',
+		B: 'aether:ambrosium_shard',
+		C: '#minecraft:leaves'
+	  }
+	)
+	
+	
 })
