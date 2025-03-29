@@ -1,3 +1,73 @@
 {
-	task.66DFF4337117B4E3.title: "Важная информация"
+	chapter.0A2F07744CD10CA4.title: "&6Hammers"
+	chapter.21FD03A9C9E87518.title: "&bIntro"
+	chapter.38A6600A35FF3371.title: "&6Century of electricity"
+	chapter.3A13FB6F680ED6A5.title: "&6Let's go into the Valley"
+	chapter.55C18B093E833B79.title: "&6High technologies"
+	chapter.6201D4941C43B375.title: "&6Games with pressure"
+	chapter.6659B30D7FB1B53D.title: "Chapter 1: Aether"
+	chapter.779E3D3B4CE0A038.title: "&6Cosmic race"
+	chapter.79EC09FFE6DF8567.title: "&6Quantum world"
+	chapter.7DB260EA2AD64E76.title: "&6The valley"
+	chapter_group.2B14A0FDF2C6FCC4.title: "&aAdditionally"
+	chapter_group.753DD1D27C9DF3FC.title: "&aProgression"
+	file.0000000000000001.title: "&b&lTechnology Valley"
+	quest.0B1A42B8DAD0ECFA.quest_desc: ["With the help of a new &6Catalyst&r, I can activate a portal assembled from photochamen blocks that will transfer me to the valley!"]
+	quest.0B1A42B8DAD0ECFA.quest_subtitle: "Transition to the valley!"
+	quest.102C9B5C1CBF82F0.quest_desc: ["If you suddenly appeared on the cloud - take this gift from above, prepared for your salvation :)"]
+	quest.25D7265AD1BDED43.quest_desc: [
+		"Did it really work?! Incredible, but how ..."
+		""
+		"According to the stories, now I am on &6Pass&r between my &6Home&r and &6Valley&r, which I need to get into. And, since I had an incredible chance to help my home, I should not waste time!"
+		""
+		"Now I need to assemble a little &6Skyroot logs&r, as well as process it in some &6Planks&r and &6Sticks&r."
+		""
+		"And yet, &a&nwho&r&r helped me? Hm..."
+	]
+	quest.25D7265AD1BDED43.quest_subtitle: "The beginning of adventure!"
+	quest.3E298DDC279EB7A1.quest_desc: [
+		"Welcome to the unusual world of Technology Valley."
+		""
+		"Here your main task is the development of technology. True, in order to switch to a new level, it is necessary to explore other worlds and magic each time."
+		""
+		"- How did you find yourself in this world?"
+		"- What is your main goal?"
+		"- Who are you?"
+		""
+		"You can get answers to these questions (and many others) as you develop."
+		""
+		"P.S. At the moment, the assembly is at the early stage of the beta version, so various problems can be observed both from the author’s side (quests, crafts, mechanics, etc.), and from mods (different lags, bugs, etc.). I want to apologize in advance for this and warn you - for all questions, write to my Telegram/Discord channels :)"
+	]
+	quest.3E298DDC279EB7A1.quest_subtitle: "But is there technology? :)"
+	quest.59327438F213430A.quest_desc: [
+		"To get &6Hephaestus Forge&r, I need to build a structure, as in the photo below, put in the center &6Smithing Table&r and click on it &6Mundabitur Dust&r."
+		""
+		"{image:technology_valley:textures/hepestus_forge.png width:100 height:100 align:center}"
+		""
+		"Magic, wow ..."
+	]
+	quest.5FC080943AC2335D.quest_desc: [
+		"Well, it's time to build &6Magic Furnace&r, again unknown to me &6Magic&r..."
+		""
+		"{image:technology_valley:textures/clibano.png width:100 height:100 align:center}"
+	]
+	quest.6BB8A02C8788E9FA.quest_desc: [
+		"To visit &6Twilight Forest&r, I need to throw &6Source Gem&r into the water (2x2), which is surrounded by flowers/mushrooms around the perimeter."
+		"{image:technology_valley:textures/twilight_forest.png width:150 height:100 align:center}"
+	]
+	task.05713E5C02F7FC6E.title: "Any #c:ingots/steel"
+	task.0BDB1212FA30A730.title: "Any #c:cobblestones"
+	task.10527632AA8F05E1.title: "Any #minecraft:planks"
+	task.12EEB29ABF30C005.title: "Any #minecraft:logs"
+	task.18B2CD36731EBA56.title: "The beginning of technology!"
+	task.19500557E0AC00B1.title: "Cox processed iron"
+	task.1A39CC33782E8A76.title: "If stuck - take it!"
+	task.218BC5CCC70EBA39.title: "A bucket of infusion water"
+	task.345C380FC7BD6FB4.title: "Any #c:stones"
+	task.5E6187F68A249945.title: "Any #c:ingots/bronze"
+	task.60D62643476CD3DE.title: "Any #c:plates/bronze"
+	task.6B89488B54DA47BA.title: "Reinforced iron"
+	task.6CEB08FBC02B68B5.title: "Any #minecraft:planks"
+	task.72E1AFE41A9005DC.title: "Any #minecraft:flowers"
+	task.7D09714745E7E6D0.title: "Any #c:rods/wooden"
 }
