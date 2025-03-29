@@ -169,9 +169,6 @@
     "overclock": true,
     "pipe": true
   },
-  "lootr": {
-    "info": true
-  },
   "occultism": {
     "foliot": true,
     "sacrificial": true
@@ -211,6 +208,9 @@
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
   },
   "mysticalagradditions": {
     "infused_farmland": true
