@@ -121,7 +121,8 @@
     "respawnHunger": -1,
     "resetSaturation": true,
     "respawnSaturation": -1.0,
-    "extraItemDrops": []
+    "extraItemDrops": [],
+    "treatBindingCurse": true
   },
   "compatConfig": {
     "enableAccessoriesCompat": true,

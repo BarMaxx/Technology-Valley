@@ -112,6 +112,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 2L
 				id: "37B0152BC43F7FD4"
 				item: { count: 1, id: "naturesaura:infused_iron" }
 				type: "item"
@@ -165,7 +166,17 @@
 		{
 			dependencies: ["30810A7B8D7BA0C8"]
 			id: "7EC67B2635DDEBBE"
+			rewards: [{
+				id: "56D2C0B9380E328A"
+				item: {
+					count: 1
+					id: "naturesaura:sky_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "400EA8D7B328480C"
 				item: { count: 1, id: "naturesaura:sky_ingot" }
 				type: "item"

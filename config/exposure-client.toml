@@ -16,6 +16,8 @@
 	photograph_in_hand_hide_crosshair = true
 	#Album will show how many photographs it contains in a tooltip.
 	album_show_photos_count = true
+	#When looking at the Camera Stand, in-world tooltip will show information about the camera on it. Default: true
+	camera_stand_tooltip = true
 
 	[ui.album]
 		#Color in hex format. AARRGGBB.
@@ -73,15 +75,17 @@
 [render]
 	#Photographs in Item Frame will be rendered as image instead of an item icon. Default: false
 	photograph_renders_in_item_frame = false
-	#Projected photographs (using Interplanar Projector) made by other players will be censored (pixelated).
+	#Projected photographs (using Interplanar Projector) made by other players will be censored (pixelated). Default: false
 	censor_projected_photographs_made_by_others = false
-	#All photographs made by other players will will be censored (pixelated).
+	#All photographs made by other players will will be censored (pixelated). Default: false
 	censor_all_photographs_made_by_others = false
 	#Distance from the player beyond which Photograph Frame would not be rendered. Default: 64
 	#Note: this number may not relate to distance in blocks exactly. It's influenced by render distance and entity distance settings.
 	# Default: 64
 	# Range: 8 ~ 128
 	photograph_frame_culling_distance = 64
+	#Makes photos in Photograph Frame render with alignment to 16 pixel grid (like paintings). Just for fun. Default: false
+	pixel_perfect_photograph_frame = false
 
 [integration]
 	#Useful information about some items will be shown in JEI description category. Default: true
@@ -101,3 +105,11 @@
 	# Default: 2
 	# Range: 1 ~ 10
 	export_size_multiplier = 2
+
+[tutorial]
+	#Toast that teaches hovering mouse over camera parts will be shown when attachments menu is first opened. Default: true.
+	#*This setting will be automatically set to false on first show.*
+	attachments_show_info_toast = true
+	#Toast that teaches wiki opening will be shown when attachments menu is first opened, after info toast. Default: true.
+	#*This setting will be automatically set to false on first show.*
+	attachments_show_wiki_toast = true
