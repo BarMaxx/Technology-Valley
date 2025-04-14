@@ -44,4 +44,18 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.shaped(
+	  Item.of('gateways:gate_pearl[gateways:gateway="gateways:third_part"]'), 
+	  [
+	    ' B ',
+		'BAB',
+		' B '
+	  ], 
+	  {
+		A: 'naturesaura:token_joy',
+		B: 'justdirethings:ferricore_ingot'
+	  }
+	)
+	
+	
 })

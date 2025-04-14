@@ -21,7 +21,7 @@
 			image: "technologyvalley:item/zanite_catalyst"
 			rotation: 0.0d
 			width: 2.0d
-			x: 19.5d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -45,7 +45,7 @@
 			image: "justdirethings:item/blazegold_ingot"
 			rotation: 0.0d
 			width: 2.0d
-			x: 15.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -53,7 +53,7 @@
 			image: "minecraft:item/blaze_rod"
 			rotation: 0.0d
 			width: 2.0d
-			x: 15.0d
+			x: 16.5d
 			y: -3.0d
 		}
 		{
@@ -669,7 +669,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["73547EB3D620E146"]
+			dependencies: ["23C1C74CAFBB500C"]
 			id: "593C983C6B77DC89"
 			tasks: [
 				{
@@ -685,7 +685,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -759,7 +759,7 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -793,7 +793,7 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
+			x: 18.5d
 			y: -1.5d
 		}
 		{
@@ -824,7 +824,7 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
+			x: 18.5d
 			y: 1.5d
 		}
 		{
@@ -839,7 +839,7 @@
 				item: { count: 1, id: "technologyvalley:fire_iron" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.5d
 			y: 0.0d
 		}
 		{
@@ -850,7 +850,7 @@
 				item: { count: 1, id: "technologyvalley:zanite_catalyst" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -861,7 +861,7 @@
 				item: { components: { "gateways:gateway": "gateways:basic/blaze" }, count: 1, id: "gateways:gate_pearl" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: -1.5d
 		}
 		{
@@ -897,7 +897,7 @@
 				id: "286A351E16E7BA30"
 				type: "dimension"
 			}]
-			x: 21.0d
+			x: 22.5d
 			y: 0.0d
 		}
 		{
@@ -941,7 +941,7 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: -3.0d
 		}
 		{
@@ -963,7 +963,7 @@
 				item: { count: 1, id: "minecraft:blaze_powder" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: -4.5d
 		}
 		{
@@ -974,8 +974,33 @@
 				item: { count: 1, id: "minecraft:lava_bucket" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["73547EB3D620E146"]
+			id: "23C1C74CAFBB500C"
+			tasks: [
+				{
+					id: "3EDC1563B07573B0"
+					item: { components: { "gateways:gateway": "gateways:third_part" }, count: 1, id: "gateways:gate_pearl" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4C09010D99011E36"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "76BA9A72C246D0CC"
+					item: { count: 1, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
 		}
 	]
 }
