@@ -9,7 +9,7 @@ baseItemPipeTransfer = 16
 #Grant guidebook the first time a player joins the server.
 spawnWithGuideBook = true
 #Grant guidebook when a player respawns after death.
-respawnWithGuideBook = true
+respawnWithGuideBook = false
 
 [recipes]
 	#Generate plant oil recipes in the centrifuge for all compostable items.
