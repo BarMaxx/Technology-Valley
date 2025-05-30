@@ -52,6 +52,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "apothic_spawners": {
     "spawner": true
   },
@@ -68,10 +78,6 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "extendedae": {
-    "jade_chamber": true,
-    "jade_wireless": true
   },
   "ae2": {
     "part_icon": true,
@@ -100,28 +106,11 @@
     "advanced_auto_table": true,
     "compressor": true
   },
-  "tesseract": {
-    "tesseract": true,
-    "remove_default": true
-  },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
   "pipez": {
     "pipe": true
   },
   "productivemetalworks": {
     "casting": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
   },
   "waystones": {
     "waystone": true
@@ -137,9 +126,6 @@
   "barbequesdelight": {
     "grill": true
   },
-  "replication": {
-    "matter_tank": true
-  },
   "framedblocks": {
     "framed_item_frame": true,
     "framed_block_generic": true
@@ -150,14 +136,6 @@
     "block": true,
     "entity": true,
     "entity_variant": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
   },
   "apotheosis": {
     "adventure": true
@@ -188,18 +166,6 @@
     "part": true,
     "squeezer": true
   },
-  "productivebees": {
-    "bee": true,
-    "solitary_nest": true,
-    "canvas_beehive": true,
-    "bee_attributes": true
-  },
-  "modularrouters": {
-    "router": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -212,10 +178,6 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
-  },
-  "twilightforest": {
-    "chiseled_bookshelf_spawner": true,
-    "quest_ram_wool": true
   },
   "supplementaries": {
     "hat_stand": true
