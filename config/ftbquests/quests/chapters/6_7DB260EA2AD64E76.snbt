@@ -57,7 +57,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -395,8 +395,11 @@
 				count: 2
 				id: "375FD15DC7584AC6"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:ingot_steel"
+					}
 					count: 1
-					id: "mekanism:ingot_steel"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 3
 				type: "item"
@@ -549,7 +552,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "52618C05502B7A6A"
-				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
+				item: { components: { "ftbquests:missing_item": "extended_industrialization:steel_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 18.8d
@@ -568,41 +571,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["36466B669F760A55"]
-			id: "48565E040F7E8E75"
-			tasks: [{
-				id: "651ACB287229DDCB"
-				item: { count: 1, id: "productivebees:centrifuge" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7EC67B2635DDEBBE"]
-			id: "3FD1B58EAAAADF97"
-			rewards: [{
-				id: "19403F14DEB0F4EE"
-				item: {
-					count: 1
-					id: "etheria:magemicon"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "15622EDFB6A6F355"
-				item: { count: 1, id: "etheria:ether_altar" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.5d
-		}
-		{
 			dependencies: ["7EC67B2635DDEBBE"]
 			id: "25FF369920E1043D"
 			tasks: [{
 				id: "2973AFDF6D1C6A76"
-				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				item: { components: { "ftbquests:missing_item": "enderio:primitive_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d

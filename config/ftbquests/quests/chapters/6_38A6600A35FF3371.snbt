@@ -73,7 +73,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -106,7 +106,7 @@
 			id: "4E9AE7F26F5F84BF"
 			tasks: [{
 				id: "5D662B5439E8915A"
-				item: { count: 1, id: "actuallyadditions:iron_casing" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:iron_casing" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -117,7 +117,7 @@
 			id: "0247EEEA6F5872BD"
 			tasks: [{
 				id: "7837770285186B36"
-				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:atomic_reconstructor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -129,15 +129,18 @@
 			rewards: [{
 				id: "5D63694C31EED4C0"
 				item: {
+					components: {
+						"ftbquests:missing_item": "evilcraft:dark_power_gem"
+					}
 					count: 1
-					id: "evilcraft:dark_power_gem"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "412C70AD210BEB09"
-				item: { count: 1, id: "evilcraft:dark_power_gem" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:dark_power_gem" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -148,7 +151,7 @@
 			id: "5C6839A2B8A3775C"
 			tasks: [{
 				id: "1C7AF03994DF9929"
-				item: { count: 1, id: "evilcraft:blood_infusion_core" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:blood_infusion_core" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -159,7 +162,7 @@
 			id: "221349774403C9B0"
 			tasks: [{
 				id: "5198300E8D5C1E31"
-				item: { count: 1, id: "evilcraft:blood_infuser" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:blood_infuser" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -175,8 +178,11 @@
 				count: 2
 				id: "6E2C0B9F3C03E375"
 				item: {
+					components: {
+						"ftbquests:missing_item": "evilcraft:reinforced_undead_planks"
+					}
 					count: 1
-					id: "evilcraft:reinforced_undead_planks"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 3
 				type: "item"
@@ -184,7 +190,7 @@
 			tasks: [{
 				count: 4L
 				id: "1D9897FF057FBEF6"
-				item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:reinforced_undead_planks" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -195,7 +201,7 @@
 			id: "2B3F46568A3E8E1E"
 			tasks: [{
 				id: "13D38CDBD8C95287"
-				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				item: { components: { "ftbquests:missing_item": "ars_nouveau:imbuement_chamber" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -206,7 +212,7 @@
 			id: "252257628E67F7A6"
 			tasks: [{
 				id: "2B5D926076C8BA44"
-				item: { count: 1, id: "ars_nouveau:source_gem" }
+				item: { components: { "ftbquests:missing_item": "ars_nouveau:source_gem" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -217,7 +223,7 @@
 			id: "429B173A3182DEDC"
 			tasks: [{
 				id: "5C6EB514085E227F"
-				item: { count: 1, id: "generatorgalore:copper_generator" }
+				item: { components: { "ftbquests:missing_item": "generatorgalore:copper_generator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -228,7 +234,7 @@
 			id: "3580C86E248C5059"
 			tasks: [{
 				id: "48FA6145B5A69367"
-				item: { count: 1, id: "twilightforest:ironwood_ingot" }
+				item: { components: { "ftbquests:missing_item": "twilightforest:ironwood_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -239,7 +245,7 @@
 			id: "3FBE0C2FE34855EB"
 			tasks: [{
 				id: "6B3DEF62885B7E23"
-				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				item: { components: { "ftbquests:missing_item": "ars_nouveau:scribes_table" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -250,7 +256,7 @@
 			id: "65B3CF1E9AA0F71F"
 			tasks: [{
 				id: "34A32D760F1C7D9D"
-				item: { count: 1, id: "enderio:alloy_smelter" }
+				item: { components: { "ftbquests:missing_item": "enderio:alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 13.5d
@@ -261,7 +267,7 @@
 			id: "02CBB30DB22AD551"
 			tasks: [{
 				id: "099D4A12454B77B0"
-				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				item: { components: { "ftbquests:missing_item": "enderio:energetic_alloy_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 14.5d
@@ -272,7 +278,7 @@
 			id: "1EF4CA6AF32ECA9A"
 			tasks: [{
 				id: "0A986C2D2E62C094"
-				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				item: { components: { "ftbquests:missing_item": "enderio:vibrant_alloy_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -444,7 +450,7 @@
 			id: "4E550B2A140E6CE2"
 			tasks: [{
 				id: "5281C18E24010630"
-				item: { count: 1, id: "evilcraft:bowl_of_promises_empty" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:bowl_of_promises_empty" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -455,7 +461,7 @@
 			id: "148E5DB90DFC54BA"
 			tasks: [{
 				id: "799D2323EA90DB7D"
-				item: { count: 1, id: "evilcraft:bowl_of_promises_dusted" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:bowl_of_promises_dusted" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -469,7 +475,7 @@
 			id: "1A596FD2CC33778D"
 			tasks: [{
 				id: "20031858A209C831"
-				item: { count: 1, id: "evilcraft:bowl_of_promises_tier0" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:bowl_of_promises_tier0" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -480,7 +486,7 @@
 			id: "62EEB77A19A1EBA8"
 			tasks: [{
 				id: "74A21C358875E260"
-				item: { count: 1, id: "evilcraft:promise_tier_1" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:promise_tier_1" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -535,7 +541,7 @@
 			id: "3D37A69CFBEE1357"
 			tasks: [{
 				id: "0D49816DCFFCCA9F"
-				item: { count: 1, id: "actuallyadditions:single_battery" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:single_battery" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 19.0d
@@ -546,7 +552,7 @@
 			id: "10D660758702D29A"
 			tasks: [{
 				id: "21DB9CF04D8374B0"
-				item: { count: 1, id: "actuallyadditions:double_battery" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:double_battery" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 20.0d
@@ -557,7 +563,7 @@
 			id: "28C95A045FB96A1F"
 			tasks: [{
 				id: "3F53C93FF5A54E33"
-				item: { count: 1, id: "actuallyadditions:empowerer" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:empowerer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 20.5d
@@ -570,8 +576,11 @@
 				count: 2
 				id: "4510BD518D928BC0"
 				item: {
+					components: {
+						"ftbquests:missing_item": "actuallyadditions:empowered_enori_crystal"
+					}
 					count: 1
-					id: "actuallyadditions:empowered_enori_crystal"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 3
 				type: "item"
@@ -581,7 +590,7 @@
 			tasks: [{
 				count: 2L
 				id: "1975C440EA2E8579"
-				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:empowered_enori_crystal" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 22.0d
@@ -656,7 +665,7 @@
 			id: "18BC747CE37F17C0"
 			tasks: [{
 				id: "6C07E517E3534D68"
-				item: { count: 1, id: "enderio:void_chassis" }
+				item: { components: { "ftbquests:missing_item": "enderio:void_chassis" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -714,7 +723,7 @@
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: 6.5d
 		}
 		{
@@ -725,117 +734,7 @@
 				item: { count: 1, id: "ae2:item_storage_cell_256k" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["46E3C85030FC22A5"]
-			id: "09B152C87CD78068"
-			tasks: [{
-				id: "143074FD6406A262"
-				item: { count: 1, id: "megacells:cell_component_1m" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["09B152C87CD78068"]
-			id: "3A3D0834FD498083"
-			tasks: [{
-				id: "2B794A9677461FD9"
-				item: { count: 1, id: "megacells:item_storage_cell_1m" }
-				type: "item"
-			}]
 			x: 16.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["09B152C87CD78068"]
-			id: "26C16D7D4E8AA203"
-			tasks: [{
-				id: "70A166F75BAD02B2"
-				item: { count: 1, id: "megacells:cell_component_4m" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["26C16D7D4E8AA203"]
-			id: "364A29A789F8517D"
-			tasks: [{
-				id: "67EEDFF3F95F7E3F"
-				item: { count: 1, id: "megacells:item_storage_cell_4m" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["26C16D7D4E8AA203"]
-			id: "2C7537513ACB8AD8"
-			tasks: [{
-				id: "0C28D0A7440BF47F"
-				item: { count: 1, id: "megacells:cell_component_16m" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["2C7537513ACB8AD8"]
-			id: "7F02B99E639A146B"
-			tasks: [{
-				id: "701C5EA60495E73E"
-				item: { count: 1, id: "megacells:item_storage_cell_16m" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["2C7537513ACB8AD8"]
-			id: "73E3FF4E11968B9C"
-			tasks: [{
-				id: "669027CDABDE2018"
-				item: { count: 1, id: "megacells:cell_component_64m" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["73E3FF4E11968B9C"]
-			id: "090975B197A34808"
-			tasks: [{
-				id: "43E849F23F1AD909"
-				item: { count: 1, id: "megacells:item_storage_cell_64m" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["73E3FF4E11968B9C"]
-			id: "72729710FFACBB16"
-			tasks: [{
-				id: "616AC880EAB1E044"
-				item: { count: 1, id: "megacells:cell_component_256m" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["72729710FFACBB16"]
-			id: "4DFC0D3A362E4041"
-			tasks: [{
-				id: "751442E12C4C4DB8"
-				item: { count: 1, id: "megacells:item_storage_cell_256m" }
-				type: "item"
-			}]
-			x: 11.5d
 			y: 6.5d
 		}
 	]

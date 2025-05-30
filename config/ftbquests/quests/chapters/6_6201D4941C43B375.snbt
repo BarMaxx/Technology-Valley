@@ -4,7 +4,10 @@
 	filename: "6_6201D4941C43B375"
 	group: "753DD1D27C9DF3FC"
 	icon: {
-		id: "pneumaticcraft:pressure_gauge"
+		components: {
+			"ftbquests:missing_item": "pneumaticcraft:pressure_gauge"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "6201D4941C43B375"
 	images: [
@@ -81,7 +84,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -92,8 +95,11 @@
 				count: 2
 				id: "6D83BA0F52F899E9"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pneumaticcraft:ingot_iron_compressed"
+					}
 					count: 1
-					id: "pneumaticcraft:ingot_iron_compressed"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 3
 				type: "item"
@@ -103,7 +109,7 @@
 			tasks: [{
 				count: 2L
 				id: "0F4BF9B1B2A67115"
-				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:ingot_iron_compressed" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -115,7 +121,7 @@
 			tasks: [{
 				count: 4L
 				id: "57EC1BD9551D0B9B"
-				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:reinforced_stone" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -127,7 +133,7 @@
 			tasks: [{
 				count: 4L
 				id: "57AC4FEE1E31B6A0"
-				item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:reinforced_bricks" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -139,7 +145,7 @@
 			tasks: [{
 				count: 16L
 				id: "07F2CADDAF03CAF0"
-				item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:pressure_chamber_wall" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -150,7 +156,7 @@
 			id: "20AF658DC04BADDB"
 			tasks: [{
 				id: "127598228BDA9375"
-				item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:pressure_chamber_interface" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -161,7 +167,7 @@
 			id: "6313F992E069DDE8"
 			tasks: [{
 				id: "266B039AE940188B"
-				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:pressure_tube" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -172,7 +178,7 @@
 			id: "63612131C548CC9F"
 			tasks: [{
 				id: "0727D0E051A1E586"
-				item: { count: 1, id: "actuallyadditions:triple_battery" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:triple_battery" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -183,7 +189,7 @@
 			id: "4AD50C5A71D0D7E7"
 			tasks: [{
 				id: "15DF1685C5B07C9F"
-				item: { count: 1, id: "pneumaticcraft:air_compressor" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:air_compressor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -194,7 +200,7 @@
 			id: "3F083A6E96C7210A"
 			tasks: [{
 				id: "0A91F65F575269D8"
-				item: { count: 1, id: "actuallyadditions:quadruple_battery" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:quadruple_battery" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -205,7 +211,7 @@
 			id: "05546722E71FBC89"
 			tasks: [{
 				id: "621A7D8884029F07"
-				item: { count: 1, id: "actuallyadditions:quintuple_battery" }
+				item: { components: { "ftbquests:missing_item": "actuallyadditions:quintuple_battery" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -379,7 +385,7 @@
 			id: "3BAEB02759FFD04C"
 			tasks: [{
 				id: "52AB83D31C4BA6B9"
-				item: { count: 1, id: "pneumaticcraft:small_tank" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:small_tank" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.5d
@@ -402,7 +408,7 @@
 			id: "16DD5771F3D554C5"
 			tasks: [{
 				id: "0E0435CBA7102371"
-				item: { count: 1, id: "pneumaticcraft:refinery" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:refinery" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -413,7 +419,7 @@
 			id: "3BE0179C0FC1C15C"
 			tasks: [{
 				id: "3423BA7AD0645E36"
-				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:thermopneumatic_processing_plant" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -429,8 +435,11 @@
 				count: 2
 				id: "3B335212EAC73FB0"
 				item: {
+					components: {
+						"ftbquests:missing_item": "pneumaticcraft:plastic"
+					}
 					count: 1
-					id: "pneumaticcraft:plastic"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -438,7 +447,7 @@
 			tasks: [{
 				count: 2L
 				id: "0527102D3340211D"
-				item: { count: 1, id: "pneumaticcraft:plastic" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:plastic" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 17.0d
@@ -449,7 +458,7 @@
 			id: "333CBBDD203075F2"
 			tasks: [{
 				id: "667C0BC532706849"
-				item: { count: 1, id: "pneumaticcraft:etching_tank" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:etching_tank" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -460,7 +469,7 @@
 			id: "2FCD1FB647086388"
 			tasks: [{
 				id: "16DE88E91447DF3F"
-				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:unassembled_pcb" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.5d
@@ -472,7 +481,7 @@
 			tasks: [{
 				count: 2L
 				id: "39F37E0CBE2138D3"
-				item: { count: 1, id: "pneumaticcraft:capacitor" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:capacitor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 18.0d
@@ -484,7 +493,7 @@
 			tasks: [{
 				count: 2L
 				id: "5A7F8B9D9B985A7C"
-				item: { count: 1, id: "pneumaticcraft:transistor" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:transistor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 18.0d
@@ -500,7 +509,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "4A6A62FAA3CF4C9D"
-				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				item: { components: { "ftbquests:missing_item": "pneumaticcraft:printed_circuit_board" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 18.5d
@@ -511,7 +520,7 @@
 			id: "2F438ECEA193B552"
 			tasks: [{
 				id: "603B5437400DEC78"
-				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:machine_frame_pity" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -522,7 +531,7 @@
 			id: "147C2E9FC419A2CA"
 			tasks: [{
 				id: "3942C2D63030D13E"
-				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:dissolution_chamber" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -533,7 +542,7 @@
 			id: "4F6FB8D8D9A81FBE"
 			tasks: [{
 				id: "11655B9BC9EA50E7"
-				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:latex_processing_unit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 17.5d
@@ -544,7 +553,7 @@
 			id: "1A3DAE94FCF054C4"
 			tasks: [{
 				id: "435C512EB1168F86"
-				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				item: { components: { "ftbquests:missing_item": "hostilenetworks:sim_chamber" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 17.5d
@@ -555,7 +564,7 @@
 			id: "6B8CDA22F2C637B5"
 			tasks: [{
 				id: "75D7DDADEE4694BB"
-				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				item: { components: { "ftbquests:missing_item": "hostilenetworks:loot_fabricator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 18.5d
@@ -566,7 +575,7 @@
 			id: "3BCE8CD81F759B38"
 			tasks: [{
 				id: "5A033833AB7132B5"
-				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:machine_frame_simple" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -577,7 +586,7 @@
 			id: "3F73966814A4A6F9"
 			tasks: [{
 				id: "6B3679C4F56D3C6D"
-				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:machine_frame_advanced" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -588,7 +597,7 @@
 			id: "7E9853496501A09C"
 			tasks: [{
 				id: "10461191E11429DF"
-				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:machine_frame_supreme" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -599,7 +608,7 @@
 			id: "5129B0043FF07FF9"
 			tasks: [{
 				id: "14862202DA1A5206"
-				item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+				item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorcasing" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 18.5d
@@ -610,7 +619,7 @@
 			id: "71E6C3672AF60291"
 			tasks: [{
 				id: "55329FDECAC132B0"
-				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+				item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorcontroller" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 18.0d
@@ -621,7 +630,7 @@
 			id: "3FADD0C7FD01927E"
 			tasks: [{
 				id: "75F3837F85DEA88B"
-				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:mycelial_reactor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -632,7 +641,7 @@
 			id: "2B2CB7746CFE3B77"
 			tasks: [{
 				id: "5836B0265A199C15"
-				item: { count: 1, id: "industrialforegoing:wither_builder" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:wither_builder" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 12.5d
@@ -643,7 +652,7 @@
 			id: "7A127959DCF06845"
 			tasks: [{
 				id: "3DD236B47FBED58B"
-				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:stasis_chamber" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -654,7 +663,7 @@
 			id: "418E2D05057A3EED"
 			tasks: [{
 				id: "3825B78CF09CF685"
-				item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoingsouls:soul_laser_base" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -665,7 +674,7 @@
 			id: "00059982FDF9A6AA"
 			tasks: [{
 				id: "621E73798258F6B1"
-				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:mob_duplicator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -676,7 +685,7 @@
 			id: "4D48690AB993CDB6"
 			tasks: [{
 				id: "3EA3A53FBB33A714"
-				item: { count: 1, id: "industrialforegoing:mob_detector" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:mob_detector" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -687,7 +696,7 @@
 			id: "46CB4E1BE90277D1"
 			tasks: [{
 				id: "553A738DA565C12B"
-				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:laser_drill" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -698,7 +707,7 @@
 			id: "007CCF3434DBE45B"
 			tasks: [{
 				id: "4E403420A8CF6539"
-				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:ore_laser_base" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -709,7 +718,7 @@
 			id: "0CAF82708FBD5179"
 			tasks: [{
 				id: "0E4A2A020C92924A"
-				item: { count: 1, id: "industrialforegoing:plant_fertilizer" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:plant_fertilizer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -720,7 +729,7 @@
 			id: "682D4E68E7C9F760"
 			tasks: [{
 				id: "4BD04E1AEC3F3A5B"
-				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:animal_baby_separator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -731,7 +740,7 @@
 			id: "6AA741EEC0647045"
 			tasks: [{
 				id: "51AA918DFE46A15F"
-				item: { count: 1, id: "industrialforegoing:animal_rancher" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:animal_rancher" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -743,17 +752,17 @@
 			tasks: [
 				{
 					id: "777A1EFC758A24B7"
-					item: { count: 1, id: "industrialforegoing:mycelial_netherstar" }
+					item: { components: { "ftbquests:missing_item": "industrialforegoing:mycelial_netherstar" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "63A20AC815818A34"
-					item: { count: 1, id: "industrialforegoing:mycelial_meatallurgic" }
+					item: { components: { "ftbquests:missing_item": "industrialforegoing:mycelial_meatallurgic" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "1BCE446C8496834F"
-					item: { count: 1, id: "industrialforegoing:mycelial_halitosis" }
+					item: { components: { "ftbquests:missing_item": "industrialforegoing:mycelial_halitosis" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -765,7 +774,7 @@
 			id: "72AA92F3EC016E77"
 			tasks: [{
 				id: "16EB634844B824DF"
-				item: { count: 1, id: "industrialforegoing:marine_fisher" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:marine_fisher" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -776,7 +785,7 @@
 			id: "7E27C95F20B02860"
 			tasks: [{
 				id: "230A892177F2BFD4"
-				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:plant_gatherer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -787,7 +796,7 @@
 			id: "12C1F19AD692D991"
 			tasks: [{
 				id: "3BE5EE5B3150DBE4"
-				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:mob_slaughter_factory" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -842,7 +851,7 @@
 			tasks: [{
 				count: 2L
 				id: "552C11280E07D669"
-				item: { count: 1, id: "industrialforegoing:dryrubber" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:dryrubber" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -854,7 +863,7 @@
 			tasks: [{
 				count: 2L
 				id: "6C63D4E4FF28ABBA"
-				item: { count: 1, id: "industrialforegoing:plastic" }
+				item: { components: { "ftbquests:missing_item": "industrialforegoing:plastic" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 14.5d
@@ -866,22 +875,22 @@
 			tasks: [
 				{
 					id: "4EB3318C46B56670"
-					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorcontrolrod" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "6A9E30A6CE5D07CC"
-					item: { count: 1, id: "bigreactors:basic_reactorglass" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorglass" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5D5E109746C699B1"
-					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_active" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorpowertapfe_active" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "24F2DD02467DDB1F"
-					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_passive" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorpowertapfe_passive" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

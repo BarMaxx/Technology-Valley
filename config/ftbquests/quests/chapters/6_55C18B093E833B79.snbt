@@ -4,7 +4,10 @@
 	filename: "6_55C18B093E833B79"
 	group: "753DD1D27C9DF3FC"
 	icon: {
-		id: "mekanism:metallurgic_infuser"
+		components: {
+			"ftbquests:missing_item": "mekanism:metallurgic_infuser"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "55C18B093E833B79"
 	images: [
@@ -41,7 +44,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -52,7 +55,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "1796293411CD625A"
-				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				item: { components: { "ftbquests:missing_item": "mekanism:metallurgic_infuser" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -65,8 +68,11 @@
 				count: 2
 				id: "0EABE4D0A3AB6A11"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:alloy_infused"
+					}
 					count: 1
-					id: "mekanism:alloy_infused"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -74,7 +80,7 @@
 			tasks: [{
 				count: 2L
 				id: "3B02BFC64EC555DB"
-				item: { count: 1, id: "mekanism:alloy_infused" }
+				item: { components: { "ftbquests:missing_item": "mekanism:alloy_infused" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -87,8 +93,11 @@
 				count: 2
 				id: "23A8D544772B58C8"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:basic_control_circuit"
+					}
 					count: 1
-					id: "mekanism:basic_control_circuit"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -96,7 +105,7 @@
 			tasks: [{
 				count: 2L
 				id: "257A308F0A33F683"
-				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				item: { components: { "ftbquests:missing_item": "mekanism:basic_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -109,8 +118,11 @@
 				count: 2
 				id: "05A3ED3A4825C053"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:alloy_reinforced"
+					}
 					count: 1
-					id: "mekanism:alloy_reinforced"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -118,7 +130,7 @@
 			tasks: [{
 				count: 2L
 				id: "1C58C2A3984C3BF4"
-				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				item: { components: { "ftbquests:missing_item": "mekanism:alloy_reinforced" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -131,8 +143,11 @@
 				count: 2
 				id: "3DE3D52093704688"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:alloy_atomic"
+					}
 					count: 1
-					id: "mekanism:alloy_atomic"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -140,7 +155,7 @@
 			tasks: [{
 				count: 2L
 				id: "0AF3FE1552E5D4BE"
-				item: { count: 1, id: "mekanism:alloy_atomic" }
+				item: { components: { "ftbquests:missing_item": "mekanism:alloy_atomic" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -153,8 +168,11 @@
 				count: 2
 				id: "2D5344DC29C9160D"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:advanced_control_circuit"
+					}
 					count: 1
-					id: "mekanism:advanced_control_circuit"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -162,7 +180,7 @@
 			tasks: [{
 				count: 2L
 				id: "6C52BBC5E71F9AC6"
-				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				item: { components: { "ftbquests:missing_item": "mekanism:advanced_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -175,8 +193,11 @@
 				count: 2
 				id: "1DF666D26E8990A0"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:elite_control_circuit"
+					}
 					count: 1
-					id: "mekanism:elite_control_circuit"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -184,7 +205,7 @@
 			tasks: [{
 				count: 2L
 				id: "1D72B8245008DECD"
-				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				item: { components: { "ftbquests:missing_item": "mekanism:elite_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -197,8 +218,11 @@
 				count: 2
 				id: "2DCD7BC6B6A0D316"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mekanism:ultimate_control_circuit"
+					}
 					count: 1
-					id: "mekanism:ultimate_control_circuit"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -206,7 +230,7 @@
 			tasks: [{
 				count: 2L
 				id: "28C76C0AA62E94DF"
-				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				item: { components: { "ftbquests:missing_item": "mekanism:ultimate_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -217,7 +241,7 @@
 			id: "594CAABAA6450AFB"
 			tasks: [{
 				id: "5232A03CC5D25CC3"
-				item: { count: 1, id: "powah:dielectric_casing" }
+				item: { components: { "ftbquests:missing_item": "powah:dielectric_casing" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -228,7 +252,7 @@
 			id: "421FF60916F19440"
 			tasks: [{
 				id: "357FCD3ED7ED5C31"
-				item: { count: 1, id: "powah:energizing_orb" }
+				item: { components: { "ftbquests:missing_item": "powah:energizing_orb" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -239,7 +263,7 @@
 			id: "4EAF1240FA930694"
 			tasks: [{
 				id: "63789D5FC80C6D34"
-				item: { count: 1, id: "powah:energizing_rod_starter" }
+				item: { components: { "ftbquests:missing_item": "powah:energizing_rod_starter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -253,7 +277,7 @@
 			id: "0BF71B1D9F74C4C5"
 			tasks: [{
 				id: "35184531A5086A3A"
-				item: { count: 1, id: "powah:steel_energized" }
+				item: { components: { "ftbquests:missing_item": "powah:steel_energized" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -264,7 +288,7 @@
 			id: "409A6BF322C251CA"
 			tasks: [{
 				id: "45F917AEA349E3B4"
-				item: { count: 1, id: "mekanism:teleportation_core" }
+				item: { components: { "ftbquests:missing_item": "mekanism:teleportation_core" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -332,7 +356,7 @@
 			id: "19CFAA6752D1AC9F"
 			tasks: [{
 				id: "4D77F3E825C813D7"
-				item: { count: 1, id: "mekanism:energy_tablet" }
+				item: { components: { "ftbquests:missing_item": "mekanism:energy_tablet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -343,7 +367,7 @@
 			id: "2DA95203B5CEC6BE"
 			tasks: [{
 				id: "5915837E5B22EA15"
-				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				item: { components: { "ftbquests:missing_item": "mekanismgenerators:solar_generator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -354,7 +378,7 @@
 			id: "7E2AFA32FDF78FCD"
 			tasks: [{
 				id: "78DC2D3DF7352B76"
-				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				item: { components: { "ftbquests:missing_item": "mekanismgenerators:advanced_solar_generator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -365,7 +389,7 @@
 			id: "6A450EFB8058BD36"
 			tasks: [{
 				id: "5ECE1B9F0280B34A"
-				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				item: { components: { "ftbquests:missing_item": "mekanismgenerators:wind_generator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -376,7 +400,7 @@
 			id: "7225AD04F7842AEF"
 			tasks: [{
 				id: "4466DA2DF2B59CED"
-				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				item: { components: { "ftbquests:missing_item": "mekanism:atomic_disassembler" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -387,7 +411,7 @@
 			id: "13C7EF368EDDC9BA"
 			tasks: [{
 				id: "229923FFCB5187AE"
-				item: { count: 1, id: "mekanism:robit" }
+				item: { components: { "ftbquests:missing_item": "mekanism:robit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -398,7 +422,7 @@
 			id: "29F1BA8D9D06B36D"
 			tasks: [{
 				id: "46A07785AEB2BDAD"
-				item: { count: 1, id: "mekanism:digital_miner" }
+				item: { components: { "ftbquests:missing_item": "mekanism:digital_miner" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -409,7 +433,7 @@
 			id: "43B989F2F6394C95"
 			tasks: [{
 				id: "25EE33E94016F9CB"
-				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				item: { components: { "ftbquests:missing_item": "mekanism:quantum_entangloporter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -420,7 +444,7 @@
 			id: "6BFC7B9214DA7D21"
 			tasks: [{
 				id: "03C9BE9DF6C8E2B8"
-				item: { count: 1, id: "mekanism:jetpack" }
+				item: { components: { "ftbquests:missing_item": "mekanism:jetpack" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -431,7 +455,7 @@
 			id: "23C912EED1F44991"
 			tasks: [{
 				id: "4BF0B5A78C5D03FF"
-				item: { count: 1, id: "mekanism:free_runners" }
+				item: { components: { "ftbquests:missing_item": "mekanism:free_runners" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -442,7 +466,7 @@
 			id: "3FCC33E5B6577C03"
 			tasks: [{
 				id: "076B297AF80B06A4"
-				item: { count: 1, id: "mekanism:free_runners_armored" }
+				item: { components: { "ftbquests:missing_item": "mekanism:free_runners_armored" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -453,7 +477,7 @@
 			id: "0F4EBCB6FE2421BE"
 			tasks: [{
 				id: "2B40A1635123DF1F"
-				item: { count: 1, id: "mekanism:jetpack_armored" }
+				item: { components: { "ftbquests:missing_item": "mekanism:jetpack_armored" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -465,12 +489,12 @@
 			tasks: [
 				{
 					id: "5E1241A8FF3E6F58"
-					item: { count: 1, id: "mekanism:scuba_tank" }
+					item: { components: { "ftbquests:missing_item": "mekanism:scuba_tank" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "1650EEB2C6E2A530"
-					item: { count: 1, id: "mekanism:scuba_mask" }
+					item: { components: { "ftbquests:missing_item": "mekanism:scuba_mask" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
