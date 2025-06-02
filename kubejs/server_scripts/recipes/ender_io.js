@@ -18,20 +18,4 @@ ServerEvents.recipes(event => {
 	)
 	
 	
-	event.remove({output: 'enderio:void_chassis'})
-	event.shaped(
-	  Item.of('enderio:void_chassis'), 
-	  [
-	    'CBC',
-		'BAB',
-		'CBC'
-	  ], 
-	  {
-		A: 'enderio:grains_of_infinity',
-		B: 'twilightforest:ironwood_ingot',
-		C: 'minecraft:iron_bars'
-	  }
-	)
-	
-	
 })

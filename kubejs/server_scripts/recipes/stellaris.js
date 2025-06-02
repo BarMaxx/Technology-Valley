@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 		A: 'modern_industrialization:singularity',
 		B: 'stellaris:iron_plating_block',
 		C: 'stellaris:heavy_metal_ingot',
-		D: 'mekanism:teleportation_core'
+		D: 'modern_industrialization:quantum_circuit'
 	  }
 	)
 	

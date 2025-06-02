@@ -893,8 +893,8 @@
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "286A351E16E7BA30"
+				dimension: "undergarden:undergarden"
+				id: "44D525D86153EC2B"
 				type: "dimension"
 			}]
 			x: 22.5d

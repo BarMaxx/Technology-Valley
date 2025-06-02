@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
 	  ], 
 	  {
 		A: 'justdirethings:gooblock_tier3',
-		B: 'mekanism:teleportation_core',
+		B: 'modern_industrialization:quantum_circuit',
 		C: 'minecraft:sculk_shrieker',
 		D: 'minecraft:sculk'
 	  }

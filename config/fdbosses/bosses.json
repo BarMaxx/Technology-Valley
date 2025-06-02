@@ -29,5 +29,9 @@
     "chanceToSummonFlyingSword": 33.0,
     "_comment_flyingSwordShockDuration": "Time in ticks",
     "flyingSwordShockDuration": 100
-  }
+  },
+  "peacefulDifficultyBossDamageMuliplier": 0.25,
+  "easyDifficultyBossDamageMultiplier": 0.5,
+  "normalDifficultyBossDamageMultiplier": 0.75,
+  "hardDifficultyBossDamageMultiplier": 1.0
 }

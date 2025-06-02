@@ -13,7 +13,7 @@
 	chapter_group.753DD1D27C9DF3FC.title: "&aРазвитие"
 	file.0000000000000001.title: "&b&lTechnology Valley"
 	quest.0B1A42B8DAD0ECFA.quest_desc: ["С помощью нового &6Катализатора&r я могу активировать Портал, собранный из Светокаменных блоков, который перенесет меня в Долину!"]
-	quest.0B1A42B8DAD0ECFA.quest_subtitle: "Переход в Долину!"
+	quest.0B1A42B8DAD0ECFA.quest_subtitle: "Переход в Долину! Или нет?"
 	quest.102C9B5C1CBF82F0.quest_desc: ["Если вдруг Вы появились на облаке - возьмите этот дар Свыше, подготовленный для Вашего спасения :)"]
 	quest.25D7265AD1BDED43.quest_desc: [
 		"Неужели сработало?! Невероятно, но как..."
@@ -69,5 +69,6 @@
 	task.6B89488B54DA47BA.title: "Усиленное железо"
 	task.6CEB08FBC02B68B5.title: "Any #minecraft:planks"
 	task.72E1AFE41A9005DC.title: "Any #minecraft:flowers"
+	task.7C167F4A36D00930.title: "Это явно не долина..."
 	task.7D09714745E7E6D0.title: "Any #c:rods/wooden"
 }

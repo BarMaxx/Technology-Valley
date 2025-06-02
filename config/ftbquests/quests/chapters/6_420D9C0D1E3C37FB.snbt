@@ -9,5 +9,339 @@
 	id: "420D9C0D1E3C37FB"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["0B1A42B8DAD0ECFA"]
+			id: "532833085E2FAD5D"
+			tasks: [{
+				id: "7C167F4A36D00930"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["532833085E2FAD5D"]
+			id: "50069071EEE4A8DD"
+			tasks: [
+				{
+					id: "3F4335216492B6F0"
+					item: { count: 1, id: "undergarden:raw_cloggrum" }
+					type: "item"
+				}
+				{
+					id: "69ADC561E1D05692"
+					item: { count: 1, id: "undergarden:cloggrum_ingot" }
+					type: "item"
+				}
+				{
+					id: "1248EA9E5F3D1357"
+					item: { count: 1, id: "undergarden:cloggrum_nugget" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50069071EEE4A8DD"]
+			id: "0F854E543E836696"
+			tasks: [{
+				id: "79A352A7391689A6"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F854E543E836696"]
+			id: "156F8B851A39E795"
+			tasks: [
+				{
+					id: "56F251B90BD5AD76"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					id: "47BBFBA6362C1527"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "581553E7F443AC84"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["156F8B851A39E795"]
+			id: "2F76E210557E6712"
+			tasks: [
+				{
+					id: "39EEAB924966D02C"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "2E4AED1A1B3DF1F9"
+					item: { count: 1, id: "modern_industrialization:iron_plate" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["156F8B851A39E795"]
+			id: "1352ADCB404DFD09"
+			tasks: [{
+				id: "501268154941AC69"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F76E210557E6712"]
+			id: "3B3CE134A3ACF1EA"
+			tasks: [{
+				id: "1B737CFABF973815"
+				item: { count: 1, id: "create:whisk" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["532833085E2FAD5D"]
+			id: "5AF5CA83A301B771"
+			tasks: [
+				{
+					id: "536AC7D127A7A3FD"
+					item: { count: 1, id: "undergarden:raw_froststeel" }
+					type: "item"
+				}
+				{
+					id: "579F05D932135A91"
+					item: { count: 1, id: "undergarden:froststeel_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AF5CA83A301B771"]
+			id: "32839B34CF5B3CED"
+			tasks: [{
+				id: "60A45491756DB3CB"
+				item: { count: 1, id: "undergarden:froststeel_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32839B34CF5B3CED"]
+			id: "26056B6A31F3507D"
+			tasks: [{
+				id: "5A2C7CFB7726F38B"
+				item: { count: 1, id: "undergarden:regalium_crystal" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26056B6A31F3507D"]
+			id: "7862BA2816B353D5"
+			tasks: [{
+				id: "5D395359F69F058E"
+				item: { count: 1, id: "undergarden:regalium_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7862BA2816B353D5"]
+			id: "39683F185C39EA4A"
+			tasks: [{
+				id: "7EF574E8C8AB6CEC"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B3CE134A3ACF1EA"]
+			id: "6B836CB8C5C324C3"
+			tasks: [
+				{
+					id: "4DF5FFD2339A91F9"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "5C2298A4A5073894"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39683F185C39EA4A"]
+			id: "091BAEA7E22BA07B"
+			tasks: [{
+				id: "5412509A86BCB7C5"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6B836CB8C5C324C3"
+				"091BAEA7E22BA07B"
+			]
+			id: "0A6E9E537C1DB3EC"
+			tasks: [
+				{
+					id: "6CEED0DA091E8AE0"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+				{
+					id: "013557BC337B2D01"
+					item: { count: 1, id: "create:brass_sheet" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3ADBC0A64E7C83ED"
+				"2ED6E00FFCF22325"
+			]
+			id: "4090D6A35D1DEDC9"
+			tasks: [{
+				id: "12A3F0C3879AF71C"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42575CF3D372D812"]
+			id: "2ED6E00FFCF22325"
+			tasks: [{
+				id: "2CA197A562096D87"
+				item: { count: 1, id: "extendedcrafting:basic_table" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A6E9E537C1DB3EC"]
+			id: "72928775040CDA96"
+			tasks: [
+				{
+					id: "2269D61BEF575CD1"
+					item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "7D3AF3B812B1298E"
+					item: { count: 1, id: "extendedcrafting:black_iron_slate" }
+					type: "item"
+				}
+				{
+					id: "198A3EF3D535DDAD"
+					item: { count: 1, id: "extendedcrafting:luminessence" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72928775040CDA96"]
+			id: "09A007851B43EE00"
+			tasks: [{
+				id: "036CF74DC8291E06"
+				item: { count: 1, id: "extendedcrafting:basic_component" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09A007851B43EE00"]
+			id: "42575CF3D372D812"
+			tasks: [{
+				id: "28F662C8478B7A93"
+				item: { count: 1, id: "extendedcrafting:basic_catalyst" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42575CF3D372D812"]
+			id: "4303A2312CFB5165"
+			tasks: [{
+				id: "460C75B4508E49A4"
+				item: { count: 1, id: "extendedcrafting:advanced_component" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4303A2312CFB5165"]
+			id: "3ADBC0A64E7C83ED"
+			tasks: [{
+				id: "627FA2F31C00BD16"
+				item: { count: 1, id: "extendedcrafting:advanced_catalyst" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4090D6A35D1DEDC9"]
+			id: "767E8D5DF39FC1A2"
+			tasks: [{
+				id: "2C9D457115398124"
+				item: { count: 1, id: "undergarden:catalyst" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["767E8D5DF39FC1A2"]
+			id: "6263CBBE17D9DE3D"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "153F5E9BB1706454"
+				type: "dimension"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+	]
 }
