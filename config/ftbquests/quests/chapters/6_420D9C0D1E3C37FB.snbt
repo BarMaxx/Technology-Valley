@@ -214,18 +214,11 @@
 				"091BAEA7E22BA07B"
 			]
 			id: "0A6E9E537C1DB3EC"
-			tasks: [
-				{
-					id: "6CEED0DA091E8AE0"
-					item: { count: 1, id: "create:brass_ingot" }
-					type: "item"
-				}
-				{
-					id: "013557BC337B2D01"
-					item: { count: 1, id: "create:brass_sheet" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6CEED0DA091E8AE0"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
 			x: 6.5d
 			y: 0.0d
 		}
@@ -240,8 +233,8 @@
 				item: { count: 1, id: "extendedcrafting:advanced_table" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["42575CF3D372D812"]
@@ -286,7 +279,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["09A007851B43EE00"]
@@ -308,7 +301,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4303A2312CFB5165"]
@@ -330,7 +323,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["767E8D5DF39FC1A2"]
@@ -340,8 +333,217 @@
 				id: "153F5E9BB1706454"
 				type: "dimension"
 			}]
-			x: 13.5d
+			x: 12.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["50069071EEE4A8DD"]
+			id: "44A02E4B79A5AD12"
+			tasks: [
+				{
+					id: "1F2C440D367F821E"
+					item: { count: 1, id: "undergarden:cloggrum_helmet" }
+					type: "item"
+				}
+				{
+					id: "13344595EFC5F086"
+					item: { count: 1, id: "undergarden:cloggrum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "76B21A4EFAFD42E7"
+					item: { count: 1, id: "undergarden:cloggrum_leggings" }
+					type: "item"
+				}
+				{
+					id: "440388D58B8D33F4"
+					item: { count: 1, id: "undergarden:cloggrum_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50069071EEE4A8DD"]
+			id: "5A2BA809D121A7F2"
+			tasks: [{
+				id: "45FF967F00C8D5A8"
+				item: { count: 1, id: "undergarden:cloggrum_battleaxe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50069071EEE4A8DD"]
+			id: "65B2C51F859DBA5A"
+			tasks: [
+				{
+					id: "7D1810C98E0DA01A"
+					item: { count: 1, id: "undergarden:cloggrum_sword" }
+					type: "item"
+				}
+				{
+					id: "02307511029C1538"
+					item: { count: 1, id: "undergarden:cloggrum_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "107BBF3979EEC30D"
+					item: { count: 1, id: "undergarden:cloggrum_axe" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AF5CA83A301B771"]
+			id: "201B60EE8762989B"
+			tasks: [
+				{
+					id: "668917EA48259D5B"
+					item: { count: 1, id: "undergarden:froststeel_helmet" }
+					type: "item"
+				}
+				{
+					id: "78E222FBC60B5EC2"
+					item: { count: 1, id: "undergarden:froststeel_chestplate" }
+					type: "item"
+				}
+				{
+					id: "32B395CF5D8298D5"
+					item: { count: 1, id: "undergarden:froststeel_leggings" }
+					type: "item"
+				}
+				{
+					id: "47AA7CE6226833F8"
+					item: { count: 1, id: "undergarden:froststeel_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AF5CA83A301B771"]
+			id: "4203960D5F901F65"
+			tasks: [
+				{
+					id: "44806A2889C5A5AC"
+					item: { count: 1, id: "undergarden:froststeel_sword" }
+					type: "item"
+				}
+				{
+					id: "518BCCD20F6205C1"
+					item: { count: 1, id: "undergarden:froststeel_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "40F6036D9CB43460"
+					item: { count: 1, id: "undergarden:froststeel_axe" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65B2C51F859DBA5A"]
+			id: "4D872A04C4759C40"
+			tasks: [
+				{
+					id: "119AED8A68512C3B"
+					item: { count: 1, id: "undergarden:forgotten_sword" }
+					type: "item"
+				}
+				{
+					id: "765A8B0435DA555F"
+					item: { count: 1, id: "undergarden:forgotten_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "14E049EB65AECBE8"
+					item: { count: 1, id: "undergarden:forgotten_axe" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A2BA809D121A7F2"]
+			id: "121CC83DF4505469"
+			tasks: [{
+				id: "2D2D6B304544E46E"
+				item: { count: 1, id: "undergarden:forgotten_battleaxe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["532833085E2FAD5D"]
+			id: "6BC7755647B47323"
+			tasks: [{
+				id: "40236E0E22933635"
+				item: { count: 1, id: "undergarden:utherium_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BC7755647B47323"]
+			id: "710377A598D22251"
+			tasks: [
+				{
+					id: "7756D9C573D9FABF"
+					item: { count: 1, id: "undergarden:utherium_sword" }
+					type: "item"
+				}
+				{
+					id: "59AB48DDAD225F20"
+					item: { count: 1, id: "undergarden:utherium_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "6B7CECAE74046D25"
+					item: { count: 1, id: "undergarden:utherium_axe" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BC7755647B47323"]
+			id: "76B7723B356D5024"
+			tasks: [
+				{
+					id: "747C902D6E14FFC4"
+					item: { count: 1, id: "undergarden:utherium_helmet" }
+					type: "item"
+				}
+				{
+					id: "23C1B4C72A30B15B"
+					item: { count: 1, id: "undergarden:utherium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "54873BEF95B45127"
+					item: { count: 1, id: "undergarden:utherium_leggings" }
+					type: "item"
+				}
+				{
+					id: "69F2E773DDF8CB63"
+					item: { count: 1, id: "undergarden:utherium_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 }

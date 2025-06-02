@@ -574,8 +574,8 @@
 			dependencies: ["7EC67B2635DDEBBE"]
 			id: "25FF369920E1043D"
 			tasks: [{
-				id: "2973AFDF6D1C6A76"
-				item: { components: { "ftbquests:missing_item": "enderio:primitive_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
+				id: "7244A4843F07EC8F"
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
 				type: "item"
 			}]
 			x: 4.0d
