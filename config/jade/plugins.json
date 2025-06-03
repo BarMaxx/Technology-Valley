@@ -179,6 +179,10 @@
   "mysticalagradditions": {
     "infused_farmland": true
   },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
