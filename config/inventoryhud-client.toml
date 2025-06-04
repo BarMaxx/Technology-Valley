@@ -20,7 +20,7 @@
 #Settings for ArmorStatus HUD
 [armorhud]
 	#Is Armor Damage HUD enabled
-	ArmorDamage = false
+	ArmorDamage = true
 	#Hide if durability is above this (in percentage):
 	# Default: 100
 	# Range: 0 ~ 100
@@ -105,11 +105,11 @@
 	armValign = "BOTTOM"
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	armHalign = "RIGHT"
+	armHalign = "LEFT"
 	#Armor HUD position (X)
 	# Default: 0
 	# Range: -9999 ~ 9999
-	xArmPos = 217
+	xArmPos = 126
 	#Armor HUD position (Y)
 	# Default: 70
 	# Range: -9999 ~ 9999

@@ -6,9 +6,9 @@
   "c:ingots/zinc": "alltheores:zinc_ingot",
   "c:gems/ruby": "alltheores:ruby",
   "c:dusts/niter": "null",
-  "c:gems/peridot": "alltheores:peridot",
+  "c:gems/peridot": "irons_jewelry:peridot",
   "c:ingots/constantan": "alltheores:constantan_ingot",
-  "c:gems/sapphire": "irons_jewelry:sapphire",
+  "c:gems/sapphire": "alltheores:sapphire",
   "c:ingots/graphite": "null",
   "c:ingots/brass": "alltheores:brass_ingot",
   "c:rubbers": "null"

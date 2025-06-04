@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 	  {
 		A: 'justdirethings:gooblock_tier2',
 		B: 'minecraft:dragon_breath',
-		C: 'enderio:energetic_alloy_ingot',
+		C: 'minecraft:gold_ingot',
 		D: '#c:ender_pearls'
 	  }
 	)

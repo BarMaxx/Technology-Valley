@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
 	  {
 		A: 'minecraft:iron_ingot',
 		B: 'minecraft:piston',
-		C: 'enderio:vibrant_alloy_ingot'
+		C: 'minecraft:gold_ingot'
 	  }
 	)
 	

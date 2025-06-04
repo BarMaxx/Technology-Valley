@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 		A: 'modern_industrialization:steel_rod_magnetic',
 		B: 'modern_industrialization:copper_wire',
 		C: 'modern_industrialization:tin_cable',
-		D: 'enderio:vibrant_alloy_ingot'
+		D: 'minecraft:gold_ingot'
 	  }
 	)
 	

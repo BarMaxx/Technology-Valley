@@ -10,18 +10,10 @@
 	images: [
 		{
 			height: 2.0d
-			image: "undergarden:item/catalyst"
-			rotation: 0.0d
-			width: 2.0d
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
 			image: "naturesaura:item/sky_ingot"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -31,30 +23,6 @@
 			width: 2.0d
 			x: 0.5d
 			y: -1.5d
-		}
-		{
-			height: 2.0d
-			image: "extendedcrafting:item/black_iron_ingot"
-			rotation: 0.0d
-			width: 2.0d
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "integrateddynamics:item/variable"
-			rotation: 0.0d
-			width: 2.0d
-			x: 17.5d
-			y: 1.5d
-		}
-		{
-			height: 2.0d
-			image: "modern_industrialization:item/coke"
-			rotation: 0.0d
-			width: 2.0d
-			x: 7.0d
-			y: 0.0d
 		}
 	]
 	order_index: 2
@@ -142,10 +110,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"13C1882CA25B4848"
-				"4804FC9479D49075"
-			]
+			dependencies: ["5294A55AF15AE1E2"]
 			id: "30810A7B8D7BA0C8"
 			tasks: [
 				{
@@ -160,8 +125,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["30810A7B8D7BA0C8"]
@@ -181,7 +146,7 @@
 				item: { count: 1, id: "naturesaura:sky_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -192,11 +157,11 @@
 				item: { count: 1, id: "naturesaura:conversion_catalyst" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["25FF369920E1043D"]
+			dependencies: ["3031B7B8C848003F"]
 			id: "67BA76DC893824C5"
 			tasks: [{
 				count: 2L
@@ -204,8 +169,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7EC67B2635DDEBBE"]
@@ -222,22 +187,19 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"28FE3702B2954E30"
-				"67BA76DC893824C5"
-			]
+			dependencies: ["67BA76DC893824C5"]
 			id: "602572D3BDC1545B"
 			tasks: [{
 				id: "60D62643476CD3DE"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:plates/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["28FE3702B2954E30"]
@@ -266,8 +228,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -3.0d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7D8ADA374195E8F2"]
@@ -296,8 +258,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -3.0d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -317,7 +279,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -335,8 +297,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -2.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["602572D3BDC1545B"]
@@ -363,8 +325,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -0.5d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A301EF174887CB7"]
@@ -374,8 +336,8 @@
 				item: { count: 1, id: "modern_industrialization:coke" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4EC963CB60B31B77"]
@@ -385,269 +347,209 @@
 				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 14.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["165B5F293E249348"]
 			id: "36466B669F760A55"
-			rewards: [{
-				count: 2
-				id: "375FD15DC7584AC6"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:ingot_steel"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 3
-				type: "item"
-			}]
 			tasks: [{
 				id: "05713E5C02F7FC6E"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28FE3702B2954E30"]
+			id: "4A1791D3E834256A"
+			tasks: [
+				{
+					id: "3E1325446459FFCA"
+					item: { count: 1, id: "modern_industrialization:tin_tiny_dust" }
+					type: "item"
+				}
+				{
+					id: "31DE6E1FF087F38C"
+					item: { count: 1, id: "modern_industrialization:copper_tiny_dust" }
+					type: "item"
+				}
+			]
 			x: 8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3190FEE078360F57"]
-			id: "4E69B8E61C53B54D"
-			rewards: [{
-				count: 3
-				id: "5D53E913B01F754E"
-				item: {
-					count: 1
-					id: "extendedcrafting:black_iron_slate"
-				}
-				random_bonus: 3
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "1A0EEEA2EBDFEC43"
-				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4E69B8E61C53B54D"]
-			id: "66C895BC2D070DBB"
-			tasks: [
-				{
-					count: 4L
-					id: "55BFFD2704B4991B"
-					item: { count: 1, id: "extendedcrafting:basic_component" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0E122485E90858A6"
-					item: { count: 1, id: "extendedcrafting:advanced_component" }
-					type: "item"
-				}
-			]
-			x: 11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["66C895BC2D070DBB"]
-			id: "5E8F6AD4FB4FDB25"
-			tasks: [
-				{
-					count: 2L
-					id: "09F2846A9C3BDD84"
-					item: { count: 1, id: "extendedcrafting:basic_catalyst" }
-					type: "item"
-				}
-				{
-					id: "11E2FD0A2D1C29EA"
-					item: { count: 1, id: "extendedcrafting:advanced_catalyst" }
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5E8F6AD4FB4FDB25"]
-			id: "2ED9621A81F55B00"
-			tasks: [{
-				id: "4DF27671FA2D2497"
-				item: { count: 1, id: "extendedcrafting:advanced_table" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2ED9621A81F55B00"]
-			id: "31077E61296E0FD6"
-			tasks: [
-				{
-					id: "2A480DB597C23434"
-					item: { count: 1, id: "undergarden:catalyst" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "6E47E1BA6DFC9A49"
-					item: { count: 1, id: "minecraft:stone_bricks" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3F3EBA46724E5544"]
-			id: "76D4E61E129502CE"
-			tasks: [
-				{
-					count: 2L
-					id: "4B77EAC86B9281EA"
-					item: { count: 1, id: "undergarden:raw_froststeel" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "24E67546EE237092"
-					item: { count: 1, id: "undergarden:froststeel_ingot" }
-					type: "item"
-				}
-			]
-			x: 17.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["051A8559099C31BD"]
-			id: "68A22472D77C31F8"
-			tasks: [{
-				id: "35EDF96C18186BF7"
-				item: { count: 1, id: "occultism:sacrificial_bowl" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["68A22472D77C31F8"]
-			id: "040DDAE71349D5B7"
-			tasks: [{
-				id: "3CD73D448A2DE7D5"
-				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["76D4E61E129502CE"]
-			id: "009D5670DDAC0477"
-			shape: "gear"
-			size: 1.2d
-			tasks: [{
-				id: "52618C05502B7A6A"
-				item: { components: { "ftbquests:missing_item": "extended_industrialization:steel_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 18.8d
-			y: 0.0d
-		}
-		{
-			dependencies: ["76D4E61E129502CE"]
-			id: "3AE609313D58766A"
-			tasks: [{
-				count: 24L
-				id: "43097D5A0283DAA2"
-				item: { count: 1, id: "integrateddynamics:variable" }
-				type: "item"
-			}]
-			x: 17.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["7EC67B2635DDEBBE"]
-			id: "25FF369920E1043D"
-			tasks: [{
-				id: "7244A4843F07EC8F"
-				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
+			dependencies: ["4A1791D3E834256A"]
+			id: "3031B7B8C848003F"
+			tasks: [
+				{
+					id: "774411CEE828E7A0"
+					item: { count: 1, id: "modern_industrialization:bronze_tiny_dust" }
+					type: "item"
+				}
+				{
+					id: "0306C57A3488BD2A"
+					item: { count: 1, id: "modern_industrialization:bronze_dust" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["36466B669F760A55"]
-			id: "3190FEE078360F57"
-			rewards: [{
-				count: 4
-				id: "34F3EE8E69C59BED"
-				item: {
-					count: 1
-					id: "extendedcrafting:black_iron_ingot"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
+			id: "3DF9B5CEEF6F936F"
 			tasks: [{
-				count: 4L
-				id: "4473AF2066986935"
-				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
-				type: "item"
+				id: "67273E9898A163B8"
+				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 16.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["31077E61296E0FD6"]
-			id: "3F3EBA46724E5544"
-			size: 1.5d
+			dependencies: ["3DF9B5CEEF6F936F"]
+			id: "4FFE1C71E85190D5"
 			tasks: [{
-				dimension: "undergarden:undergarden"
-				id: "05EC2E3C503DE761"
+				dimension: "twilightforest:twilight_forest"
+				id: "269AC4DAB9FD567B"
 				type: "dimension"
 			}]
-			x: 15.5d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["76D4E61E129502CE"]
-			id: "04D603C15CB65E24"
+			dependencies: ["4FFE1C71E85190D5"]
+			id: "1941678978306F60"
 			tasks: [{
-				id: "15E9A302EDCBB2B8"
-				item: { count: 1, id: "occultism:datura" }
+				id: "6C5969C898ACF95C"
+				item: { count: 1, id: "twilightforest:naga_scale" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1941678978306F60"]
+			id: "1ABF9DBB1ABA21AA"
+			tasks: [{
+				id: "2CF2B72CE0EE90C6"
+				item: { components: { "primalmagick:capability_mana_storage": { allowedSources: [ "primalmagick:hallowed", "primalmagick:sun", "primalmagick:blood", "primalmagick:sea", "primalmagick:sky", "primalmagick:infernal", "primalmagick:moon", "primalmagick:void", "primalmagick:earth" ], capacity: 2500, mana: { sources: { } }, maxExtract: 2147483647, maxReceive: 2147483647 } }, count: 1, id: "primalmagick:mundane_wand" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13C1882CA25B4848"
+				"4804FC9479D49075"
+			]
+			id: "2D0BB6199FB17864"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "576D62E46AEE9546"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D0BB6199FB17864"]
+			id: "750D7FAC00A866E6"
+			tasks: [
+				{
+					id: "7A942B819E14E9D9"
+					item: { count: 1, id: "silentgear:raw_crimson_iron" }
+					type: "item"
+				}
+				{
+					id: "6D578BC3CD45AD79"
+					item: { count: 1, id: "silentgear:crimson_iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"750D7FAC00A866E6"
+				"3E74652DE0A5E249"
+			]
+			id: "5294A55AF15AE1E2"
+			tasks: [{
+				id: "4644F0C9B92AFDF8"
+				item: { count: 1, id: "silentgear:crimson_steel_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D0BB6199FB17864"]
+			id: "3E74652DE0A5E249"
+			tasks: [
+				{
+					id: "7A0E2D4EBB89D1A5"
+					item: { count: 1, id: "minecraft:magma_cream" }
+					type: "item"
+				}
+				{
+					id: "4245BFA088CF7285"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1ABF9DBB1ABA21AA"]
+			id: "6291E9BDF6C9CCD1"
+			tasks: [{
+				id: "6E054CFBF586424B"
+				item: { count: 1, id: "primalmagick:arcane_workbench" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6291E9BDF6C9CCD1"]
+			id: "6F6821FCB7A536CD"
+			tasks: [{
+				id: "5A0290E9767831EC"
+				item: { count: 1, id: "primalmagick:wood_table" }
+				type: "item"
+			}]
+			x: 20.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["04D603C15CB65E24"]
-			id: "051A8559099C31BD"
+			dependencies: ["6291E9BDF6C9CCD1"]
+			id: "52FF2539F6A6905C"
 			tasks: [{
-				count: 4L
-				id: "43E2D0255DD3287C"
-				item: { count: 1, id: "occultism:otherstone" }
+				id: "648C65CA7C7F0B31"
+				item: { count: 1, id: "primalmagick:magnifying_glass" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: -2.0d
+			x: 20.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["040DDAE71349D5B7"]
-			id: "74E9A0F6A97A1EA1"
+			dependencies: [
+				"52FF2539F6A6905C"
+				"6F6821FCB7A536CD"
+			]
+			id: "3AB5131135BF44EB"
 			tasks: [{
-				id: "305BE942CA54F36D"
-				item: { count: 1, id: "occultism:otherworld_goggles" }
+				id: "3A000F3B11B43B14"
+				item: { count: 1, id: "primalmagick:analysis_table" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -5.5d
+			x: 21.0d
+			y: 0.0d
 		}
 	]
 }
