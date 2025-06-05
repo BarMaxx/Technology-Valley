@@ -48,7 +48,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["63137CD414342B37"]
 			hide_until_deps_complete: true
 			id: "37F7F27FEC42CAEC"
 			shape: "octagon"

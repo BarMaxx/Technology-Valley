@@ -183,5 +183,183 @@
 			x: 8.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["39987ACAF3FA974A"]
+			id: "196414AA25C2BB70"
+			tasks: [{
+				id: "3557E8E7E1770804"
+				item: { count: 1, id: "primalmagick:magitech_parts_basic" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["190538BD980DD2A0"]
+			id: "585A380A1EB2064A"
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "31C26DF7B38396D0"
+				type: "dimension"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["196414AA25C2BB70"]
+			id: "0B7A9F6F639CFCE1"
+			tasks: [{
+				id: "5A0D68B1BA9B9406"
+				item: { count: 1, id: "actuallyadditions:iron_casing" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B7A9F6F639CFCE1"]
+			id: "007D375A158C6035"
+			tasks: [{
+				id: "538D5C67028952B7"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["007D375A158C6035"]
+			id: "1811F06894A18FE8"
+			tasks: [{
+				id: "31E706892E8DAC0D"
+				item: { count: 1, id: "actuallyadditions:enori_crystal" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1811F06894A18FE8"]
+			id: "6612D694D3274C29"
+			tasks: [
+				{
+					id: "34B74970670EBCA8"
+					item: { count: 1, id: "extendedcrafting:elite_component" }
+					type: "item"
+				}
+				{
+					id: "70AA5DCFEB8A9B70"
+					item: { count: 1, id: "extendedcrafting:elite_catalyst" }
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6612D694D3274C29"]
+			id: "50F93FDDACA2889B"
+			tasks: [{
+				id: "50F32D654EDC3029"
+				item: { count: 1, id: "extendedcrafting:elite_table" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["007D375A158C6035"]
+			id: "117594934B3D6AEA"
+			tasks: [{
+				id: "50EFC0E148955327"
+				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["117594934B3D6AEA"]
+			id: "126AF8295029E0D1"
+			tasks: [
+				{
+					id: "3CC597A290CD0578"
+					item: { count: 1, id: "actuallyadditions:basic_coil" }
+					type: "item"
+				}
+				{
+					id: "7530FB26AD72C093"
+					item: { count: 1, id: "actuallyadditions:advanced_coil" }
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["126AF8295029E0D1"]
+			id: "41A2D80D57D1E574"
+			tasks: [
+				{
+					id: "2EB5352868A4B4DC"
+					item: { count: 1, id: "actuallyadditions:single_battery" }
+					type: "item"
+				}
+				{
+					id: "5A0D0A58E8566647"
+					item: { count: 1, id: "actuallyadditions:double_battery" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"41A2D80D57D1E574"
+				"50F93FDDACA2889B"
+			]
+			id: "1B74A014BA88D36A"
+			tasks: [{
+				id: "7DACA92590D14C18"
+				item: { count: 1, id: "actuallyadditions:empowerer" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["585A380A1EB2064A"]
+			id: "39987ACAF3FA974A"
+			tasks: [{
+				id: "4C5D54E86DA8263A"
+				item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B74A014BA88D36A"]
+			id: "09EC76442C4E9A2D"
+			tasks: [{
+				id: "1D1A748379C0D02F"
+				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09EC76442C4E9A2D"]
+			id: "498554BA378EEFA8"
+			tasks: [{
+				id: "766705971E73A3F1"
+				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
 	]
 }
