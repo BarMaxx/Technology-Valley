@@ -39,5 +39,181 @@
 			x: 1.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["12EEF1443004FD30"]
+			id: "6A1F8EFFA77A7C36"
+			tasks: [{
+				id: "7EFE11B7929D8F83"
+				item: { count: 1, id: "modern_industrialization:centrifuge" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["038A46EB92CDE366"]
+			id: "2065C620F9DA3964"
+			tasks: [{
+				id: "635741592DFEC42C"
+				item: { count: 1, id: "modern_industrialization:oil_drilling_rig" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23ABB14BE4CAD69D"]
+			id: "038A46EB92CDE366"
+			tasks: [{
+				id: "34C71E7046D0D3D7"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12EEF1443004FD30"]
+			id: "053739B42943F0C5"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "569BE5D8E6B9AC9B"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["053739B42943F0C5"]
+			id: "1E8326C9C63BF624"
+			tasks: [{
+				id: "5FF3AFE23ED8FFF8"
+				item: { count: 1, id: "silentgear:azure_silver_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E8326C9C63BF624"]
+			id: "4B5859798BFC0C3B"
+			tasks: [{
+				id: "26C1C693D9AE0817"
+				item: { count: 1, id: "forbidden_arcanus:clibano_core" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B5859798BFC0C3B"]
+			id: "6B78B5800DFCDF91"
+			tasks: [{
+				id: "208B4E34A70B2ED3"
+				item: { count: 1, id: "forbidden_arcanus:arcane_crystal_dust" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B78B5800DFCDF91"]
+			id: "7773A0CB6883229F"
+			tasks: [{
+				id: "18C93BC3F51AFB3D"
+				item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7773A0CB6883229F"]
+			id: "18B6F9F1E605E386"
+			tasks: [{
+				id: "39B4377D523F4DE2"
+				item: { count: 1, id: "forbidden_arcanus:deorum_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D8D13AE6467D0F4"]
+			id: "23ABB14BE4CAD69D"
+			tasks: [{
+				id: "0D3D719BB7CCCEAE"
+				item: { count: 1, id: "primalmagick:magitech_parts_enchanted" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["038A46EB92CDE366"]
+			id: "3E3C207E6F23A3A9"
+			tasks: [{
+				id: "50A2594ED2F5B380"
+				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E3C207E6F23A3A9"]
+			id: "281057AC71B9A2AB"
+			tasks: [{
+				id: "18D144E47B561EB0"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12EEF1443004FD30"]
+			id: "28312E800FA38CEA"
+			tasks: [{
+				id: "65A2583B4D10E549"
+				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12EEF1443004FD30"]
+			id: "6C1C4FDDFFBEDD20"
+			tasks: [{
+				id: "7878FE3F01510912"
+				item: { count: 1, id: "modern_industrialization:electrolyzer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18B6F9F1E605E386"]
+			id: "5975A5CCB7AD7508"
+			tasks: [{
+				id: "49E18E5F635CD2CF"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5975A5CCB7AD7508"]
+			id: "1D8D13AE6467D0F4"
+			tasks: [{
+				id: "2A9A9126039014C5"
+				item: { count: 1, id: "justdirethings:celestigem" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
 	]
 }

@@ -167,7 +167,7 @@
 			tasks: [{
 				count: 2L
 				id: "4DBCD51A2C629FE0"
-				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_ingot" }
+				item: { components: { "ftbquests:missing_item": "allthemodium:unobtainium_vibranium_alloy_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
