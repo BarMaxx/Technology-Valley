@@ -7,734 +7,181 @@
 		id: "modern_industrialization:motor"
 	}
 	id: "38A6600A35FF3371"
-	images: [
-		{
-			height: 2.0d
-			image: "twilightforest:item/ironwood_ingot"
-			rotation: 0.0d
-			width: 2.0d
-			x: 11.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "ars_nouveau:item/source_gem"
-			rotation: 0.0d
-			width: 2.0d
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "justdirethings:item/celestigem"
-			rotation: 0.0d
-			width: 2.0d
-			x: 14.0d
-			y: -2.5d
-		}
-		{
-			height: 2.0d
-			image: "modern_industrialization:item/motor"
-			rotation: 0.0d
-			width: 2.0d
-			x: 16.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "evilcraft:item/dark_power_gem"
-			rotation: 0.0d
-			width: 2.0d
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			height: 2.0d
-			image: "modern_industrialization:item/redstone_battery"
-			rotation: 0.0d
-			width: 2.0d
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			height: 2.0d
-			image: "evilcraft:item/bowl_of_promises_dusted"
-			rotation: 0.0d
-			width: 2.0d
-			x: 5.5d
-			y: -3.0d
-		}
-		{
-			height: 2.0d
-			image: "modern_industrialization:item/cupronickel_wire_magnetic"
-			rotation: 0.0d
-			width: 2.0d
-			x: 3.0d
-			y: 3.0d
-		}
-	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			hide_until_deps_complete: true
-			id: "22BB23B165B1772F"
-			rewards: [{
-				count: 2
-				id: "57E181858BF58FB1"
-				item: {
-					count: 1
-					id: "modern_industrialization:battery_alloy_ingot"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.2d
+			dependencies: ["0F4F4FDB96638178"]
+			id: "09517E742726E99F"
 			tasks: [{
-				count: 2L
-				id: "07D1855D7774EA3E"
-				item: { count: 1, id: "modern_industrialization:battery_alloy_ingot" }
+				id: "63FAFD8C4401A1FE"
+				item: { count: 1, id: "modern_industrialization:steel_wiremill" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["22BB23B165B1772F"]
-			id: "4E9AE7F26F5F84BF"
-			tasks: [{
-				id: "5D662B5439E8915A"
-				item: { components: { "ftbquests:missing_item": "actuallyadditions:iron_casing" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4E9AE7F26F5F84BF"]
-			id: "0247EEEA6F5872BD"
-			tasks: [{
-				id: "7837770285186B36"
-				item: { components: { "ftbquests:missing_item": "actuallyadditions:atomic_reconstructor" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0247EEEA6F5872BD"]
-			id: "11B11810D5CF813B"
-			rewards: [{
-				id: "5D63694C31EED4C0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "evilcraft:dark_power_gem"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
+			dependencies: ["09517E742726E99F"]
+			id: "2DC4CFC3C825E15B"
+			tasks: [
+				{
+					id: "48670C619DC3A508"
+					item: { count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "412C70AD210BEB09"
-				item: { components: { "ftbquests:missing_item": "evilcraft:dark_power_gem" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
+				{
+					id: "504E9BDDC0B9F6E2"
+					item: { count: 1, id: "modern_industrialization:copper_cable" }
+					type: "item"
+				}
+			]
+			x: 0.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["11B11810D5CF813B"]
-			id: "5C6839A2B8A3775C"
-			tasks: [{
-				id: "1C7AF03994DF9929"
-				item: { components: { "ftbquests:missing_item": "evilcraft:blood_infusion_core" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5C6839A2B8A3775C"]
-			id: "221349774403C9B0"
-			tasks: [{
-				id: "5198300E8D5C1E31"
-				item: { components: { "ftbquests:missing_item": "evilcraft:blood_infuser" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 0.0d
+			dependencies: ["09517E742726E99F"]
+			id: "14F3FF12906A0FF5"
+			tasks: [
+				{
+					id: "7A84B7FD5485948C"
+					item: { count: 1, id: "modern_industrialization:tin_wire" }
+					type: "item"
+				}
+				{
+					id: "0219264DC964C20B"
+					item: { count: 1, id: "modern_industrialization:tin_cable" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
-				"221349774403C9B0"
-				"62EEB77A19A1EBA8"
+				"2DC4CFC3C825E15B"
+				"14F3FF12906A0FF5"
 			]
-			id: "4EA9646336247470"
-			rewards: [{
-				count: 2
-				id: "6E2C0B9F3C03E375"
-				item: {
-					components: {
-						"ftbquests:missing_item": "evilcraft:reinforced_undead_planks"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 3
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "1D9897FF057FBEF6"
-				item: { components: { "ftbquests:missing_item": "evilcraft:reinforced_undead_planks" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4EA9646336247470"]
-			id: "2B3F46568A3E8E1E"
-			tasks: [{
-				id: "13D38CDBD8C95287"
-				item: { components: { "ftbquests:missing_item": "ars_nouveau:imbuement_chamber" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2B3F46568A3E8E1E"]
-			id: "252257628E67F7A6"
-			tasks: [{
-				id: "2B5D926076C8BA44"
-				item: { components: { "ftbquests:missing_item": "ars_nouveau:source_gem" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4E9AE7F26F5F84BF"]
-			id: "429B173A3182DEDC"
-			tasks: [{
-				id: "5C6EB514085E227F"
-				item: { components: { "ftbquests:missing_item": "generatorgalore:copper_generator" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6BB8A02C8788E9FA"]
-			id: "3580C86E248C5059"
-			tasks: [{
-				id: "48FA6145B5A69367"
-				item: { components: { "ftbquests:missing_item": "twilightforest:ironwood_ingot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4EA9646336247470"]
-			id: "3FBE0C2FE34855EB"
-			tasks: [{
-				id: "6B3DEF62885B7E23"
-				item: { components: { "ftbquests:missing_item": "ars_nouveau:scribes_table" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["18BC747CE37F17C0"]
-			id: "65B3CF1E9AA0F71F"
-			tasks: [{
-				id: "34A32D760F1C7D9D"
-				item: { components: { "ftbquests:missing_item": "enderio:alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["65B3CF1E9AA0F71F"]
-			id: "02CBB30DB22AD551"
-			tasks: [{
-				id: "099D4A12454B77B0"
-				item: { components: { "ftbquests:missing_item": "enderio:energetic_alloy_ingot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["02CBB30DB22AD551"]
-			id: "1EF4CA6AF32ECA9A"
-			tasks: [{
-				id: "0A986C2D2E62C094"
-				item: { components: { "ftbquests:missing_item": "enderio:vibrant_alloy_ingot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1EF4CA6AF32ECA9A"]
-			id: "7B64D770801772DB"
-			tasks: [{
-				id: "795070154FF3C110"
-				item: { count: 1, id: "ae2:inscriber" }
-				type: "item"
-			}]
-			x: 14.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7B64D770801772DB"]
-			id: "6E699863BDC3BCA9"
+			id: "7F74C0305AD3A2E3"
 			tasks: [
 				{
-					id: "67C36037BC3E3A6D"
-					item: { count: 1, id: "ae2:printed_engineering_processor" }
+					id: "62E95AEF2B540FAC"
+					item: { count: 1, id: "modern_industrialization:motor" }
 					type: "item"
 				}
 				{
-					id: "20B3EBE53442EA7B"
-					item: { count: 1, id: "ae2:printed_silicon" }
+					id: "24021D34CFD1519B"
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6E699863BDC3BCA9"]
-			id: "6A127E2EF65ED6F0"
-			tasks: [{
-				id: "23825540A0D85AB0"
-				item: { count: 1, id: "ae2:engineering_processor" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["23706EB0C94E67C0"]
-			id: "58E9877C9353AA71"
-			tasks: [{
-				id: "4B7EEED096B64CFD"
-				item: { count: 1, id: "ae2:controller" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1EF4CA6AF32ECA9A"]
-			id: "4C41E346DC8EF872"
-			tasks: [{
-				id: "6A6C8A710C535C88"
-				item: { count: 1, id: "modern_industrialization:motor" }
-				type: "item"
-			}]
-			x: 16.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["747D1279BDEC1486"]
-			id: "2E0449690C20A424"
+			dependencies: ["7F74C0305AD3A2E3"]
+			id: "6E22B265D2422B12"
 			tasks: [{
-				id: "48E14B23B135CBDA"
-				item: { count: 1, id: "modern_industrialization:assembler" }
-				type: "item"
-			}]
-			x: 18.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4C41E346DC8EF872"]
-			id: "1045111DC7514461"
-			tasks: [{
-				id: "7C7403CA3632BB43"
-				item: { count: 1, id: "modern_industrialization:piston" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1045111DC7514461"]
-			id: "747D1279BDEC1486"
-			tasks: [{
-				id: "42E8678968772395"
-				item: { count: 1, id: "modern_industrialization:robot_arm" }
-				type: "item"
-			}]
-			x: 18.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["22BB23B165B1772F"]
-			id: "2F1D7BD1DE6182B7"
-			tasks: [{
-				id: "14F9CAF2AAE35AB0"
-				item: { count: 1, id: "modern_industrialization:redstone_battery" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F1D7BD1DE6182B7"]
-			id: "7A0CE02F37F3662E"
-			tasks: [{
-				id: "5DF2475743CECBE9"
+				id: "371A606134DC4517"
 				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7A0CE02F37F3662E"]
-			id: "7F8B095C0CAD9E16"
+			dependencies: ["6E22B265D2422B12"]
+			id: "2B1F657D3ED0892F"
 			tasks: [{
-				id: "1DF61EB9765DD516"
+				id: "2752DB69E568D8F3"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B1F657D3ED0892F"]
+			id: "5CAA6D2C28F24B19"
+			tasks: [{
+				id: "2ABFED02CFCA59BF"
 				item: { count: 1, id: "modern_industrialization:polarizer" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7F8B095C0CAD9E16"]
-			id: "298EF126EB424893"
+			dependencies: ["5CAA6D2C28F24B19"]
+			id: "77E74299B50840F4"
 			tasks: [{
-				id: "61811710BAFE9129"
+				id: "1E676F51B6AE93A6"
 				item: { count: 1, id: "modern_industrialization:cupronickel_wire_magnetic" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["298EF126EB424893"]
-			id: "4F5DF11460FECD51"
-			tasks: [{
-				id: "11E853BDD0BECB29"
-				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.5d
+			dependencies: ["77E74299B50840F4"]
+			id: "4F1C216365303753"
+			tasks: [
+				{
+					id: "3ED82ABAA63C43F7"
+					item: { count: 1, id: "twilightforest:lich_trophy" }
+					type: "item"
+				}
+				{
+					id: "5420126FEED47464"
+					item: { count: 1, id: "twilightforest:exanimate_essence" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["6A127E2EF65ED6F0"]
-			id: "23706EB0C94E67C0"
-			tasks: [{
-				id: "5CF934E545A46482"
-				item: { count: 1, id: "ae2:drive" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["11B11810D5CF813B"]
-			id: "4E550B2A140E6CE2"
-			tasks: [{
-				id: "5281C18E24010630"
-				item: { components: { "ftbquests:missing_item": "evilcraft:bowl_of_promises_empty" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4E550B2A140E6CE2"]
-			id: "148E5DB90DFC54BA"
-			tasks: [{
-				id: "799D2323EA90DB7D"
-				item: { components: { "ftbquests:missing_item": "evilcraft:bowl_of_promises_dusted" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -3.0d
+			dependencies: ["4F1C216365303753"]
+			id: "22FB1E061F91B42F"
+			tasks: [
+				{
+					id: "17F341B6238FD617"
+					item: { count: 1, id: "twilightforest:hydra_trophy" }
+					type: "item"
+				}
+				{
+					id: "5764AEED2856EB7B"
+					item: { count: 1, id: "twilightforest:fiery_blood" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
-				"221349774403C9B0"
-				"148E5DB90DFC54BA"
+				"22FB1E061F91B42F"
+				"1A785CF94671501F"
 			]
-			id: "1A596FD2CC33778D"
+			id: "190538BD980DD2A0"
 			tasks: [{
-				id: "20031858A209C831"
-				item: { components: { "ftbquests:missing_item": "evilcraft:bowl_of_promises_tier0" }, count: 1, id: "ftbquests:missing_item" }
+				id: "360D22CED8B695D1"
+				item: { count: 1, id: "twilightforest:fiery_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1A596FD2CC33778D"]
-			id: "62EEB77A19A1EBA8"
-			tasks: [{
-				id: "74A21C358875E260"
-				item: { components: { "ftbquests:missing_item": "evilcraft:promise_tier_1" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.5d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["23706EB0C94E67C0"]
-			id: "622E4B1F2AE262BE"
+			dependencies: ["77E74299B50840F4"]
+			id: "1A785CF94671501F"
 			tasks: [{
-				id: "12B991B96A534397"
-				item: { count: 1, id: "ae2:cell_component_1k" }
+				id: "0340A73768D5A8F9"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["622E4B1F2AE262BE"]
-			id: "2C142BFAC218D711"
-			tasks: [{
-				id: "54E6BA255A13744B"
-				item: { count: 1, id: "ae2:item_storage_cell_1k" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["622E4B1F2AE262BE"]
-			id: "0FAFE785C1CA0FA8"
-			tasks: [{
-				id: "460D2C6BE54AD67D"
-				item: { count: 1, id: "ae2:cell_component_4k" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0FAFE785C1CA0FA8"]
-			id: "34558ED1257CFD35"
-			tasks: [{
-				id: "01D58368E90CC27C"
-				item: { count: 1, id: "ae2:item_storage_cell_4k" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2E0449690C20A424"]
-			id: "3D37A69CFBEE1357"
-			tasks: [{
-				id: "0D49816DCFFCCA9F"
-				item: { components: { "ftbquests:missing_item": "actuallyadditions:single_battery" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 19.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3D37A69CFBEE1357"]
-			id: "10D660758702D29A"
-			tasks: [{
-				id: "21DB9CF04D8374B0"
-				item: { components: { "ftbquests:missing_item": "actuallyadditions:double_battery" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["10D660758702D29A"]
-			id: "28C95A045FB96A1F"
-			tasks: [{
-				id: "3F53C93FF5A54E33"
-				item: { components: { "ftbquests:missing_item": "actuallyadditions:empowerer" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["28C95A045FB96A1F"]
-			id: "795DB5AF62021D16"
-			rewards: [{
-				count: 2
-				id: "4510BD518D928BC0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "actuallyadditions:empowered_enori_crystal"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 3
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.2d
-			tasks: [{
-				count: 2L
-				id: "1975C440EA2E8579"
-				item: { components: { "ftbquests:missing_item": "actuallyadditions:empowered_enori_crystal" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 22.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["02CBB30DB22AD551"]
-			id: "23F681DA3D0F9435"
-			tasks: [{
-				id: "7F2B2A621D9AA7C0"
-				item: { count: 1, id: "justdirethings:gooblock_tier3" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["23F681DA3D0F9435"]
-			id: "17AB5B5B19E4CB98"
-			rewards: [{
-				count: 2
-				id: "1EE72BB72BD768A7"
-				item: {
-					count: 1
-					id: "justdirethings:celestigem"
-				}
-				random_bonus: 3
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "5593303DE2943DF5"
-				item: { count: 1, id: "justdirethings:celestigem" }
-				type: "item"
-			}]
-			x: 14.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["17AB5B5B19E4CB98"]
-			id: "3621EED371F371F4"
-			tasks: [
-				{
-					id: "051410255EDA36AC"
-					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "361892EF8543DF28"
-					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
-					type: "item"
-				}
-			]
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["252257628E67F7A6"]
-			id: "6BB8A02C8788E9FA"
-			size: 1.5d
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "5FFB6968BFE051A7"
-				type: "dimension"
-			}]
-			x: 9.75d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3580C86E248C5059"]
-			id: "18BC747CE37F17C0"
-			tasks: [{
-				id: "6C07E517E3534D68"
-				item: { components: { "ftbquests:missing_item": "enderio:void_chassis" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0FAFE785C1CA0FA8"]
-			id: "59B734B5FF798145"
-			tasks: [{
-				id: "26ACB47EC2EEF446"
-				item: { count: 1, id: "ae2:cell_component_16k" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["59B734B5FF798145"]
-			id: "6E30041116482EE1"
-			tasks: [{
-				id: "2E4D52E81F84F783"
-				item: { count: 1, id: "ae2:cell_component_64k" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["59B734B5FF798145"]
-			id: "1085FE7343DC2C4C"
-			tasks: [{
-				id: "1385A062DB9F336F"
-				item: { count: 1, id: "ae2:item_storage_cell_16k" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["6E30041116482EE1"]
-			id: "3DB8947192D39760"
-			tasks: [{
-				id: "229B4B7B3A6C0F81"
-				item: { count: 1, id: "ae2:item_storage_cell_64k" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["6E30041116482EE1"]
-			id: "46E3C85030FC22A5"
-			tasks: [{
-				id: "5BEC6125209DB716"
-				item: { count: 1, id: "ae2:cell_component_256k" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["46E3C85030FC22A5"]
-			id: "76CBF2A3FDB1272A"
-			tasks: [{
-				id: "5301F2D3566427F4"
-				item: { count: 1, id: "ae2:item_storage_cell_256k" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: 6.5d
+			x: 8.5d
+			y: -0.5d
 		}
 	]
 }

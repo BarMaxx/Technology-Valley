@@ -50,10 +50,6 @@
 		""
 		"{image:technology_valley:textures/clibano.png width:100 height:100 align:center}"
 	]
-	quest.6BB8A02C8788E9FA.quest_desc: [
-		"To visit &6Twilight Forest&r, I need to throw &6Source Gem&r into the water (2x2), which is surrounded by flowers/mushrooms around the perimeter."
-		"{image:technology_valley:textures/twilight_forest.png width:150 height:100 align:center}"
-	]
 	task.05713E5C02F7FC6E.title: "Any #c:ingots/steel"
 	task.0BDB1212FA30A730.title: "Any #c:cobblestones"
 	task.10527632AA8F05E1.title: "Any #minecraft:planks"
