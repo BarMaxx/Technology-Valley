@@ -3,6 +3,6 @@
   "rarity": "common",
   "loot_to_inject_id": "endrem:minecraft/chests/pillager_outpost",
   "loot_tables_id": [
-    "minecraft:chests/pillager_outpost"
+    
   ]
 }

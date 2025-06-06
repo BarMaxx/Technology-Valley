@@ -3,6 +3,6 @@
   "rarity": "rare",
   "loot_to_inject_id": "endrem:minecraft/chests/jungle_temple",
   "loot_tables_id": [
-    "minecraft:chests/jungle_temple"
+    
   ]
 }

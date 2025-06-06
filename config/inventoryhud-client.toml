@@ -105,15 +105,15 @@
 	armValign = "BOTTOM"
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	armHalign = "LEFT"
+	armHalign = "MIDDLE"
 	#Armor HUD position (X)
 	# Default: 0
 	# Range: -9999 ~ 9999
-	xArmPos = 126
+	xArmPos = 0
 	#Armor HUD position (Y)
 	# Default: 70
 	# Range: -9999 ~ 9999
-	yArmPos = 73
+	yArmPos = 70
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	potValign = "TOP"
