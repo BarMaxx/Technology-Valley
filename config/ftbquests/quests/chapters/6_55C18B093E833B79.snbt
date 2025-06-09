@@ -4,523 +4,204 @@
 	filename: "6_55C18B093E833B79"
 	group: "753DD1D27C9DF3FC"
 	icon: {
-		components: {
-			"ftbquests:missing_item": "mekanism:metallurgic_infuser"
-		}
-		id: "ftbquests:missing_item"
+		id: "modern_industrialization:processing_unit"
 	}
 	id: "55C18B093E833B79"
-	images: [
-		{
-			height: 2.0d
-			image: "mekanism:item/alloy_reinforced"
-			rotation: 0.0d
-			width: 2.0d
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			height: 2.0d
-			image: "mekanism:item/advanced_control_circuit"
-			rotation: 0.0d
-			width: 2.0d
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			height: 2.0d
-			image: "mekanism:item/teleportation_core"
-			rotation: 0.0d
-			width: 2.0d
-			x: 8.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "justdirethings:item/time_crystal_shard"
-			rotation: 0.0d
-			width: 2.0d
-			x: 13.0d
-			y: 0.0d
-		}
-	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			hide_until_deps_complete: true
-			id: "37F7F27FEC42CAEC"
-			shape: "octagon"
-			size: 1.2d
+			dependencies: ["1A291A6A8C8445AF"]
+			id: "441577342CB566FA"
 			tasks: [{
-				id: "1796293411CD625A"
-				item: { components: { "ftbquests:missing_item": "mekanism:metallurgic_infuser" }, count: 1, id: "ftbquests:missing_item" }
+				id: "28DE26FEBAA26BE9"
+				item: { count: 1, id: "modern_industrialization:digital_circuit" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["37F7F27FEC42CAEC"]
-			id: "283D5C9FDAE88D64"
-			rewards: [{
-				count: 2
-				id: "0EABE4D0A3AB6A11"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:alloy_infused"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
+			dependencies: ["441577342CB566FA"]
+			id: "348AF78C1CDB1C6F"
 			tasks: [{
-				count: 2L
-				id: "3B02BFC64EC555DB"
-				item: { components: { "ftbquests:missing_item": "mekanism:alloy_infused" }, count: 1, id: "ftbquests:missing_item" }
+				id: "0ECBB92239443236"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_drill" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["37F7F27FEC42CAEC"]
-			id: "28D088C6352D6999"
-			rewards: [{
-				count: 2
-				id: "23A8D544772B58C8"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:basic_control_circuit"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "257A308F0A33F683"
-				item: { components: { "ftbquests:missing_item": "mekanism:basic_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["283D5C9FDAE88D64"]
-			id: "635FFDB896B82A7D"
-			rewards: [{
-				count: 2
-				id: "05A3ED3A4825C053"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:alloy_reinforced"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "1C58C2A3984C3BF4"
-				item: { components: { "ftbquests:missing_item": "mekanism:alloy_reinforced" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["635FFDB896B82A7D"]
-			id: "50F978374DC3406B"
-			rewards: [{
-				count: 2
-				id: "3DE3D52093704688"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:alloy_atomic"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "0AF3FE1552E5D4BE"
-				item: { components: { "ftbquests:missing_item": "mekanism:alloy_atomic" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["28D088C6352D6999"]
-			id: "7C026CE766381B34"
-			rewards: [{
-				count: 2
-				id: "2D5344DC29C9160D"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:advanced_control_circuit"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "6C52BBC5E71F9AC6"
-				item: { components: { "ftbquests:missing_item": "mekanism:advanced_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7C026CE766381B34"]
-			id: "1E10EDB72E378AA8"
-			rewards: [{
-				count: 2
-				id: "1DF666D26E8990A0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:elite_control_circuit"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "1D72B8245008DECD"
-				item: { components: { "ftbquests:missing_item": "mekanism:elite_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1E10EDB72E378AA8"]
-			id: "7A6112DBA4302B9A"
-			rewards: [{
-				count: 2
-				id: "2DCD7BC6B6A0D316"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:ultimate_control_circuit"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "28C76C0AA62E94DF"
-				item: { components: { "ftbquests:missing_item": "mekanism:ultimate_control_circuit" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 4.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7A6112DBA4302B9A"]
-			id: "594CAABAA6450AFB"
+			dependencies: ["348AF78C1CDB1C6F"]
+			id: "5411838C02B760B3"
 			tasks: [{
-				id: "5232A03CC5D25CC3"
-				item: { components: { "ftbquests:missing_item": "powah:dielectric_casing" }, count: 1, id: "ftbquests:missing_item" }
+				id: "3FAC76CE6851FBBD"
+				item: { count: 1, id: "modern_industrialization:titanium_ingot" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["594CAABAA6450AFB"]
-			id: "421FF60916F19440"
-			tasks: [{
-				id: "357FCD3ED7ED5C31"
-				item: { components: { "ftbquests:missing_item": "powah:energizing_orb" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.0d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["594CAABAA6450AFB"]
-			id: "4EAF1240FA930694"
+			dependencies: ["348AF78C1CDB1C6F"]
+			id: "7458F757BBE40CE0"
 			tasks: [{
-				id: "63789D5FC80C6D34"
-				item: { components: { "ftbquests:missing_item": "powah:energizing_rod_starter" }, count: 1, id: "ftbquests:missing_item" }
+				id: "3651A34C23FFA91D"
+				item: { count: 1, id: "modern_industrialization:platinum_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: [
-				"4EAF1240FA930694"
-				"421FF60916F19440"
+				"5411838C02B760B3"
+				"7458F757BBE40CE0"
 			]
-			id: "0BF71B1D9F74C4C5"
+			id: "63C24DF490F4B440"
 			tasks: [{
-				id: "35184531A5086A3A"
-				item: { components: { "ftbquests:missing_item": "powah:steel_energized" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4D0A45AC4CA6C650"
+				item: { count: 1, id: "primalmagick:magitech_parts_forbidden" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0BF71B1D9F74C4C5"]
-			id: "409A6BF322C251CA"
+			dependencies: ["5F023ECD8B38255C"]
+			id: "2E60B55C75FAD811"
 			tasks: [{
-				id: "45F917AEA349E3B4"
-				item: { components: { "ftbquests:missing_item": "mekanism:teleportation_core" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1FCFD1FA1A8A4D9D"
+				item: { count: 1, id: "modern_industrialization:titanium_machine_casing_pipe" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E60B55C75FAD811"]
+			id: "7319462F7DE1958C"
+			tasks: [{
+				id: "719B2B6CA1BCF966"
+				item: { count: 1, id: "modern_industrialization:implosion_compressor" }
+				type: "item"
+			}]
+			x: 6.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["409A6BF322C251CA"]
-			id: "4D64871BB3AA6163"
+			dependencies: ["63C24DF490F4B440"]
+			id: "7C5D3563E7D5BB98"
 			tasks: [{
-				id: "21311C019AB39B51"
+				id: "4F43F306F67E2EA8"
 				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C5D3563E7D5BB98"]
+			id: "5F023ECD8B38255C"
+			tasks: [
+				{
+					id: "1548B2CAEB84627D"
+					item: { count: 1, id: "justdirethings:raw_eclipsealloy" }
+					type: "item"
+				}
+				{
+					id: "7362B27235EE5FBE"
+					item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56DFF62F33CD8378"]
+			id: "16A808D72B6B46B1"
+			tasks: [{
+				id: "48351A23E88F2BBE"
+				item: { count: 1, id: "extendedcrafting:compressor" }
 				type: "item"
 			}]
 			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4D64871BB3AA6163"]
-			id: "5A74654A7AA53D5A"
+			dependencies: ["16A808D72B6B46B1"]
+			id: "45F02632408AD67B"
 			tasks: [{
-				id: "0E54AACC27BEDB22"
-				item: { count: 1, id: "justdirethings:time_crystal_budding_block" }
+				id: "2E51F631CB54C553"
+				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
 				type: "item"
 			}]
 			x: 11.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A74654A7AA53D5A"]
-			id: "2333CDF8DC8EE0F6"
+			dependencies: ["45F02632408AD67B"]
+			id: "0DFE74BDE02BAF0D"
 			tasks: [{
-				id: "3AC0FC7E00441B4C"
-				item: { count: 1, id: "justdirethings:time_crystal" }
+				id: "4CA48504354974B5"
+				item: { count: 1, id: "modern_industrialization:qubit" }
 				type: "item"
 			}]
 			x: 13.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2333CDF8DC8EE0F6"]
-			id: "7BB9E36A68BBA5DA"
+			dependencies: ["0DFE74BDE02BAF0D"]
+			id: "4FE0B6E46AD9F008"
 			tasks: [{
-				id: "5EFAC1325A83DE85"
-				item: { count: 1, id: "modern_industrialization:implosion_compressor" }
+				id: "1CD3FC1EB14B4124"
+				item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 				type: "item"
 			}]
 			x: 14.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7BB9E36A68BBA5DA"]
-			id: "5B8DACF977CA8C4D"
-			shape: "gear"
-			size: 1.2d
-			tasks: [{
-				id: "102DE1303F5FBC54"
-				item: { count: 1, id: "modern_industrialization:singularity" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["283D5C9FDAE88D64"]
-			id: "19CFAA6752D1AC9F"
-			tasks: [{
-				id: "4D77F3E825C813D7"
-				item: { components: { "ftbquests:missing_item": "mekanism:energy_tablet" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["19CFAA6752D1AC9F"]
-			id: "2DA95203B5CEC6BE"
-			tasks: [{
-				id: "5915837E5B22EA15"
-				item: { components: { "ftbquests:missing_item": "mekanismgenerators:solar_generator" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2DA95203B5CEC6BE"]
-			id: "7E2AFA32FDF78FCD"
-			tasks: [{
-				id: "78DC2D3DF7352B76"
-				item: { components: { "ftbquests:missing_item": "mekanismgenerators:advanced_solar_generator" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["19CFAA6752D1AC9F"]
-			id: "6A450EFB8058BD36"
-			tasks: [{
-				id: "5ECE1B9F0280B34A"
-				item: { components: { "ftbquests:missing_item": "mekanismgenerators:wind_generator" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["50F978374DC3406B"]
-			id: "7225AD04F7842AEF"
-			tasks: [{
-				id: "4466DA2DF2B59CED"
-				item: { components: { "ftbquests:missing_item": "mekanism:atomic_disassembler" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["50F978374DC3406B"]
-			id: "13C7EF368EDDC9BA"
-			tasks: [{
-				id: "229923FFCB5187AE"
-				item: { components: { "ftbquests:missing_item": "mekanism:robit" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["409A6BF322C251CA"]
-			id: "29F1BA8D9D06B36D"
-			tasks: [{
-				id: "46A07785AEB2BDAD"
-				item: { components: { "ftbquests:missing_item": "mekanism:digital_miner" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["409A6BF322C251CA"]
-			id: "43B989F2F6394C95"
-			tasks: [{
-				id: "25EE33E94016F9CB"
-				item: { components: { "ftbquests:missing_item": "mekanism:quantum_entangloporter" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["28D088C6352D6999"]
-			id: "6BFC7B9214DA7D21"
-			tasks: [{
-				id: "03C9BE9DF6C8E2B8"
-				item: { components: { "ftbquests:missing_item": "mekanism:jetpack" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["28D088C6352D6999"]
-			id: "23C912EED1F44991"
-			tasks: [{
-				id: "4BF0B5A78C5D03FF"
-				item: { components: { "ftbquests:missing_item": "mekanism:free_runners" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["23C912EED1F44991"]
-			id: "3FCC33E5B6577C03"
-			tasks: [{
-				id: "076B297AF80B06A4"
-				item: { components: { "ftbquests:missing_item": "mekanism:free_runners_armored" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["6BFC7B9214DA7D21"]
-			id: "0F4EBCB6FE2421BE"
-			tasks: [{
-				id: "2B40A1635123DF1F"
-				item: { components: { "ftbquests:missing_item": "mekanism:jetpack_armored" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["28D088C6352D6999"]
-			id: "39D9586D776D1AEC"
+			dependencies: ["7319462F7DE1958C"]
+			id: "102FC111D3908F3D"
 			tasks: [
 				{
-					id: "5E1241A8FF3E6F58"
-					item: { components: { "ftbquests:missing_item": "mekanism:scuba_tank" }, count: 1, id: "ftbquests:missing_item" }
+					id: "1E53FCE0521BDCEC"
+					item: { count: 1, id: "modern_industrialization:mixed_ingot_blastproof" }
 					type: "item"
 				}
 				{
-					id: "1650EEB2C6E2A530"
-					item: { components: { "ftbquests:missing_item": "mekanism:scuba_mask" }, count: 1, id: "ftbquests:missing_item" }
+					id: "6B91FC16B713F55E"
+					item: { count: 1, id: "modern_industrialization:blastproof_alloy_ingot" }
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 1.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2333CDF8DC8EE0F6"]
-			id: "12B918DF05F3DBBE"
+			dependencies: ["102FC111D3908F3D"]
+			id: "63BFAE65F9509C91"
 			tasks: [{
-				id: "626B9A4D0FE760CC"
-				item: { count: 1, id: "justdirethings:paradoxmachine" }
+				id: "33EC769A5B394EB3"
+				item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: -1.5d
+			x: 8.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["2333CDF8DC8EE0F6"]
-			id: "6BA4BE1D91258ACD"
+			dependencies: ["63BFAE65F9509C91"]
+			id: "56DFF62F33CD8378"
 			tasks: [{
-				id: "604C2F96917F9075"
-				item: { count: 1, id: "justdirethings:time_wand" }
+				id: "6339FCF7A3E01F26"
+				item: { count: 1, id: "modern_industrialization:iridium_plate" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 9.5d
+			y: 1.0d
 		}
 	]
 }

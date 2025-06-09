@@ -150,15 +150,15 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["038A46EB92CDE366"]
+			dependencies: ["26B16D489FD700D8"]
 			id: "3E3C207E6F23A3A9"
 			tasks: [{
 				id: "50A2594ED2F5B380"
 				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 14.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3E3C207E6F23A3A9"]
@@ -168,7 +168,7 @@
 				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -213,6 +213,68 @@
 				type: "item"
 			}]
 			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["281057AC71B9A2AB"]
+			id: "215D54C0ED6ED180"
+			tasks: [
+				{
+					id: "0739CD8002159459"
+					item: { count: 1, id: "extendedcrafting:ultimate_component" }
+					type: "item"
+				}
+				{
+					id: "5A22E2305692E98F"
+					item: { count: 1, id: "extendedcrafting:ultimate_catalyst" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["215D54C0ED6ED180"]
+			id: "1A291A6A8C8445AF"
+			tasks: [{
+				id: "12EA896A7F35C6E0"
+				item: { count: 1, id: "extendedcrafting:ultimate_table" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["038A46EB92CDE366"]
+			id: "7B08A3C3F0095145"
+			tasks: [{
+				id: "28F285EAF3682525"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B08A3C3F0095145"]
+			id: "26B16D489FD700D8"
+			tasks: [{
+				id: "205C5A67C85218C5"
+				item: { count: 1, id: "fdbosses:lightning_core" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18B6F9F1E605E386"]
+			id: "2256090C2EA7B923"
+			tasks: [{
+				id: "473C87460FE2B974"
+				item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone" }
+				type: "item"
+			}]
+			x: 7.5d
 			y: -1.5d
 		}
 	]

@@ -97,8 +97,8 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2B1F657D3ED0892F"]
@@ -108,8 +108,8 @@
 				item: { count: 1, id: "modern_industrialization:polarizer" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5CAA6D2C28F24B19"]
@@ -119,26 +119,19 @@
 				item: { count: 1, id: "modern_industrialization:cupronickel_wire_magnetic" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["77E74299B50840F4"]
 			id: "4F1C216365303753"
-			tasks: [
-				{
-					id: "3ED82ABAA63C43F7"
-					item: { count: 1, id: "twilightforest:lich_trophy" }
-					type: "item"
-				}
-				{
-					id: "5420126FEED47464"
-					item: { count: 1, id: "twilightforest:exanimate_essence" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 1.0d
+			tasks: [{
+				id: "3ED82ABAA63C43F7"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4F1C216365303753"]
@@ -155,8 +148,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 1.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -169,7 +162,7 @@
 				item: { count: 1, id: "twilightforest:fiery_ingot" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -180,7 +173,7 @@
 				item: { count: 1, id: "cataclysm:ignitium_ingot" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -191,8 +184,8 @@
 				item: { count: 1, id: "primalmagick:magitech_parts_basic" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["190538BD980DD2A0"]
@@ -202,7 +195,7 @@
 				id: "31C26DF7B38396D0"
 				type: "dimension"
 			}]
-			x: 11.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -213,7 +206,7 @@
 				item: { count: 1, id: "actuallyadditions:iron_casing" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -224,7 +217,7 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -235,7 +228,7 @@
 				item: { count: 1, id: "actuallyadditions:enori_crystal" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -253,7 +246,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 13.5d
 			y: 1.5d
 		}
 		{
@@ -264,7 +257,7 @@
 				item: { count: 1, id: "extendedcrafting:elite_table" }
 				type: "item"
 			}]
-			x: 19.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -275,7 +268,7 @@
 				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 12.5d
 			y: -1.5d
 		}
 		{
@@ -293,7 +286,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 13.5d
 			y: -1.5d
 		}
 		{
@@ -311,7 +304,7 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
+			x: 14.0d
 			y: -0.5d
 		}
 		{
@@ -325,7 +318,7 @@
 				item: { count: 1, id: "actuallyadditions:empowerer" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 15.5d
 			y: 0.0d
 		}
 		{
@@ -336,8 +329,8 @@
 				item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1B74A014BA88D36A"]
@@ -347,7 +340,7 @@
 				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -358,7 +351,7 @@
 				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
 				type: "item"
 			}]
-			x: 23.5d
+			x: 18.5d
 			y: 0.0d
 		}
 	]

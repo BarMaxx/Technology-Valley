@@ -44,27 +44,11 @@
 		}
 		{
 			height: 2.0d
-			image: "allthemodium:item/unobtainium_vibranium_alloy_ingot"
-			rotation: 0.0d
-			width: 2.0d
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
 			image: "stellaris:item/pumpjack_drill"
 			rotation: 0.0d
 			width: 2.0d
 			x: 0.0d
 			y: -3.5d
-		}
-		{
-			height: 2.0d
-			image: "stellaris:item/jet_suit_chestplate"
-			rotation: 0.0d
-			width: 2.0d
-			x: 4.5d
-			y: -1.5d
 		}
 		{
 			height: 2.0d
@@ -74,12 +58,83 @@
 			x: 0.0d
 			y: -5.0d
 		}
+		{
+			height: 2.0d
+			image: "stellaris:item/jet_suit_chestplate"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -1.5d
+		}
 	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5B8DACF977CA8C4D"]
+			dependencies: ["4FE0B6E46AD9F008"]
+			hide_until_deps_complete: true
+			id: "1B3BAF2F19C7053D"
+			tasks: [{
+				id: "1F7F93CE954DF0FA"
+				item: { count: 1, id: "stellaris:pumpjack_drill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1B3BAF2F19C7053D"]
+			id: "4FA50355281074FA"
+			tasks: [{
+				id: "04C69DF8C0E394BF"
+				item: { count: 1, id: "stellaris:pumpjack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FE0B6E46AD9F008"]
+			hide_until_deps_complete: true
+			id: "22ACBBE81F6782C5"
+			tasks: [{
+				id: "1E347E01842375AE"
+				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:oxygen_tank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22ACBBE81F6782C5"]
+			id: "3E6AEE9803DE31DD"
+			tasks: [
+				{
+					id: "280430F3FCD9F7C8"
+					item: { count: 1, id: "stellaris:space_suit_helmet" }
+					type: "item"
+				}
+				{
+					id: "07C2ECDEDAF4C2A8"
+					item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:space_suit_chestplate" }
+					type: "item"
+				}
+				{
+					id: "407C2B63C98D63F0"
+					item: { count: 1, id: "stellaris:space_suit_leggings" }
+					type: "item"
+				}
+				{
+					id: "749F69516685845F"
+					item: { count: 1, id: "stellaris:space_suit_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4FE0B6E46AD9F008"]
 			hide_until_deps_complete: true
 			id: "00ED42CA781ABFFB"
 			tasks: [{
@@ -163,41 +218,6 @@
 		}
 		{
 			dependencies: ["6AD23FEFAA9BDA4E"]
-			id: "74B8BEE08B5F40F8"
-			tasks: [{
-				count: 2L
-				id: "4DBCD51A2C629FE0"
-				item: { components: { "ftbquests:missing_item": "allthemodium:unobtainium_vibranium_alloy_ingot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5B8DACF977CA8C4D"]
-			hide_until_deps_complete: true
-			id: "1B3BAF2F19C7053D"
-			tasks: [{
-				id: "1F7F93CE954DF0FA"
-				item: { count: 1, id: "stellaris:pumpjack_drill" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1B3BAF2F19C7053D"]
-			id: "4FA50355281074FA"
-			tasks: [{
-				id: "04C69DF8C0E394BF"
-				item: { count: 1, id: "stellaris:pumpjack" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6AD23FEFAA9BDA4E"]
 			id: "56F8639980482C8F"
 			tasks: [
 				{
@@ -221,48 +241,63 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["5B8DACF977CA8C4D"]
-			hide_until_deps_complete: true
-			id: "22ACBBE81F6782C5"
+			dependencies: ["6AD23FEFAA9BDA4E"]
+			id: "6F814DA9B9E589C6"
 			tasks: [{
-				id: "1E347E01842375AE"
-				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:oxygen_tank" }
+				id: "7D89920A07DB6B3B"
+				item: { count: 1, id: "primalmagick:magitech_parts_heavenly" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["22ACBBE81F6782C5"]
-			id: "3E6AEE9803DE31DD"
-			tasks: [
-				{
-					id: "280430F3FCD9F7C8"
-					item: { count: 1, id: "stellaris:space_suit_helmet" }
-					type: "item"
-				}
-				{
-					id: "07C2ECDEDAF4C2A8"
-					item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:space_suit_chestplate" }
-					type: "item"
-				}
-				{
-					id: "407C2B63C98D63F0"
-					item: { count: 1, id: "stellaris:space_suit_leggings" }
-					type: "item"
-				}
-				{
-					id: "749F69516685845F"
-					item: { count: 1, id: "stellaris:space_suit_boots" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -5.5d
+			dependencies: ["6F814DA9B9E589C6"]
+			id: "412DD1B14FCC1107"
+			tasks: [{
+				id: "4804C19F1E4F31DE"
+				item: { count: 1, id: "modern_industrialization:fusion_chamber" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["412DD1B14FCC1107"]
+			id: "7404D6171898A2A3"
+			tasks: [{
+				id: "046266BD4E557093"
+				item: { count: 1, id: "modern_industrialization:fusion_reactor" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7404D6171898A2A3"]
+			id: "0EAC8AB7B2AB5368"
+			tasks: [{
+				id: "4573B45A4B13A9A3"
+				item: { count: 1, id: "modern_industrialization:helium_plasma_bucket" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EAC8AB7B2AB5368"]
+			id: "16E6594E2265840E"
+			tasks: [{
+				id: "6EC722840AED66CC"
+				item: { count: 1, id: "modern_industrialization:singularity" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
 		}
 	]
 }

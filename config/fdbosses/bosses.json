@@ -33,5 +33,10 @@
   "peacefulDifficultyBossDamageMuliplier": 0.25,
   "easyDifficultyBossDamageMultiplier": 0.5,
   "normalDifficultyBossDamageMultiplier": 0.75,
-  "hardDifficultyBossDamageMultiplier": 1.0
+  "hardDifficultyBossDamageMultiplier": 1.0,
+  "_comment_blocksAllowedToBreakInArena": "Block id regex. If you wish to add a single block id, do it like that: ^modid:block_id$",
+  "blocksAllowedToBreakInArena": [
+    "(grave)|(tomb)",
+    "^tombstone:grave_simple$"
+  ]
 }
