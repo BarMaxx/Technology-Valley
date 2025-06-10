@@ -1,27 +1,30 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    " FDF ",
+    "GFDFG",
     "FCBCF",
     "DBABD",
     "FCBCF",
-	" FDF "
+	"GFDFG"
   ],
   "key": {
     "A": {
-      "item": "minecraft:diamond"
+      "item": "undergarden:forgotten_nugget"
     },
     "B": {
       "item": "technologyvalley:fire_iron"
     },
     "C": {
-      "tag": "c:ingots/steel"
+      "item": "undergarden:utherium_crystal"
     },
     "D": {
-      "item": "naturesaura:sky_ingot"
+      "item": "undergarden:froststeel_ingot"
     },
     "F": {
-      "item": "minecraft:gold_ingot"
+      "item": "create:brass_ingot"
+    },
+    "G": {
+      "item": "extendedcrafting:luminessence"
     }
   },
   "result": {

@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "technologyvalley:fire_iron"
+    }
+  ],
+  "results": [
+    {
+	  "count": 2,
+      "id": "extendedcrafting:black_iron_ingot"
+      
+    }
+  ]
+}
+
+
+
