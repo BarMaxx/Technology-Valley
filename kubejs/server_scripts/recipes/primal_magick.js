@@ -5,9 +5,9 @@ ServerEvents.recipes(event => {
 	event.shaped(
 	  Item.of('primalmagick:mundane_wand'), 
 	  [
-	    ' BC',
-		' AB',
-		'A  '
+	    'CB ',
+		'BA ',
+		'  A'
 	  ], 
 	  {
 		A: '#c:rods/wooden',
