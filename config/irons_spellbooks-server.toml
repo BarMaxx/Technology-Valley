@@ -91,6 +91,7 @@
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
+	#irons_spellbooks:fire
 	[Spells."irons_spellbooks:magma_bomb"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -333,7 +334,6 @@
 		CooldownInSeconds = 25.0
 		AllowCrafting = false
 
-	#irons_spellbooks:nature
 	[Spells."irons_spellbooks:poison_arrow"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
@@ -356,6 +356,7 @@
 		CooldownInSeconds = 45.0
 		AllowCrafting = true
 
+	#irons_spellbooks:nature
 	[Spells."cataclysm_spellbooks:conjure_amethyst_crab"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
@@ -1570,7 +1571,6 @@
 		CooldownInSeconds = 35.0
 		AllowCrafting = true
 
-	#irons_spellbooks:blood
 	[Spells."gametechbcs_spellbooks:crimson_downpour"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -1582,6 +1582,7 @@
 		CooldownInSeconds = 40.0
 		AllowCrafting = true
 
+	#irons_spellbooks:blood
 	[Spells."irons_spellbooks:raise_dead"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -1825,7 +1826,6 @@
 		CooldownInSeconds = 40.0
 		AllowCrafting = true
 
-	#irons_spellbooks:fire
 	[Spells."traveloptics:lava_bomb"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -2190,6 +2190,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 16.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:pocket_dimension"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 60.0
 		AllowCrafting = true
 
 #Other Configuration

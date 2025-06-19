@@ -22,3 +22,5 @@ foundryCollectItems = true
 # Default: 4.0
 # Range: 1.0 ~ 2.147483647E9
 foundryCoolingModifier = 4.0
+#Should an active foundry render its inventory inside the multiblock
+foundryRenderInventory = true
