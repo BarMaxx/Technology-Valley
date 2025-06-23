@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "BGFGC",
+    "GBDCG",
+    "FDADF",
+    "GCDBG",
+	"CGFGB"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:elite_component"
+    },
+    "B": {
+      "item": "eternal_starlight:golem_steel_ingot"
+    },
+    "C": {
+      "item": "twilightforest:knightmetal_ingot"
+    },
+    "D": {
+      "item": "twilightforest:exanimate_essence"
+    },
+    "F": {
+      "item": "twilightforest:carminite"
+    },
+    "G": {
+      "item": "eternal_starlight:aethersent_block"
+    }
+  },
+  "result": {
+    "id": "extendedcrafting:elite_catalyst",
+    "count": 1
+  }
+}

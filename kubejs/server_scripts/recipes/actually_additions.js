@@ -10,9 +10,9 @@ ServerEvents.recipes(event => {
 		'BCB'
 	  ], 
 	  {
-		A: 'actuallyadditions:black_quartz',
-		B: 'modern_industrialization:battery_alloy_ingot',
-		C: '#c:rods/wooden'
+		A: 'primalmagick:magitech_parts_basic',
+		B: 'eternal_starlight:aethersent_ingot',
+		C: '#c:rods/steel'
 	  }
 	)
 	

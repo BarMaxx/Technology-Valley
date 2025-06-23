@@ -1,11 +1,11 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "GFDFG",
-    "FCBCF",
+    "GCDFG",
+    "FEBEC",
     "DBABD",
-    "FCBCF",
-	"GFDFG"
+    "CEBEF",
+	"GFDCG"
   ],
   "key": {
     "A": {
@@ -25,6 +25,9 @@
     },
     "G": {
       "item": "extendedcrafting:luminessence"
+    },
+    "E": {
+      "item": "undergarden:rogdorium"
     }
   },
   "result": {

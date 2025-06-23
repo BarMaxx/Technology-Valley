@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
 		D: 'undergarden:forgotten_nugget'
 	  }
 	)
-	
+
 	
 	event.remove({output: 'extendedcrafting:basic_catalyst'})
 	event.shaped(

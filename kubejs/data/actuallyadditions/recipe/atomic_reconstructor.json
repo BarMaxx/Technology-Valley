@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "DFGFD",
+    "FEBEF",
+    "GCACG",
+    "FEBEF",
+	"DFGFD"
+  ],
+  "key": {
+    "A": {
+      "item": "actuallyadditions:iron_casing"
+    },
+    "B": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "C": {
+      "item": "modern_industrialization:motor"
+    },
+    "D": {
+      "item": "modern_industrialization:redstone_battery"
+    },
+    "F": {
+      "item": "justdirethings:ferricore_ingot"
+    },
+    "G": {
+      "item": "justdirethings:blazegold_ingot"
+    },
+    "E": {
+      "item": "eternal_starlight:swamp_silver_ingot"
+    }
+  },
+  "result": {
+    "id": "actuallyadditions:atomic_reconstructor",
+    "count": 1
+  }
+}

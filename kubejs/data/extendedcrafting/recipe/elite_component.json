@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "GCBCF",
+    "DBCBD",
+    " DAD ",
+    "DBCBD",
+	"FCBCG"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:advanced_catalyst"
+    },
+    "B": {
+      "item": "actuallyadditions:enori_crystal"
+    },
+    "C": {
+      "item": "eternal_starlight:amaramber_ingot"
+    },
+    "D": {
+      "item": "primalmagick:energized_diamond"
+    },
+    "F": {
+      "item": "twilightforest:ironwood_ingot"
+    },
+    "G": {
+      "item": "eternal_starlight:shivering_gel"
+    }
+  },
+  "result": {
+    "id": "extendedcrafting:elite_component",
+    "count": 1
+  }
+}

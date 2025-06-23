@@ -168,11 +168,17 @@
 		{
 			dependencies: ["77E74299B50840F4"]
 			id: "1A785CF94671501F"
-			tasks: [{
-				id: "0340A73768D5A8F9"
-				item: { count: 1, id: "cataclysm:ignitium_ingot" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0340A73768D5A8F9"
+					item: { count: 1, id: "cataclysm:ignitium_ingot" }
+					type: "item"
+				}
+				{
+					id: "5181BB410363DBB2"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: -0.5d
 		}
