@@ -111,3 +111,7 @@
 	out_of_working_range_malfunction = true
 	#If owner of the Camera Stand is not in range, closest player will be chosen to create and render a photo. Default: true
 	fallback_to_other_players = true
+
+[integration]
+	#Create Deployers will be able to insert/swap attachments on Camera Stand. Default: true
+	create_deployer_stand_hotswap = true

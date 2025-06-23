@@ -5,6 +5,9 @@
 	showAffinities = false
 	#Whether to show the wand HUD while a wand or staff is held in the main hand.
 	showWandHud = true
+	#Whether to use the standard icon representation for item affinities.
+	#Setting this to 'false' will render them as text instead.
+	showAffinityIcons = true
 
 #Radial menu settings
 [radial]
