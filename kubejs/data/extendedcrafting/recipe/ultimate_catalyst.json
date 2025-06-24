@@ -1,0 +1,42 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+	"FFFGFFF",
+	"FCHEHDF",
+	"FHCADHF",
+	"GEABAEG",
+	"FHDACHF",
+	"FDHEHCF",
+	"FFFGFFF"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:ultimate_component"
+    },
+    "B": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "C": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "D": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "F": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    },
+    "G": {
+      "item": "modern_industrialization:aluminum_large_plate"
+    },
+    "E": {
+      "item": "actuallyadditions:ender_star"
+    },
+    "H": {
+      "item": "forbidden_arcanus:obsidiansteel_ingot"
+    }
+  },
+  "result": {
+    "id": "extendedcrafting:ultimate_catalyst",
+    "count": 1
+  }
+}

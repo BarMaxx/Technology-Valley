@@ -2,9 +2,9 @@
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "BGFGC",
-    "GBDCG",
-    "FDADF",
-    "GCDBG",
+    "GBACG",
+    "FADAF",
+    "GCABG",
 	"CGFGB"
   ],
   "key": {

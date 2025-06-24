@@ -1,0 +1,45 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+	"DDDEDDD",
+	"DGHCKGD",
+	"DHCBCKD",
+	"FCBABCF",
+	"DKCBCHD",
+	"DGKCHGD",
+	"DDDFDDD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blast_furnace"
+    },
+    "B": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "C": {
+      "item": "modern_industrialization:cupronickel_wire_magnetic"
+    },
+    "D": {
+      "item": "actuallyadditions:empowered_enori_crystal_block"
+    },
+    "F": {
+      "item": "primalmagick:spellcloth"
+    },
+    "G": {
+      "item": "actuallyadditions:empowered_emeradic_crystal_block"
+    },
+    "E": {
+      "item": "naturesaura:clock_hand"
+    },
+    "H": {
+      "item": "undergarden:rogdorium_block"
+    },
+    "K": {
+      "item": "undergarden:regalium_block"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:electric_blast_furnace",
+    "count": 1
+  }
+}

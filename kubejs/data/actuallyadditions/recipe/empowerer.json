@@ -1,0 +1,54 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+	"KKOMOLL",
+	"KFEGHFL",
+	"OEBDBHO",
+	"MGCACGM",
+	"OHBDBEO",
+	"LFHGEFK",
+	"LLOMOKK"
+  ],
+  "key": {
+    "A": {
+      "item": "actuallyadditions:display_stand"
+    },
+    "B": {
+      "item": "actuallyadditions:iron_casing"
+    },
+    "C": {
+      "item": "actuallyadditions:double_battery"
+    },
+    "D": {
+      "item": "modern_industrialization:redstone_battery"
+    },
+    "F": {
+      "item": "actuallyadditions:palis_crystal"
+    },
+    "G": {
+      "item": "actuallyadditions:diamatine_crystal"
+    },
+    "E": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "H": {
+      "item": "modern_industrialization:motor"
+    },
+    "K": {
+      "item": "justdirethings:ferricore_block"
+    },
+    "L": {
+      "item": "justdirethings:blazegold_block"
+    },
+    "M": {
+      "item": "actuallyadditions:emeradic_crystal_block"
+    },
+    "O": {
+      "item": "actuallyadditions:void_crystal_block"
+    }
+  },
+  "result": {
+    "id": "actuallyadditions:empowerer",
+    "count": 1
+  }
+}

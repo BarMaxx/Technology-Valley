@@ -1,0 +1,42 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+	"CEHGHEC",
+	"ECFDFCE",
+	"HFBBBFH",
+	"GDBABDG",
+	"HFBBBFH",
+	"ECFDFCE",
+	"CEHGHEC"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "B": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "C": {
+      "item": "justdirethings:celestigem"
+    },
+    "D": {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    "F": {
+      "item": "cataclysm:lacrima"
+    },
+    "G": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "E": {
+      "item": "modern_industrialization:aluminum_large_plate"
+    },
+    "H": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    }
+  },
+  "result": {
+    "id": "extendedcrafting:ultimate_component",
+    "count": 1
+  }
+}
