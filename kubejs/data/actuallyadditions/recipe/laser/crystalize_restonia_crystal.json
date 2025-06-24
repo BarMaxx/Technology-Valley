@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 500,
+  "ingredient": {
+    "item": "allthecompressed:redstone_block_1x"
+  },
+  "result": {
+    "id": "actuallyadditions:restonia_crystal"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "modern_industrialization:assembler",
+  "duration": 200,
+  "eu": 8,
+  "item_inputs": [
+    {
+      "amount": 4,
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    {
+      "amount": 4,
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    {
+      "amount": 4,
+      "item": "modern_industrialization:large_pump"
+    },
+    {
+      "amount": 20,
+      "item": "modern_industrialization:aluminum_large_plate"
+    },
+    {
+      "amount": 1,
+      "item": "fdbosses:lightning_core"
+    },
+    {
+      "amount": 4,
+      "item": "justdirethings:celestigem_block"
+    },
+    {
+      "amount": 4,
+      "item": "forbidden_arcanus:obsidiansteel_block"
+    },
+    {
+      "amount": 4,
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "amount": 4,
+      "item": "cataclysm:black_steel_ingot"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "modern_industrialization:vacuum_freezer"
+    }
+  ]
+}

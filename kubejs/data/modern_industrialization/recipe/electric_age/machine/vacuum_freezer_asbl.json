@@ -1,0 +1,45 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+	"FFFGFFF",
+	"FEHDHEF",
+	"FKCBCKF",
+	"GDBABDG",
+	"FKCBCKF",
+	"FEHDHEF",
+	"FFFGFFF"
+  ],
+  "key": {
+    "A": {
+      "item": "fdbosses:lightning_core"
+    },
+    "B": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "C": {
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    "D": {
+      "item": "modern_industrialization:large_pump"
+    },
+    "F": {
+      "item": "modern_industrialization:aluminum_large_plate"
+    },
+    "G": {
+      "item": "justdirethings:celestigem_block"
+    },
+    "E": {
+      "item": "forbidden_arcanus:obsidiansteel_block"
+    },
+    "H": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "K": {
+      "item": "cataclysm:black_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:vacuum_freezer",
+    "count": 1
+  }
+}

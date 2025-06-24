@@ -1,0 +1,39 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "BBBFBBB",
+    "BСEGEСB",
+    "BEСDСEB",
+    "FGDADGF",
+    "BEСDСEB",
+    "BСEGEСB",
+	"BBBFBBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blast_furnace"
+    },
+    "B": {
+      "item": "forbidden_arcanus:darkstone"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "F": {
+      "item": "modern_industrialization:aluminum_large_plate"
+    },
+    "G": {
+      "item": "actuallyadditions:empowered_emeradic_crystal_block"
+    },
+    "E": {
+      "item": "actuallyadditions:empowered_void_crystal_block"
+    }
+  },
+  "result": {
+    "id": "forbidden_arcanus:clibano_core",
+    "count": 1
+  }
+}

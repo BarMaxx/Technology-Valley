@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 500,
+  "ingredient": {
+    "item": "allthecompressed:emerald_block_1x"
+  },
+  "result": {
+    "id": "actuallyadditions:emeradic_crystal"
+  }
+}

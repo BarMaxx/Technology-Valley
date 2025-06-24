@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 1000,
+  "ingredient": {
+    "item": "allthecompressed:lapis_block_2x"
+  },
+  "result": {
+    "id": "actuallyadditions:palis_crystal_block"
+  }
+}

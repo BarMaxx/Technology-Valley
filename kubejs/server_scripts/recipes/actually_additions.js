@@ -17,4 +17,23 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'actuallyadditions:wood_casing'})
+	event.shaped(
+	  Item.of('actuallyadditions:wood_casing'), 
+	  [
+	    'FCB',
+		'CAC',
+		'ECD'
+	  ], 
+	  {
+		A: 'primalmagick:magitech_parts_basic',
+		B: 'productivetrees:almond_planks',
+		C: '#c:rods/bronze',
+		D: 'productivetrees:avocado_planks',
+		E: 'productivetrees:ash_planks',
+		F: 'productivetrees:aspen_planks'
+	  }
+	)
+	
+	
 })

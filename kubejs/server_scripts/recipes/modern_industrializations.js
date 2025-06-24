@@ -34,4 +34,22 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'modern_industrialization:advanced_machine_hull'})
+	event.shaped(
+	  Item.of('modern_industrialization:advanced_machine_hull'), 
+	  [
+	    'ECE',
+		'BAB',
+		'DDD'
+	  ], 
+	  {
+		A: 'modern_industrialization:advanced_machine_casing',
+		B: 'modern_industrialization:silicon_battery',
+		C: 'modern_industrialization:electronic_circuit',
+		D: 'modern_industrialization:electrum_cable',
+		E: 'primalmagick:magitech_parts_enchanted'
+	  }
+	)
+	
+	
 })

@@ -3,7 +3,7 @@
   "pattern": [
     "GCBCF",
     "DBCBD",
-    " DAD ",
+    "EDADE",
     "DBCBD",
 	"FCBCG"
   ],
@@ -18,13 +18,16 @@
       "item": "eternal_starlight:amaramber_ingot"
     },
     "D": {
-      "item": "primalmagick:energized_diamond"
+      "item": "actuallyadditions:diamatine_crystal"
     },
     "F": {
       "item": "twilightforest:ironwood_ingot"
     },
     "G": {
       "item": "eternal_starlight:shivering_gel"
+    },
+    "E": {
+      "item": "primalmagick:energized_diamond"
     }
   },
   "result": {

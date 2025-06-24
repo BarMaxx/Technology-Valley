@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 1000,
+  "ingredient": {
+    "item": "allthecompressed:iron_block_2x"
+  },
+  "result": {
+    "id": "actuallyadditions:enori_crystal_block"
+  }
+}
