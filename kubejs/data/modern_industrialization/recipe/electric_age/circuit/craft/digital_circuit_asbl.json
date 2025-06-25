@@ -1,0 +1,47 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+	"HEEHHHEEH",
+	"EEKKEKKEE",
+	"EKFGFGFKE",
+	"HKGFDFGKH",
+	"HEFBABFEH",
+	"HKGFCFGKH",
+	"EKFGFGFKE",
+	"EEKKEKKEE",
+	"HEEHHHEEH"
+  ],
+  "key": {
+    "A": {
+      "item": "modern_industrialization:digital_circuit_board"
+    },
+    "B": {
+      "item": "modern_industrialization:not_gate"
+    },
+    "C": {
+      "item": "modern_industrialization:and_gate"
+    },
+    "D": {
+      "item": "modern_industrialization:or_gate"
+    },
+    "F": {
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    "G": {
+      "item": "primalmagick:magitech_parts_enchanted"
+    },
+    "E": {
+      "item": "justdirethings:celestigem"
+    },
+    "H": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "K": {
+      "item": "modern_industrialization:aluminum_plate"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:digital_circuit",
+    "count": 1
+  }
+}

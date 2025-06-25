@@ -1,0 +1,49 @@
+{
+  "type": "modern_industrialization:assembler",
+  "duration": 200,
+  "eu": 8,
+  "item_inputs": [
+    {
+      "amount": 1,
+      "item": "modern_industrialization:or_gate"
+    },
+    {
+      "amount": 12,
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    {
+      "amount": 2,
+      "item": "modern_industrialization:not_gate"
+    },
+    {
+      "amount": 1,
+      "item": "modern_industrialization:and_gate"
+    },
+    {
+      "amount": 1,
+      "item": "modern_industrialization:digital_circuit_board"
+    },
+    {
+      "amount": 8,
+      "item": "primalmagick:magitech_parts_enchanted"
+    },
+    {
+      "amount": 24,
+      "item": "justdirethings:celestigem"
+    },
+    {
+      "amount": 16,
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    {
+      "amount": 16,
+      "item": "modern_industrialization:aluminum_plate"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "modern_industrialization:digital_circuit"
+    }
+  ]
+}

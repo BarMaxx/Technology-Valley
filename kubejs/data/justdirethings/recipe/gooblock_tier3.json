@@ -4,7 +4,7 @@
     {
       "count": 4,
       "ingredient": {
-        "item": "forbidden_arcanus:deorum_ingot"
+        "item": "actuallyadditions:empowered_void_crystal"
       }
     },
     {
@@ -16,13 +16,13 @@
     {
       "count": 8,
       "ingredient": {
-        "item": "minecraft:dragon_breath"
+        "item": "forbidden_arcanus:deorum_ingot"
       }
     },
     {
       "count": 2,
       "ingredient": {
-        "item": "actuallyadditions:empowered_void_crystal"
+        "item": "minecraft:dragon_breath"
       }
     }
   ],
