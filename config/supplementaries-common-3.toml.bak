@@ -221,10 +221,21 @@
 
 		[functional.cannon.cannonball]
 			enabled = true
-			#Cannonball pierce radius. The bigger this is the less piercing power it will have as it will waste more energy breaking these blocks
+			#Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
+			# Default: 3.5
+			# Range: 0.0 ~ 100.0
+			power_scaling = 3.5
+			#Radius of the 'explosion' when a cannonball hits a block. Set to 0 to disable
 			# Default: 1.1
+			# Range: 0.0 ~ 10.0
+			break_radius = 1.1
+
+		[functional.cannon.cannon_boat]
+			enabled = true
+			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
+			# Default: 0.5
 			# Range: 0.0 ~ 5.0
-			radius = 1.1
+			recoil_multiplier = 0.5
 
 	[functional.present]
 		enabled = true
@@ -373,6 +384,8 @@
 	[building.globe]
 		enabled = true
 		sepia_globe = true
+		#Displays current coordinates when using a globe
+		show_coordinates = true
 
 	[building.way_sign]
 		enabled = true
@@ -664,16 +677,10 @@
 		tinted_blocks_on_maps = true
 
 	[tweaks.placeable_books]
-		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
-		# Default: 1.0
-		# Range: 0.0 ~ 5.0
-		book_power = 1.0
-		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
-		# Default: 1.334
-		# Range: 0.0 ~ 5.0
-		enchanted_book_power = 1.334
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
+		#Allow books and enchanted books to be placed on the ground
+		enabled = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
@@ -709,8 +716,6 @@
 		enabled = true
 		#Allow slimeballs to be thrown
 		throwable_slimeballs = true
-		#Show a slime overlay when you hit an entity with a slimeball
-		overlay = true
 		#Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
 		#Allowed Values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
 		hinders_jump = "NORMAL_DIFFICULTY"
@@ -722,3 +727,9 @@
 		# Default: 0.15
 		# Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
+
+	[tweaks.clock_and_compass]
+		#Allow to right click with a clock to display current time in numerical form
+		clock_right_click = true
+		#Allow to right click with a compass to display current coordinates in numerical form
+		compass_right_click = false
