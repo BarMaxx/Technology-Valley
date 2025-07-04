@@ -93,9 +93,10 @@
 	"gateways.emerald_grove": "Gateway of the Emerald Grove",
 	"gateways.overworldian_nights": "Gateway of Overworldian Nights",
 	"gateways.hellish_fortress": "Gateway of the Hellish Fortress",
-	"gateways.first_part": "First Part Gateways of Aether",
-	"gateways.second_part": "Second Part Gateways of Aether",
-	"gateways.third_part": "Third Part Gateways of Aether",
+	"gateways.aether_first_part": "First Part Gateways of Aether",
+	"gateways.aether_second_part": "Second Part Gateways of Aether",
+	"gateways.aether_third_part": "Third Part Gateways of Aether",
+	"gateways.undergarden_first_part": "First Part Gateways of Undergarden",
 
     "gateways.endless/blaze": "Endless Blaze Gateway",
 

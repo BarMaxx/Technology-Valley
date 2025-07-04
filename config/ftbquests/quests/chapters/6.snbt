@@ -576,8 +576,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -6.0d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["50151E22E7CEE098"]
@@ -599,8 +599,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -6.0d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["50151E22E7CEE098"]
@@ -610,8 +610,8 @@
 				item: { count: 1, id: "aether:gravitite_gloves" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -6.5d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6B951C5F9EAB1007"]
@@ -889,6 +889,7 @@
 		}
 		{
 			dependencies: ["57B68126F5ED56C3"]
+			icon_scale: 1.3d
 			id: "0B1A42B8DAD0ECFA"
 			shape: "gear"
 			size: 1.2d
@@ -1001,6 +1002,101 @@
 			]
 			x: 15.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["50151E22E7CEE098"]
+			id: "731B93D65E431F42"
+			tasks: [{
+				id: "51409CC82AF62422"
+				item: { count: 1, id: "deep_aether:gravitite_ring" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50151E22E7CEE098"]
+			id: "0D2067DE300A8B94"
+			tasks: [{
+				id: "77DE95E2F8E48988"
+				item: { count: 1, id: "deep_aether:stratus_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0D2067DE300A8B94"]
+			id: "4043E0248F92EA1C"
+			tasks: [
+				{
+					id: "2DAA0A1E66212DB0"
+					item: { count: 1, id: "deep_aether:stratus_helmet" }
+					type: "item"
+				}
+				{
+					id: "22028BAE13E4AB62"
+					item: { count: 1, id: "deep_aether:stratus_chestplate" }
+					type: "item"
+				}
+				{
+					id: "363732E4F3F848F1"
+					item: { count: 1, id: "deep_aether:stratus_leggings" }
+					type: "item"
+				}
+				{
+					id: "5B0596EAAF165E67"
+					item: { count: 1, id: "deep_aether:stratus_boots" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0D2067DE300A8B94"]
+			id: "3B6380CDE810019C"
+			tasks: [{
+				id: "069AEADC21E6CC24"
+				item: { count: 1, id: "deep_aether:stratus_ring" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0D2067DE300A8B94"]
+			id: "3865A02414BA8807"
+			tasks: [
+				{
+					id: "46A4F93D65304DD1"
+					item: { count: 1, id: "deep_aether:stratus_sword" }
+					type: "item"
+				}
+				{
+					id: "551A3F9D3FB0C83C"
+					item: { count: 1, id: "deep_aether:stratus_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "0B30362E2B431FB5"
+					item: { count: 1, id: "deep_aether:stratus_axe" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0D2067DE300A8B94"]
+			id: "715FB154974E3272"
+			tasks: [{
+				id: "5789158EB10C0E73"
+				item: { count: 1, id: "deep_aether:stratus_gloves" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
 		}
 	]
 }
